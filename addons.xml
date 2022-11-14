@@ -398,7 +398,7 @@
   <addon
   id="repository.arrownegra"
   name="[COLOR red]Arrow[/COLOR] [COLOR black]Negra[/COLOR] [COLORcyan]Repository[/COLOR]"
-  version="2.03"
+  version="2.04"
   provider-name="Flecha Negra">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
@@ -423,7 +423,7 @@
       <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix</datadir>
       <hashes>false</hashes>
   </dir>
-	<dir minversion="18.0.0" maxversion="18.9.0">
+	<dir minversion="17.0.0" maxversion="18.9.0">
 			<info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/leia/addons.xml</info>
 			<checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/leia/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/leia</datadir>
