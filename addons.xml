@@ -818,17 +818,13 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.doomzday" name="[B][COLOR=gold]Doomzday Repo[/COLOR][/B]" version="1.0.9" provider-name="DD Team">
-    <extension point="xbmc.addon.repository" name="[B][COLOR=gold]Doomzday Repo[/COLOR][/B]">
+<addon id="repository.doomzday" name="Doomzday Repo" version="1.1.0" provider-name="DD Team">
+    <extension point="xbmc.addon.repository" name="Doomzday Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/doomzdayteam/repo/master/_zipfiles/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/doomzdayteam/repo/master/_zipfiles/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/doomzdayteam/repo/master/_zipfiles/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">http://the-hermit.com/hermit/repo/addons.xml</info>
-			<checksum>http://the-hermit.com/hermit/repo/addonsmd5.txt</checksum>
-			<datadir zip="true">http://the-hermit.com/hermit/repo/</datadir>
+			<hashes>false</hashes>
 		</dir>
 		<dir>
             <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
@@ -843,7 +839,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Doomzday Repository</summary>
-        <description lang="en_GB">Repo from the Doomzday Team</description>
+        <description lang="en_GB">Repo from the Doomzday Team for you.</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
