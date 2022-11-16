@@ -2860,15 +2860,17 @@ cambio host
 	</extension>
 </addon>
 
-<addon id="repository.World" name="World Repository" version="0.1.1" provider-name="World">
+<addon id="repository.World" name="World Repository" version="0.1.3" provider-name="World">
 	<extension point="xbmc.addon.repository" name="World Repository">
-		<info compressed="false">https://gknwizard.eu/repo/Builds/World/Matrix_repo/addons.xml</info>
-		<checksum>https://gknwizard.eu/repo/Builds/World/Matrix_repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://gknwizard.eu/repo/Builds/World/Matrix_repo/</datadir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/akeotaseo/world_repo/main/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/akeotaseo/world_repo/main/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/akeotaseo/world_repo/main/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 			</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -2882,15 +2884,17 @@ cambio host
 	</extension>
 </addon>
 
-<addon id="repository.Worldolympic" name="World-Olympic Repository" version="1.1.0" provider-name="World">
+<addon id="repository.Worldolympic" name="World-Olympic Repository" version="1.1.2" provider-name="World">
 	<extension point="xbmc.addon.repository" name="World-Olympic Repository">
-		<info compressed="false">https://gknwizard.eu/repo/Builds/World/Matrix_repo/addons.xml</info>
-		<checksum>https://gknwizard.eu/repo/Builds/World/Matrix_repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://gknwizard.eu/repo/Builds/World/Matrix_repo/</datadir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/akeotaseo/World-Olympic-Repository/main/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/akeotaseo/World-Olympic-Repository/main/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/akeotaseo/World-Olympic-Repository/main/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 			</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -2904,11 +2908,8 @@ cambio host
 	</extension>
 </addon>
 
-<addon id="repository.Worldrepo" name="World-Repo Repository" version="1.1.0" provider-name="World">
+<addon id="repository.Worldrepo" name="World-Repo Repository" version="1.1.1" provider-name="World">
 	<extension point="xbmc.addon.repository" name="World-Repo Repository">
-		<info compressed="false">https://gknwizard.eu/repo/Builds/World/Matrix_repo/addons.xml</info>
-		<checksum>https://gknwizard.eu/repo/Builds/World/Matrix_repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://gknwizard.eu/repo/Builds/World/Matrix_repo/</datadir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/akeotaseo/World-Repo-Repository/main/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/akeotaseo/World-Repo-Repository/main/addons.xml.md5</checksum>
