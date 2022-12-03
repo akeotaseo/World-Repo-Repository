@@ -963,33 +963,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.encryptic" name="EnCryptic Repository" provider-name="Bones" version="1.1.28">
-  <extension point="xbmc.addon.repository" name="EnCryptic Repository">
-    <dir>
-      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-    </dir>
-	<dir>
-      <info compressed="false">https://repo.encrypticmh.appboxes.co/adds/zips/addons.xml</info>
-      <checksum>https://repo.encrypticmh.appboxes.co/adds/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://repo.encrypticmh.appboxes.co/adds/zips/</datadir>
-	</dir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <description lang="en_GB">… You can't kill me 'cause I'm already inside you…</description>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news></news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="repository.ezra" name="Ezra Repository" version="0.0.2" provider-name="Ezra-Hubbard">
     <extension point="xbmc.addon.repository" name="Ezra Repository">
         <dir>
