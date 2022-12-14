@@ -161,8 +161,8 @@
     </extension>
 </addon>
 
-<addon id="repository.709" name="The[COLOR gray] [B]709[/B][/COLOR][COLOR green][B]Repo[/B][/COLOR]" version="1.1" provider-name="Zaxxon709">
-    <extension point="xbmc.addon.repository" name="The709Repo">
+<addon id="repository.709" name=" The[COLOR gray] [B]7o9[/B][/COLOR]Repo" version="1.2" provider-name="Zaxxon709">
+    <extension point="xbmc.addon.repository" name="The7o9Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Zaxxon709/matrix/main/zips/addons.xml.md5</checksum>
@@ -175,8 +175,8 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>The 709Repo</summary>
-        <description>709 Repository</description>
+        <summary>The 7o9Repo</summary>
+        <description>7o9 Repository</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
@@ -432,6 +432,40 @@
         <icon>icon.png</icon>
     </assets>
 </extension>
+</addon>
+
+<addon id="repository.Andtv-Matrix" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [/COLOR][COLOR limegreen][B]MATRIX[/B][/COLOR]" version="20.10.22" provider-name="andtv_tvban, JoseAnd">
+    <extension point="xbmc.addon.repository" name="[COLOR dodgerblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [COLOR limegreen][B]MATRIX[/B][/COLOR]">
+        <dir minversion="18.0" maxversion="18.9.0">
+            <info>https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/leia/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/matrix/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
+        </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR steelblue]Repo[/COLOR] [COLOR azure]Andtv[/COLOR] [COLOR limegreen]Matrix[/COLOR]</summary>
+        <description>Repositorio de addons para [COLOR azure]ANDTV[/COLOR].
+[B][COLOR lime]CREDITOS:
+[COLOR white]• Developers:[/COLOR][/B] [COLOR gold]JoseAnd[/COLOR]</description>
+        <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons válidos para [COLOR azure]Kodi 19 [COLOR limegreen]MATRIX.[/COLOR]</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+		<source>https://andtv.github.io/tvban</source>
+    </extension>
 </addon>
 
 <addon id="repository.arnoldvink" name="Arnold Vink's Kodi Repository" provider-name="Arnold Vink" version="1.2.0">
@@ -1359,11 +1393,26 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-<addon id="repository.gsource" name="[COLOR lime]G-Source Repository[/COLOR]" version="1.0.0" provider-name="G-Man">
+<addon id="repository.gsource" name="[COLOR lime]G-Source Repository[/COLOR]" version="1.0.2" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="G-Source Repository">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.gsource/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.gsource/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.gsource/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://github.com/mrgsi/repository.freeg/raw/master/addons.xml</info>
+        <checksum>https://github.com/mrgsi/repository.freeg/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.freeg/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://github.com/mrgsi/repository.wnt2/raw/master/addons.xml</info>
+        <checksum>https://github.com/mrgsi/repository.wnt2/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.wnt2/master/</datadir>
+    </dir>
+    <dir>
+		<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
     </dir>
     <dir>
         <info compressed="true">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
@@ -1385,12 +1434,16 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-<addon id="repository.gsports" name="[COLOR yellow]G-Sports Repository[/COLOR]" version="1.0.2" provider-name="G-Man">
+<addon id="repository.gsports" name="[COLOR yellow]G-Sports+ Repository[/COLOR]" version="1.0.3" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="G-Sport Repository">
     <dir>
         <info compressed="false">https://github.com/mrgsi/repository.gsports/raw/master/addons.xml</info>
         <checksum>https://github.com/mrgsi/repository.gsports/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.gsports/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml</info>   <checksum>https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.glive/master/</datadir>
     </dir>
     <dir>
 		<info compressed="false">https://loopaddon.uk/zips19/addons.xml</info>
@@ -1410,12 +1463,45 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 <extension point="xbmc.addon.metadata">
 	<summary>Kodi Matrix Sports Add-ons</summary>
-    <description>A collection of Add-ons and Repos which focus on Sports.[CR]Nothing within this repo was created by me, it's simply a collection of some stuff I've found elsewhere.</description>
+    <description>A collection of Add-ons and Repos for Sports and Live TV.</description>
     <platform>all</platform>
     <assets>
         <icon>icon.png</icon>
     </assets>
 </extension>
+</addon>
+
+<addon id="repository.GTKing-Matrix" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]GTKing[/B] [/COLOR][COLOR limegreen][B]MATRIX[/B][/COLOR]" version="1.8" provider-name="GTKingTEAM">
+    <extension point="xbmc.addon.repository" name="[COLOR dodgerblue][B]Repo[/B][/COLOR] [COLOR azure][B]GTKing[/B] [COLOR limegreen][B]MATRIX[/B][/COLOR]">
+        <dir minversion="18.0" maxversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
+        </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR steelblue]Repo[/COLOR] [COLOR azure]GTKing[/COLOR] [COLOR limegreen]MATRIX[/COLOR]</summary>
+        <description>Repositorio de addons [COLOR dodgerblue]GTKING[/COLOR].
+[COLOR gold]Developers:[/COLOR] DavidZgZ, JoseaTEBA y GTKing TEAM</description>
+        <disclaimer>Éste repositorio sólo recoge addons válidos para Kodi 19.x MATRIX.</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+		<source>https://github.com/gtkingbuild/Repo-GTKing/</source>
+    </extension>
 </addon>
 
 <addon id="repository.gtube" name="[COLOR snow]G-Tube Repository[/COLOR]" version="1.0.1" provider-name="G-Man">
@@ -1771,31 +1857,25 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.kus.allinone" name="[B][COLORdeepskyblue]K.U.S[/COLOR][/B] [COLORwhite]All In One[/COLOR] [COLORdeepskyblue]Repository[/COLOR]" version="3.5" provider-name="[COLORdeepskyblue]K.U.S Team[/COLOR]">
+<addon id="repository.kus.allinone" name="[COLORdeepskyblue]K.U.S[/COLOR] AllInOne Repository" version="3.6" provider-name="[COLORdeepskyblue]K.U.S Team[/COLOR]">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
-    <extension point="xbmc.addon.repository" name="[B][COLORdeepskyblue]K.U.S[/COLOR][/B] [COLORwhite]All In One[/COLOR] [COLORdeepskyblue]Repository[/COLOR]">
-       <dir minversion="13.0.0" maxversion="18.9.0">
+    <extension point="xbmc.addon.repository" name="[COLORdeepskyblue]K.U.S[/COLOR] AllInOne Repository">
+        <dir minversion="19.0.0">
             <info compressed="true">https://kodi-unlimited-support.de/repo/data/addons.xml</info>
             <checksum>https://kodi-unlimited-support.de/repo/data/addons.xml.md5</checksum>
-            <datadir zip="true">https://kodi-unlimited-support.de/repo/data/</datadir>
-            <hashes>false</hashes>
-        </dir>
-		<dir minversion="18.9.9">
-            <info compressed="true">https://kodi-unlimited-support.de/repo/matrix/data/addons.xml</info>
-            <checksum>https://kodi-unlimited-support.de/repo/matrix/data/addons.xml.md5</checksum>
-            <datadir zip="true">https://kodi-unlimited-support.de/repo/matrix/data</datadir>
+            <datadir zip="true">https://kodi-unlimited-support.de/repo/data</datadir>
             <hashes>false</hashes>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLORdeepskyblue]K.U.S-REPOSITORY[/COLOR]</summary>
-        <description lang="en">Download and install addons from the KODI Unlimited support repository.[CR][CR]Contact + support:[CR][COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Donation:[CR][COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR]</description>
-        <disclaimer lang="en">[COLORred]The creator of the repository is not the creator of the add-ons and is therefore not responsible for its content![/COLOR]</disclaimer>
-		<summary lang="de">[COLORdeepskyblue]K.U.S-REPOSITORY[/COLOR]</summary>
-        <description lang="de">Downloade und installiere Addons von der KODI Unlimited Support-Repository.[CR][CR]Kontakt + Support:[CR][COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Spende:[CR][COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR]</description>
-         <disclaimer lang="de">[COLORred]Der Ersteller des Repository ist nicht der Ersteller der Addons und somit nicht Verantwortlich für dessen Inhalt![/COLOR]</disclaimer>
+        <summary lang="en_GB">[COLORdeepskyblue]K.U.S[/COLOR] AllInOne Repository</summary>
+		<summary lang="de_DE">[COLORdeepskyblue]K.U.S[/COLOR] AllInOne Repository</summary>
+        <description lang="en_GB">Download and install addons from the KODI Unlimited Support repository.[CR][CR]Contact + support:[CR][COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Donation:[CR][COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR]</description>
+        <description lang="de_DE">Downloade und installiere Addons aus dem KODI Unlimited Support Repository.[CR][CR]Kontakt + Support:[CR][COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Spenden-Link:[CR][COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR]</description>
+        <disclaimer lang="en_GB">[B][COLORred]This is a third party repository and is unrelated to the official Kodi team.[/COLOR][/B]</disclaimer>
+		<disclaimer lang="de_DE">[B][COLORred]Dies ist ein Drittanbieter-Repository und steht nicht in Zusammenhang mit dem offiziellen Team Kodi.[/COLOR][/B]</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -3050,12 +3130,17 @@ cambio host
     </extension>
 </addon>
 
-<addon id="repository.topg" name="[COLOR khaki]Top-G Repository[/COLOR]" version="1.0.1" provider-name="G-Man">
+<addon id="repository.topg" name="[COLOR khaki]Top-G Repository[/COLOR]" version="1.0.4" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="Top-G Repository">
     <dir>
         <info compressed="false">https://github.com/mrgsi/repository.topg/raw/master/addons.xml</info>
         <checksum>https://github.com/mrgsi/repository.topg/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.topg/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://github.com/mrgsi/repository.wnt2/raw/master/addons.xml</info>
+        <checksum>https://github.com/mrgsi/repository.wnt2/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.wnt2/master/</datadir>
     </dir>
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.gsource/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.gsource/master/addons.xml.md5</checksum>
@@ -3507,21 +3592,33 @@ cambio host
 	</extension>
 </addon>
 
-<addon id="repository.xstream" name="Repository xStream " version="1.1.9w" provider-name="xStream-Team">
-    <extension point="xbmc.addon.repository" name="xStream Repository">
-        <info compressed="false">https://raw.github.com/streamxstream/xStreamRepo/master/addons.xml</info>
-        <checksum>https://raw.github.com/streamxstream/xStreamRepo/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.github.com/streamxstream/xStreamRepo/master/</datadir>
+<addon id="repository.xstream" name="xStream Repository" version="1.2.0" provider-name="xStream-Team">
+	<extension point="xbmc.addon.repository" name="xStream Repository">
+		<dir minversion="17.9.910" maxversion="18.9.700">
+            <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/leia/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/leia/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/leia/</datadir>
+        </dir>
+        <dir minversion="18.9.701" maxversion="19.9.700">
+            <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/matrix/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/matrix/</datadir>
+        </dir>
+        <dir minversion="19.9.701" maxversion="20.9.700">
+            <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/</datadir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="de">xStream Repository</summary>
-        <description lang="de">Dies ist das offizielle xStream Addon-Verzeichnis.[CR]Bei der Bereitstellung einer neuen Version von xStream wird diese auf Funktionalität geprüft. Sollten dennoch Probleme auftreten benachrichtige bitte das offizielle xStream-Team.</description>
-        <disclaimer lang="de">Die dargestellten Inhalte des in diesem Verzeichnis enthaltenen Addons werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
-        <platform>all</platform>
-      <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-     </assets>
+		<summary lang="de_DE">xStream Repository</summary>
+		<description lang="de_DE">Dies ist das offizielle xStream Addon-Verzeichnis.[CR]Bei der Bereitstellung einer neuen Version von xStream wird diese auf Funktionalität geprüft. Sollten dennoch Probleme auftreten benachrichtige bitte das offizielle xStream-Team.</description>
+		<disclaimer lang="de_DE">Die dargestellten Inhalte des in diesem Verzeichnis enthaltenen Addons werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
     </extension>
 </addon>
 
