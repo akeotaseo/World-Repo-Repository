@@ -597,12 +597,29 @@
     </extension>
 </addon>
 
-<addon id="repository.bugatsinho" name=" Bugatsinho repository" version="2.5" provider-name="Bugatsinho">
+<addon id="repository.bleak-lodge" name="bleak-lodge repo" version="1.0" provider-name="bleak-lodge">
+    <extension point="xbmc.addon.repository" name="bleak-lodge repository">
+    <dir>
+        <info compressed="false">https://github.com/bleak-lodge/repository.bleak-lodge/raw/main/addons.xml</info>
+        <checksum>https://github.com/bleak-lodge/repository.bleak-lodge/raw/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/bleak-lodge/repository.bleak-lodge/main/</datadir>
+    </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Testing and Learning stuff</summary>
+        <description>bleak-lodge add-ons</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.bugatsinho" name=" Bugatsinho repository" version="2.6" provider-name="Bugatsinho">
     <extension point="xbmc.addon.repository" name="Bugatsinho repository">
-        <info compressed="false">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/_zips</datadir>
-        <hashes>false</hashes>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/_zips</datadir>
+            <hashes>false</hashes>
+        </dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
@@ -1168,6 +1185,52 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<description>frenchdj addons repository</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.fuchs246" name="Fuchs Repo" version="1.0.0" provider-name="fuchs246">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Fuchs Repo">
+		<dir minversion="18.9.700">
+			<info>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/matrix/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Repo for Titan-Mod Matrix</summary>
+		<description lang="en">Titan Mod for Matrix, including all dependencies for Skin Helper Service</description>
+		<platform>all</platform>
+		<disclaimer />
+		<assets>
+		  <icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.funstersplace" name="funstersplace Repository" version="0.3" provider-name="funstersplace">
+	<extension point="xbmc.addon.repository" name="funstersplace">
+		<dir>
+			<info compressed="false">http://funstersplace.net/19repo/addons.xml</info>
+			<checksum>http://funstersplace.net/19repo/addonsmd5.txt</checksum>
+			<datadir zip="true">http://funstersplace.net/19repo/</datadir>
+		</dir>
+		<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"/>
+		<description lang="en">funstersplace 19 Repo</description>
+		<genre>fun</genre>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
 	</extension>
 </addon>
 
