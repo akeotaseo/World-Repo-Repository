@@ -908,6 +908,30 @@
     </extension>
 </addon>
 
+<addon id="repository.diggz" name="Diggz Repository" version="4" provider-name="Diggz">
+    <extension point="xbmc.addon.repository" name="Diggz Repository">
+        <dir minversion="18.9.0" maxversion="19.9.0">
+            <info compressed="false">https://diggz1.me/Repo/_repo/addons.xml</info>
+            <checksum>https://diggz1.me/Repo/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://diggz1.me/Repo/_repo/</datadir>
+        </dir>
+        <dir minversion="19.9.1">
+            <info compressed="false">https://diggz1.me/Nexus_Repo/_repo/addons.xml</info>
+            <checksum>https://diggz1.me/Nexus_Repo/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://diggz1.me/Nexus_Repo/_repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Diggz Repository</summary>
+        <description>Diggz Kodi Repository.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
     <addon id="repository.diggzmatrix" name="Diggz Matrix Repository" version="3.4" provider-name="Diggz">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -1034,6 +1058,33 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <website>https://eintamil.github.io/</website>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.encryptic" name="EnCryptic Repository" provider-name="Bones" version="1.1.30">
+  <extension point="xbmc.addon.repository" name="EnCryptic Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+    </dir>
+	<dir>
+      <info compressed="false">https://repo.encrypticmh.appboxes.co/adds/zips/addons.xml</info>
+      <checksum>https://repo.encrypticmh.appboxes.co/adds/zips/addons.xml.md5</checksum>
+      <datadir zip="true">https://repo.encrypticmh.appboxes.co/adds/zips/</datadir>
+	</dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en_GB">… You can't kill me 'cause I'm already inside you…</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="repository.ezra" name="Ezra Repository" version="0.0.2" provider-name="Ezra-Hubbard">
