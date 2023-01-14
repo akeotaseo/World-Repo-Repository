@@ -208,13 +208,15 @@
 
 <addon id="repository.a4kstreaming"
        name="a4kStreaming Repository"
-       version="1.0.0"
+       version="1.0.0a"
        provider-name="Unknown">
-    <extension point="xbmc.addon.repository">
-        <info>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml.crc</checksum>
-        <datadir>https://github.com/newt-sc/a4kStreaming/archive</datadir>
+    <extension point="xbmc.addon.repository" name="a4kStreaming Repository">
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml.crc</checksum>
         <artdir>https://github.com/newt-sc/a4kStreaming/releases/download/v0.1.0</artdir>
+				<datadir zip="true">https://github.com/newt-sc/a4kStreaming/archive</datadir>
+			</dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>a4kStreaming</summary>
@@ -225,13 +227,15 @@
 
 <addon id="repository.a4ksubtitles"
        name="a4kSubtitles Repository"
-       version="1.1.0"
+       version="1.1.0a"
        provider-name="Unknown">
-    <extension point="xbmc.addon.repository">
-        <info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
-        <datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
+    <extension point="xbmc.addon.repository" name="DaB Repository">
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
         <artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
+				<datadir zip="true">https://github.com/newt-sc/a4kSubtitles/archive</datadir>
+			</dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>a4kSubtitles</summary>
@@ -807,11 +811,13 @@
 	</extension>
 </addon>
 
-<addon id="repository.dab" name="DaButcher Repository" version="1.3" provider-name="DaButcher">
+<addon id="repository.dab" name="DaButcher Repository" version="1.3a" provider-name="DaButcher">
     <extension point="xbmc.addon.repository" name="DaB Repository">
-        <info compressed="false">http://dabutcher.org/repo.home/repository.dab/zips/addons.xml</info>
-        <checksum>http://dabutcher.org/repo.home/repository.dab/zips/addons.xml.md5</checksum>
-        <datadir zip="true">http://dabutcher.org/repo.home/repository.dab/zips/</datadir>
+			<dir>
+				<info compressed="false">http://dabutcher.org/repo.home/repository.dab/zips/addons.xml</info>
+				<checksum>http://dabutcher.org/repo.home/repository.dab/zips/addons.xml.md5</checksum>
+				<datadir zip="true">http://dabutcher.org/repo.home/repository.dab/zips/</datadir>
+			</dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>DaButcher Repo</summary>
@@ -1245,12 +1251,14 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-<addon id="repository.frenchdj" name="frenchdj repository" version="0.0.2" provider-name="frenchdj">
-	<extension point="xbmc.addon.repository" name="frenchdj Add-on Repository">
-		<info compressed="false">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/</datadir>
-	</extension>
+<addon id="repository.frenchdj" name="frenchdj repository" version="0.0.2a" provider-name="frenchdj">
+    <extension point="xbmc.addon.repository" name="frenchdj Add-on Repository">
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/</datadir>
+			</dir>
+    </extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>frenchdj repository</summary>
 		<description>frenchdj addons repository</description>
@@ -2292,16 +2300,14 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.mhancoc7.public" name="mhancoc7 Kodi Addons Repo" version="0.1.5" provider-name="mhancoc7">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0" />
-        </requires>
-        <extension point="xbmc.addon.repository" name="mhancoc7 Kodi Addons Repo">
-            <info compressed="false">https://github.com/mhancoc7/kodi-addons/raw/master/_repo/addons.xml</info>
-            <checksum>https://github.com/mhancoc7/kodi-addons/raw/master/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/mhancoc7/kodi-addons/raw/master/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
+<addon id="repository.mhancoc7.public" name="mhancoc7 Kodi Addons Repo" version="0.1.5a" provider-name="mhancoc7">
+    <extension point="xbmc.addon.repository" name="mhancoc7 Kodi Addons Repo">
+			<dir>
+				<info compressed="false">https://github.com/mhancoc7/kodi-addons/raw/master/_repo/addons.xml</info>
+				<checksum>https://github.com/mhancoc7/kodi-addons/raw/master/_repo/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/mhancoc7/kodi-addons/raw/master/_repo/</datadir>
+			</dir>
+    </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Kodi Addons</summary>
             <description>Video addons for Kodi</description>
@@ -3238,14 +3244,13 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
     </extension>
 </addon>
 
-<addon id="repository.thegroove" name="[COLOR khaki][B] Thegroove Repository[/COLOR][/B]" version="1.2" provider-name="Thegroove360">
-    <requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
+<addon id="repository.thegroove" name="[COLOR khaki][B] Thegroove Repository[/COLOR][/B]" version="1.2a" provider-name="Thegroove360">
 	<extension point="xbmc.addon.repository" name="Thegroove360 Repository">
-		<info compressed="false">https://thegroove360.tk/zip/addon.xml</info>
-		<checksum>https://thegroove360.tk/zip/addons.xml.md5</checksum>
-		<datadir zip="true">https://thegroove360.tk/zip/</datadir>
+			<dir>
+				<info compressed="false">https://thegroove360.tk/zip/addon.xml</info>
+				<checksum>https://thegroove360.tk/zip/addons.xml.md5</checksum>
+				<datadir zip="true">https://thegroove360.tk/zip/</datadir>
+			</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Thegroove 360 Official Repository</summary>
@@ -3428,11 +3433,13 @@ cambio host
     </extension>
 </addon>
 
-<addon id="repository.tvchopo" name="[COLOR lime]tvchopo[/COLOR] Repo" version="2.0.0" provider-name="torete">
+<addon id="repository.tvchopo" name="[COLOR lime]tvchopo[/COLOR] Repo" version="2.0.0a" provider-name="torete">
     <extension point="xbmc.addon.repository" name="tvchoco Jose">
-        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+			</dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio para los mios</summary>
