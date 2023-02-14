@@ -80,7 +80,7 @@
     </extension>
 </addon>
 
-<addon	id="One.repo" name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR][/B]" version="1.08"	provider-name="TEAM [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR]">
+<addon	id="One.repo" name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR][/B]" version="1.09"	provider-name="TEAM [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR]">
 
 	<requires>
     	<import addon="xbmc.addon" version="12.0.0"/>
@@ -95,16 +95,16 @@
 		</dir>
 
   		<dir minversion="17.0.0" maxversion="18.9.0">
-			<info compressed="false">https://github.com/OnePlayHD/OneRepo/raw/master/leia/addons.xml</info>
-			<checksum>https://github.com/OnePlayHD/OneRepo/raw/master/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/OnePlayHD/OneRepo/raw/master/leia</datadir>
+			<info compressed="false">https://github.com/zoreu/OneRepo/raw/master/leia/addons.xml</info>
+			<checksum>https://github.com/zoreu/OneRepo/raw/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/zoreu/OneRepo/raw/master/leia</datadir>
 			<hashes>false</hashes>
     	</dir>
 
   		<dir minversion="18.9.1">
-			<info compressed="false">https://github.com/OnePlayHD/OneRepo/raw/master/matrix/addons.xml</info>
-			<checksum>https://github.com/OnePlayHD/OneRepo/raw/master/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/OnePlayHD/OneRepo/raw/master/matrix</datadir>
+			<info compressed="false">https://github.com/zoreu/OneRepo/raw/master/matrix/addons.xml</info>
+			<checksum>https://github.com/zoreu/OneRepo/raw/master/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/zoreu/OneRepo/raw/master/matrix</datadir>
 			<hashes>false</hashes>
     	</dir>
 	</extension>
@@ -480,6 +480,40 @@
 [B][COLOR lime]CREDITOS:
 [COLOR white]• Developers:[/COLOR][/B] [COLOR gold]JoseAnd[/COLOR]</description>
         <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons válidos para [COLOR azure]Kodi 19 [COLOR limegreen]MATRIX.[/COLOR]</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+		<source>https://andtv.github.io/tvban</source>
+    </extension>
+</addon>
+
+<addon id="repository.Andtv-Nexus" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [/COLOR][COLOR blueviolet][B]NEXUS[/B][/COLOR]" version="11.2.23" provider-name="andtv_tvban, JoseAnd">
+    <extension point="xbmc.addon.repository" name="[COLOR dodgerblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [COLOR blueviolet][B]NEXUS[/B][/COLOR]">
+        <dir minversion="18.0" maxversion="18.9.0">
+            <info>https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/leia/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/nexus/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/nexus/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/nexus/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
+        </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR steelblue]Repo[/COLOR] [COLOR azure]Andtv[/COLOR] [COLOR blueviolet]Nexus[/COLOR]</summary>
+        <description>Repositorio de addons para [COLOR azure]ANDTV[/COLOR].
+[B][COLOR lime]CREDITOS:
+[COLOR white]• Developers:[/COLOR][/B] [COLOR gold]JoseAnd[/COLOR]</description>
+        <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons válidos para [COLOR azure]Kodi 20 [COLOR limegreen]NEXUS.[/COLOR]</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -912,8 +946,18 @@
     </extension>
 </addon>
 
-<addon id="repository.diggz" name="Diggz Repository" version="5" provider-name="Diggz">
+<addon id="repository.diggz" name="Diggz Repository" version="6" provider-name="Diggz">
     <extension point="xbmc.addon.repository" name="Diggz Repository">
+        <dir minversion="18.9.0" maxversion="19.9.0">
+            <info compressed="false">https://archive.org/download/matrixrepo/_repo/addons.xml</info>
+            <checksum>https://archive.org/download/matrixrepo/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://archive.org/download/matrixrepo/_repo/</datadir>
+        </dir>
+        <dir minversion="19.9.1">
+            <info compressed="false">https://archive.org/download/nexusrepo/_repo//addons.xml</info>
+            <checksum>https://archive.org/download/nexusrepo/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://archive.org/download/nexusrepo/_repo/</datadir>
+        </dir>
         <dir minversion="18.9.0" maxversion="19.9.0">
             <info compressed="false">https://diggz1.me/Repo/_repo/addons.xml</info>
             <checksum>https://diggz1.me/Repo/_repo/addons.xml.md5</checksum>
@@ -1253,14 +1297,14 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-<addon id="repository.frenchdj" name="frenchdj repository" version="0.0.2a" provider-name="frenchdj">
-    <extension point="xbmc.addon.repository" name="frenchdj Add-on Repository">
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/</datadir>
-			</dir>
-    </extension>
+<addon id="repository.frenchdj" name="frenchdj repository" version="0.0.3" provider-name="frenchdj">
+	<extension point="xbmc.addon.repository" name="frenchdj Add-on Repository">
+		<dir minversion="16.0.0">
+		<info compressed="false">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/</datadir>
+		</dir>
+	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>frenchdj repository</summary>
 		<description>frenchdj addons repository</description>
@@ -2014,6 +2058,31 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
+<addon id="repository.Kpoodle20" name="[B][COLOR red]Poodle[/COLOR] [COLOR white]20[/COLOR] [COLOR yellow]Add-ons[/COLOR] [COLOR green]Repository[/COLOR][/B]" version="1.0.0" provider-name="Poodle">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="[B][COLOR red]Poodle[/COLOR] [COLOR white]20[/COLOR] [COLOR yellow]Add-ons[/COLOR] [COLOR green]Repository[/COLOR][/B]">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Kpoodle/Repo20/master/zip/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Kpoodle/Repo20/master/zip/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Kpoodle/Repo20/master/zip/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Addons for Kodi</summary>>
+        <description lang="en">Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+        <disclaimer lang="en">The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<forum></forum>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+        <news></news>
+    </extension>
+</addon>
+
 <addon id="repository.kus.allinone" name="[COLORdeepskyblue]K.U.S[/COLOR] AllInOne Repository" version="3.6" provider-name="[COLORdeepskyblue]K.U.S Team[/COLOR]">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -2251,7 +2320,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.matrix" name="MetalChris' Matrix Repository" version="2022.09.13a" provider-name="MetalChris">
+<addon id="repository.matrix" name="MetalChris' Matrix Repository" version="2023.02.11a" provider-name="MetalChris">
     <extension point="xbmc.addon.repository" name="Official MetalChris Matrix Repository">
             <dir >
                 <info compressed="false">https://raw.github.com/MetalChris/repository.matrix/master/addons.xml</info>
@@ -2937,12 +3006,12 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
   </extension>
 </addon>
 
-<addon id="repository.smd" name="[COLORred][I]Smd Repo[/I][/COLOR]" version="1.0.1" provider-name="">
+<addon id="repository.smd" name="[COLORlime][I]Smd Repo[/I][/COLOR]" version="1.0.2" provider-name="">
 <extension point="xbmc.addon.repository" name="[COLORyellow]Smd Repo[/COLOR]">
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/smdrepo/repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/smdrepo/repo/master/addons.xml.md5</checksum>
-			<datadir zip="false">https://raw.githubusercontent.com/smdrepo/repo/master/plugins/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/smdrepo101/repo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/smdrepo101/repo/master/addons.xml.md5</checksum>
+			<datadir zip="false">https://raw.githubusercontent.com/smdrepo101/repo/master/plugins/</datadir>
 		</dir>
 
 		<dir>
@@ -2962,7 +3031,7 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="The South Paw Repository" version="0.1.8" provider-name="Tom">
+    <addon id="repository.southpaw" name="The South Paw Repository" version="0.1.9" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="The South Paw Repository">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
@@ -3454,16 +3523,19 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
     </extension>
 </addon>
 
-<addon id="repository.tvchopo" name="[COLOR lime]tvchopo[/COLOR] Repo" version="2.0.0a" provider-name="torete">
+<addon id="repository.tvchopo" name="[COLOR lime]tvchopo[/COLOR] Repo" version="3" provider-name="torete">
     <extension point="xbmc.addon.repository" name="tvchoco Jose">
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
-			</dir>
+        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+	    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para los mios</summary>
+        <summary>Repositorio para familia chopo</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
