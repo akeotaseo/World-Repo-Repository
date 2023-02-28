@@ -398,7 +398,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.0.6" provider-name="Aliunde">
+    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.0.7" provider-name="Aliunde">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
@@ -972,27 +972,17 @@
     </extension>
 </addon>
 
-<addon id="repository.diggz" name="Diggz Repository" version="11" provider-name="Diggz">
+<addon id="repository.diggz" name="Diggz Repository" version="15" provider-name="Diggz">
     <extension point="xbmc.addon.repository" name="Diggz Repository">
-        <dir minversion="18.9.0" maxversion="19.9.0">
-            <info compressed="false">https://archive.org/download/matrixrepo/_repo/addons.xml</info>
-            <checksum>https://archive.org/download/matrixrepo/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://archive.org/download/matrixrepo/_repo/</datadir>
+        <dir minversion="19.0.0" maxversion="19.9.9">
+            <info compressed="false">https://raw.githubusercontent.com/nebulous42069/Nexus/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/nebulous42069/Nexus/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/nebulous42069/Nexus/master/matrix/zips/</datadir>
         </dir>
-        <dir minversion="19.9.1">
-            <info compressed="false">https://raw.githubusercontent.com/nebulous42069/main/master/skins/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/nebulous42069/main/master/skins/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/nebulous42069/main/master/skins/zips/</datadir>
-        </dir>
-        <dir minversion="18.9.0" maxversion="19.9.0">
-            <info compressed="false">https://diggz1.me/Repo/_repo/addons.xml</info>
-            <checksum>https://diggz1.me/Repo/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://diggz1.me/Repo/_repo/</datadir>
-        </dir>
-        <dir minversion="19.9.1">
-            <info compressed="false">https://raw.githubusercontent.com/nebulous42069/main/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/nebulous42069/main/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/nebulous42069/main/master/repo/zips/</datadir>
+        <dir minversion="20.0.0" maxversion="21.9.9">
+            <info compressed="false">https://raw.githubusercontent.com/nebulous42069/Nexus/master/nexus/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/nebulous42069/Nexus/master/nexus/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/nebulous42069/Nexus/master/nexus/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -3018,7 +3008,7 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="The South Paw Repository" version="0.1.9" provider-name="Tom">
+    <addon id="repository.southpaw" name="The South Paw Repository" version="0.2.0" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="The South Paw Repository">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
