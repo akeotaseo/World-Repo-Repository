@@ -182,6 +182,26 @@
     </extension>
 </addon>
 
+<addon id="repository.7Plus" name="[B]REPO_7Plus[/B]" version="2.0" provider-name="[B]7Plus-NeoTV[/B]">
+    <extension point="xbmc.addon.repository" name="[B]REPO_7Plus[/B]">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/7plusteam/7plus-neo.github.io/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/7plusteam/7plus-neo.github.io/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/7plusteam/7plus-neo.github.io/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>REPO_7Plus</summary>
+        <description>repositorio oficial Addons 7Plus - Neo.TV - Proibido reproducao sem autorização prévia</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.7Plus.Repo" name="[B][COLOR green]REPO_7PLUS[/COLOR][/B]" version="1.0" provider-name="[B]7Plus[/B]">
     <extension point="xbmc.addon.repository" name="[B]7PLUS Repository[/B]">
         <dir>
@@ -2218,7 +2238,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Kpoodle/Repo19/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Kpoodle/Repo19/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Kpoodle/Repo19/master/zips</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/Kpoodle/Repo1/master/zips</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -2243,7 +2263,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Kpoodle/Repo20/master/zip/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Kpoodle/Repo20/master/zip/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Kpoodle/Repo20/master/zip/</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/Kpoodle/Repo1/master/zips</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -2930,7 +2950,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Kpoodle/Repo1/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Kpoodle/Repo1/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Kpoodle/Repo1/master/zips</datadir>
+            <datadir zip="true"></datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
