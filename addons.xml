@@ -243,9 +243,9 @@
     </extension>
 </addon>
 
-<addon id="repository.addons4kodi" name="Addons4Kodi Repository" version="2.0a" provider-name="A4K">
+<addon id="repository.addons4kodi" name="Addons4Kodi Repository" version="2.1" provider-name="A4K">
 	<extension point="xbmc.addon.repository" name="Addons4Kodi Repository">
-        <dir >
+        <dir minversion="18.0">
             <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/</datadir>
@@ -260,18 +260,18 @@
             <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/leia/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/leia/zips/</datadir>
         </dir>
-        <dir minversion="19.0" maxversion="19.9.9">
+        <dir minversion="19.0">
             <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/matrix/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/matrix/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/matrix/zips/</datadir>
         </dir>
-        <dir minversion="18.0" maxversion="19.9.9">
+        <dir minversion="18.0">
             <info>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml.crc</checksum>
             <datadir>https://github.com/newt-sc/a4kStreaming/archive</datadir>
             <artdir>https://github.com/newt-sc/a4kStreaming/releases/download/v0.1.0</artdir>
         </dir>
-        <dir minversion="18.0" maxversion="19.9.9">
+        <dir minversion="18.0">
             <info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
             <datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
@@ -3090,24 +3090,38 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.robinhood.wizard" name="[B][COLOR chartreuse]RobinHood[B][COLOR white] Wizard Repository[/B][/COLOR]" version="0.4.7.8a" provider-name="RobinHood">
-	<extension point="xbmc.addon.repository" name="RobinHood Wizard Repository">
-			<dir>
-				<info compressed="false">https://networkcorner.net/_repo/addons.xml</info>
-				<checksum>https://networkcorner.net/_repo/addons.xml.md5</checksum>
-				<datadir zip="true">https://networkcorner.net/_repo/</datadir>
-			</dir>
-	</extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Install all the latest Builds</summary>
-            <description>Welcome to the New and Improved Robin Hood Wizard for all your Community Builds.</description>
-            <platform>all</platform>
-			<assets>
-			<icon>icon.png</icon>
-            <icon>icon.gif</icon>
-            <fanart>fanart.jpg</fanart>
+  <addon
+  id="repository.robinhood.wizard"
+  name="[B][COLOR chartreuse]Repository[B][COLOR white] RobinHood[B][COLOR chartreuse] Wizard[/B][/COLOR]"
+  version="20.00"
+  provider-name="Robin Hood">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="[B][COLOR chartreuse]RobinHood[B][COLOR white] Wizard Repository[/B][/COLOR]">
+      <dir>
+      <info compressed="true">https://robinhoodtv.com/_repo/addons.xml</info>
+      <checksum>https://robinhoodtv.com/_repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://robinhoodtv.com/_repo/</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="19.9.9">
+      <info compressed="true">https://robinhoodtv.com/_repo/addons.xml</info>
+      <checksum>https://robinhoodtv.com/_repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://robinhoodtv.com/_repo/</datadir>
+      <hashes>false</hashes>
+  </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Repository Robin Hood Wizard</summary>
+    <description>Welcome to the New and Improved Robin Hood Wizard for all your Community Builds.</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
     </assets>
-    </extension>
+  </extension>
 </addon>
 
 <addon id="repository.Rockcrusher" name="[COLOR red]Rocks Repository[/COLOR]" version="2.8" provider-name="Rock">
