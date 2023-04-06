@@ -398,7 +398,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.1.2" provider-name="Aliunde">
+    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.1.4" provider-name="Aliunde">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
@@ -1315,7 +1315,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.encryptic" name="EnCryptic Repository" provider-name="Bones" version="1.1.34">
+<addon id="repository.encryptic" name="EnCryptic Repository" provider-name="Fafo Family" version="1.1.36">
   <extension point="xbmc.addon.repository" name="EnCryptic Repository">
     <dir>
       <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
@@ -1477,7 +1477,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 </addon>
 
-<addon id="repository.freeg" name="[COLOR gold]Free-G Repository[/COLOR]" version="1.1.0" provider-name="G-Man">
+<addon id="repository.freeg" name="[COLOR gold]Free-G Repository[/COLOR]" version="1.3.0" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="Free-G Repository">
     <dir>
         <info compressed="false">https://github.com/mrgsi/repository.freeg/raw/master/addons.xml</info>
@@ -1495,8 +1495,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
     </dir>
     <dir>
-        <info compressed="false">https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml.md5</checksum>
+        <info compressed="false">https://raw.githubusercontent.com/jewbmx/repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jewbmx/repo/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/jewbmx/repo/master/zips/</datadir>
     </dir>
 </extension>
@@ -3394,7 +3394,7 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="The South Paw Repository" version="0.2.5" provider-name="Tom">
+    <addon id="repository.southpaw" name="The South Paw Repository" version="0.2.6" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="The South Paw Repository">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
