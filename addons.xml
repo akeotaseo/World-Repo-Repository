@@ -1209,7 +1209,7 @@
     </extension>
 </addon>
 
-<addon id="repository.dirtyg" name="[COLOR hotpink]Dirty-G Repository[/COLOR]" version="1.3.0" provider-name="G-Man">
+<addon id="repository.dirtyg" name="[COLOR hotpink]Dirty-G Repository[/COLOR]" version="1.4.0" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="Dirty-G Repository">
     <dir>
         <info compressed="false">https://github.com/mrgsi/repository.dirtyg/raw/master/addons.xml</info>
@@ -1226,6 +1226,18 @@
 		<checksum>https://raw.githubusercontent.com/xbmc-adult/xbmc-adult/ghmaster/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/xbmc-adult/xbmc-adult/ghmaster</datadir>
 	</dir>
+    <dir maxversion="20.9.0">
+      <info compressed="false">https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml</info>
+      <checksum>https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://github.com/Vashiel/repository.adulthideout/raw/master/zips</datadir>
+      <hashes>false</hashes>
+    </dir>
+    <dir minversion="21.0.0">
+      <info compressed="false">https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml</info>
+      <checksum>https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://github.com/Vashiel/repository.adulthideout/raw/master/zips</datadir>
+      <hashes>false</hashes>
+    </dir>
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
