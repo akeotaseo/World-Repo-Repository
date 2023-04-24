@@ -1792,7 +1792,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-<addon id="repository.gsource" name="[COLOR lime]G-Source Repository[/COLOR]" version="1.3.0" provider-name="G-Man">
+<addon id="repository.gsource" name="[COLOR lime]G-Source Repository[/COLOR]" version="1.3.1" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="G-Source Repository">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.gsource/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.gsource/master/addons.xml.md5</checksum>
@@ -1808,6 +1808,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <checksum>https://github.com/mrgsi/repository.wnt2/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.wnt2/master/</datadir>
     </dir>
+    <dir>
+		<info>https://raw.github.com/pkscout/repository.skins.pkscout/nexus/addons.xml</info>
+		<checksum>https://raw.github.com/pkscout/repository.skins.pkscout/nexus/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/pkscout/repository.skins.pkscout/nexus/download</datadir>
+		<artdir>https://raw.github.com/pkscout/repository.skins.pkscout/nexus/download</artdir>
+	</dir>
     <dir>
 		<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
