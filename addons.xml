@@ -871,6 +871,40 @@
     </extension>
 </addon>
 
+<addon id="repository.collabsvito" name="Collabsvito that's my AiO REPO" version="3.6.6" provider-name="Collabsvito">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Collabsvito Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Collabsvito/REpo-AiO/master/REPOSITORIES/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Collabsvito/REpo-AiO/master/REPOSITORIES/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Collabsvito/REpo-AiO/master/REPOSITORIES/</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="18.9.9">
+			<info compressed="false">https://raw.githubusercontent.com/Collabsvito/REpo-AiO/master/MATRIX/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Collabsvito/REpo-AiO/master/MATRIX/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Collabsvito/REpo-AiO/master/MATRIX/</datadir>
+			<hashes>false</hashes>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Some nice py3-ADDONS created by @Collabsvito</summary>
+		<description lang="en_GB">Download And Install Addons Developed By Collabsvito.[CR]These Addons Should Not Missed And New Fans Are Welcome...</description>
+		<disclaimer lang="en_GB">The owner and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>
+[B][COLOR orangered]Version 3.6.6  (20.02.2023)[/COLOR][/B]
+- removed: Leia-Addons and Folder
+		</news>
+	</extension>
+</addon>
+
 <addon id="repository.cywteow" name="cywteow Add-ons" version="1.1.0" provider-name="cywteow">
     <extension point="xbmc.addon.repository" name="cywteow Add-ons">
         <info compressed="false">https://raw.githubusercontent.com/cywteow/cywteow.github.io/master/addons.xml</info>
@@ -1960,6 +1994,26 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
+<addon id="repository.hasamba" name="Hasamba Private Repo" version="2.0.0" provider-name="nacho">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/hasamba/hasambarepo.github.io/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/hasamba/hasambarepo.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/hasamba/hasambarepo.github.io/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>hasambarepo.github.io</summary>
+        <description>you dont have any buisness here</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.hooty" name="Hooty's Repository" version="1.0" provider-name="Goldenfreddy0703">
     <extension point="xbmc.addon.repository" name="Hooty's Repository">
         <dir>
@@ -1980,7 +2034,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.hsk.crew.repo" name="[COLOR blue]HSK CREW Repository[/COLOR]" version="1.0.8" provider-name="Loki1979|HSK-DE">
+<addon id="repository.hsk.crew.repo" name="[COLOR blue]HSK[/COLOR] CREW Repository" version="1.0.9" provider-name="Loki1979|HSK-DE">
     <extension point="xbmc.addon.repository" name="HSK CREW Repository">
 	   <dir>
 		<info compressed="false">https://hsk.kodiman.net/hsk/hsk_privat/hsk.crew.repo/addons.xml</info>
@@ -1996,8 +2050,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	   </dir>
 	</extension>
     <extension point="xbmc.addon.metadata">
-        <summary>HSK CREW REPO</summary>
-        <description></description>
+        <summary lang="en_GB">[COLORdeepskyblue]HSK[/COLOR] Crew Repository </summary>
+		<summary lang="de_DE">[COLORdeepskyblue]HSK[/COLOR] Crew Repository </summary>
+        <description lang="en_GB">Download and install addons from the KODI HSK Crew Repository[CR][CR]Contact + support:[CR][COLORblue]https://www.facebook.com/groups/hskde[/COLOR][CR]Donation:[CR][COLORblue]https://ko-fi.com/kodimanhimself/goal?g=0[/COLOR]</description>
+		<description lang="de_DE">Downloade und installiere Addons aus dem KODI HSK Crew Repository[CR][CR]Kontakt + Support:[CR][COLORblue]https://www.facebook.com/groups/hskde[/COLOR][CR]Spenden-Link:[CR][COLORblue]https://ko-fi.com/kodimanhimself/goal?g=0[/COLOR]</description>
         <platform>all</platform>
 	<license></license>
 	<forum></forum>
@@ -2013,6 +2069,45 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<screenshot></screenshot>
 	</assets>
     </extension>
+</addon>
+
+<addon id="repository.hsk.forever" name="[COLOR blue]HSK FOREVER[/COLOR]" version="1.0.4" provider-name="Loki1979|HSK-DE">
+	<extension point="xbmc.addon.repository" name="HSK FOREVER">
+	<dir>
+		<info compressed="false">https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo/addons.xml</info>
+		<checksum>https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo</datadir>
+		<hashes>false</hashes>
+	</dir>
+	<dir minversion="20.0.0">
+		<info compressed="false">https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo/addons.xml</info>
+		<checksum>https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo</datadir>
+		<hashes>false</hashes>
+	</dir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+	<summary>Besucht uns auf Facebook oder auf Telegram</summary>
+	<description>
+https://www.facebook.com/groups/hskde
+https://t.me/kodimansgroup</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+    <assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
 </addon>
 
 <addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.6.0" provider-name="JewBMX">
@@ -3447,6 +3542,25 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
         </extension>
     </addon>
 
+<addon id="repository.spain" name="Spain OTT Repository" version="1.0.2" provider-name="Paco8">
+	<extension point="xbmc.addon.repository">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/Paco8/kodi-repo/master/mini-repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Paco8/kodi-repo/master/mini-repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Paco8/kodi-repo/master/mini-repo</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Spain OTT Repository</summary>
+		<description></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+		<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="repository.StreamArmy" name="[COLOR crimson]S[COLOR silver]tream Army Repo 18 / 19 Compatible Addons[/COLOR]" version="13.0.005" provider-name="@Nemzzy668 / @_Manc_">
     <extension point="xbmc.addon.repository" name="Stream Army">
         <dir>
@@ -4310,6 +4424,46 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
+    </extension>
+</addon>
+
+<addon id="repository.yt.testing_official" name="YouTube Test Repo (Official)" version="2.0.5" provider-name="anxdpanic">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+    </requires>
+	<extension point="xbmc.addon.repository" name="YouTube Test Repo (Official)">
+        <dir minversion="20.0.0">
+            <info compressed="false">https://download.osmc.tv/dev/anxdpanic/kodi/youtube/python3/official_testing/addons.xml</info>
+            <checksum>https://download.osmc.tv/dev/anxdpanic/kodi/youtube/python3/official_testing/addons.xml.md5</checksum>
+            <datadir zip="true">https://download.osmc.tv/dev/anxdpanic/kodi/youtube/python3/official_testing/zips</datadir>
+            <hashes>false</hashes>
+        </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install alpha and beta versions of the YouTube add-on.</summary>
+		<description>Install alpha and beta versions of the YouTube add-on.</description>
+		<disclaimer>This add-on is not supported or endorsed by Google/YouTube.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.ytmusic" name="Ytmusic's Repository" version="1.0" provider-name="Goldenfreddy0703">
+    <extension point="xbmc.addon.repository" name="Ytmusic's Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Goldenfreddy0703/repository.ytmusic/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Goldenfreddy0703/repository.ytmusic/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Goldenfreddy0703/repository.ytmusic/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Ytmusic's Repository</summary>
+        <description>A repository for Ytmusic</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
     </extension>
 </addon>
 
