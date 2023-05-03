@@ -481,7 +481,7 @@
 </extension>
 </addon>
 
-<addon id="repository.Andtv-Matrix" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [/COLOR][COLOR limegreen][B]MATRIX[/B][/COLOR]" version="20.10.22" provider-name="andtv_tvban, JoseAnd">
+<addon id="repository.Andtv-Matrix" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [/COLOR][COLOR limegreen][B]MATRIX[/B][/COLOR]" version="8.3.23" provider-name="andtv_tvban, JoseAnd">
     <extension point="xbmc.addon.repository" name="[COLOR dodgerblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [COLOR limegreen][B]MATRIX[/B][/COLOR]">
         <dir minversion="18.0" maxversion="18.9.0">
             <info>https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/leia/zips/addons.xml</info>
@@ -515,19 +515,14 @@
     </extension>
 </addon>
 
-<addon id="repository.Andtv-Nexus" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [/COLOR][COLOR blueviolet][B]NEXUS[/B][/COLOR]" version="11.2.23" provider-name="andtv_tvban, JoseAnd">
+<addon id="repository.Andtv-Nexus" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [/COLOR][COLOR blueviolet][B]NEXUS[/B][/COLOR]" version="27.2.23" provider-name="andtv_tvban, JoseAnd">
     <extension point="xbmc.addon.repository" name="[COLOR dodgerblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [COLOR blueviolet][B]NEXUS[/B][/COLOR]">
-        <dir minversion="18.0" maxversion="18.9.0">
-            <info>https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/leia/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/leia/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/leia/zips/</datadir>
-        </dir>
-        <dir minversion="18.9.0">
+		<dir minversion="20.0" maxversion="20.9.0">
             <info compressed="false">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/nexus/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/nexus/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/nexus/zips/</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/nexus/zips</datadir>
         </dir>
-        <dir minversion="18.9.0">
+        <dir minversion="20.9.0"> <!--maxversion="21.9.0">-->
             <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
@@ -539,7 +534,7 @@
         <description>Repositorio de addons para [COLOR azure]ANDTV[/COLOR].
 [B][COLOR lime]CREDITOS:
 [COLOR white]• Developers:[/COLOR][/B] [COLOR gold]JoseAnd[/COLOR]</description>
-        <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons válidos para [COLOR azure]Kodi 20 [COLOR limegreen]NEXUS.[/COLOR]</disclaimer>
+        <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons válidos para [COLOR azure]Kodi 20 [COLOR blueviolet]NEXUS.[/COLOR]</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
