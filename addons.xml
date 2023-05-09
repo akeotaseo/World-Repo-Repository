@@ -122,14 +122,19 @@
 	</extension>
 </addon>
 
-<addon id="OTV_MEDIA.repo" name="OTV_MEDIA Repository" version="1.0.2a" provider-name="OTV_MEDIA">
-	<extension point="xbmc.addon.repository" name="OTV_MEDIA Addon Repository">
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/orhantv/otv_media/master/</datadir>
-			</dir>
-	</extension>
+<addon id="OTV_MEDIA.repo" name="OTV_MEDIA Repository" version="1.0.3" provider-name="OTV_MEDIA">
+    <extension point="xbmc.addon.repository" name="OTV_MEDIA Addon Repository">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/orhantv/otv_media/tree/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/orhantv/otv_media/master/</datadir>
+    </dir>
+  </extension>
     <extension point="xbmc.addon.metadata">
         <summary>OTV_MEDIA Update for Kodi</summary>
         <description>OTV_MEDIA Addon Repository</description>
@@ -1550,6 +1555,86 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 
 
+</addon>
+
+  <addon
+  id="repository.flixrepo"
+  name="[COLOR yello]Repositório flix[/COLOR] [COLOR green]OFICIAL[/COLOR]"
+  version="1.0.2"
+  provider-name="flix repo">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="[COLOR white]flix [COLOR gold]Repositorio[/COLOR]">
+      <dir>
+      <info compressed="true">https://raw.github.com/flixtx/flixrepo/master/addons.xml</info>
+      <checksum>https://raw.github.com/flixtx/flixrepo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/flixtx/flixrepo/master</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="19.0.0">
+      <info compressed="true">https://raw.github.com/flixtx/flixrepo/master/matrix/addons.xml</info>
+      <checksum>https://raw.github.com/flixtx/flixrepo/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/flixtx/flixrepo/master/matrix</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="17.0.0" maxversion="18.9.0">
+      <info compressed="true">https://raw.github.com/flixtx/flixrepo/master/leia/addons.xml</info>
+      <checksum>https://raw.github.com/flixtx/flixrepo/master/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/flixtx/flixrepo/master/leia</datadir>
+      <hashes>false</hashes>
+  </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Repositorio flix Oficial</summary>
+    <description>Repositorio oficial Addon flix - Proibido reprodução sem previa autorizacao</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+  <addon
+  id="repository.flixrepo"
+  name="[COLOR yello]Repositório flix[/COLOR] [COLOR green]OFICIAL[/COLOR]"
+  version="1.0.2"
+  provider-name="flix repo">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="[COLOR white]flix [COLOR gold]Repositorio[/COLOR]">
+      <dir>
+      <info compressed="true">https://raw.github.com/flixtx/flixrepo/master/addons.xml</info>
+      <checksum>https://raw.github.com/flixtx/flixrepo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/flixtx/flixrepo/master</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="19.0.0">
+      <info compressed="true">https://raw.github.com/flixtx/flixrepo/master/matrix/addons.xml</info>
+      <checksum>https://raw.github.com/flixtx/flixrepo/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/flixtx/flixrepo/master/matrix</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="17.0.0" maxversion="18.9.0">
+      <info compressed="true">https://raw.github.com/flixtx/flixrepo/master/leia/addons.xml</info>
+      <checksum>https://raw.github.com/flixtx/flixrepo/master/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/flixtx/flixrepo/master/leia</datadir>
+      <hashes>false</hashes>
+  </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Repositorio flix Oficial</summary>
+    <description>Repositorio oficial Addon flix - Proibido reprodução sem previa autorizacao</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="repository.freeg" name="[COLOR gold]Free-G Repository[/COLOR]" version="1.3.0" provider-name="G-Man">
@@ -3612,33 +3697,30 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.StreamArmy" name="[COLOR crimson]S[COLOR silver]tream Army Repo 18 / 19 Compatible Addons[/COLOR]" version="13.0.005" provider-name="@Nemzzy668 / @_Manc_">
-    <extension point="xbmc.addon.repository" name="Stream Army">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/nemesis668/repository.streamarmy18-19/main/addons.xml</info>
-            <checksum>http://raw.githubusercontent.com/nemesis668/repository.streamarmy18-19/main/addons.xml.md5</checksum>
-            <datadir zip="true">http://raw.githubusercontent.com/nemesis668/repository.streamarmy18-19/main/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-        <dir maxversion="18.8.9">
-            <info compressed="false">https://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml</info>
-            <checksum>http://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml.md5</checksum>
-            <datadir zip="true">http://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Stream Army Repo</summary>
-        <description>Repo For Stream Army, Bought to you by @Nemzzy668 /  @_MANC_</description>
-        <disclaimer>Educational use only, not for public release.</disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
+<addon id="repository.StreamArmy" name="[COLOR crimson]S[COLOR silver]tream Army Repo 18 / 19 Compatible Addons[/COLOR]" version="13.0.006" provider-name="@Nemzzy668 / @_Manc_">
+	<extension point="xbmc.addon.repository" name="Stream Army">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/nemesis668/repository.streamarmy18-19/main/addons.xml</info>
+			<checksum>http://raw.githubusercontent.com/nemesis668/repository.streamarmy18-19/main/addons.xml.md5</checksum>
+			<datadir zip="true">http://raw.githubusercontent.com/nemesis668/repository.streamarmy18-19/main/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+		<dir maxversion="18.8.9">
+			<info compressed="false">https://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml</info>
+			<checksum>http://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml.md5</checksum>
+			<datadir zip="true">http://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Stream Army Repo</summary>
+		<description>Repo For Stream Army, Bought to you by @Nemzzy668 /  @_MANC_</description>
+		<disclaimer>Educational use only, not for public release.</disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.superservidorbrazuca" name="[B][COLOR green]**** Super Servido[/COLOR][COLOR yellow]r Brasileiro ****[/COLOR][/B]" version="1.5.8" provider-name="CachorroCaramelo">
