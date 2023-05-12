@@ -403,7 +403,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.1.5" provider-name="Aliunde">
+    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.1.6" provider-name="Aliunde">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
@@ -3633,7 +3633,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="The South Paw Repository" version="0.2.7" provider-name="Tom">
+    <addon id="repository.southpaw" name="The South Paw Repository" version="0.2.9" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="The South Paw Repository">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
