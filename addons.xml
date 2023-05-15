@@ -1602,46 +1602,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-  <addon
-  id="repository.flixrepo"
-  name="[COLOR yello]Repositório flix[/COLOR] [COLOR green]OFICIAL[/COLOR]"
-  version="1.0.2"
-  provider-name="flix repo">
-  <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>
-  </requires>
-  <extension point="xbmc.addon.repository" name="[COLOR white]flix [COLOR gold]Repositorio[/COLOR]">
-      <dir>
-      <info compressed="true">https://raw.github.com/flixtx/flixrepo/master/addons.xml</info>
-      <checksum>https://raw.github.com/flixtx/flixrepo/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.github.com/flixtx/flixrepo/master</datadir>
-      <hashes>false</hashes>
-  </dir>
-  <dir minversion="19.0.0">
-      <info compressed="true">https://raw.github.com/flixtx/flixrepo/master/matrix/addons.xml</info>
-      <checksum>https://raw.github.com/flixtx/flixrepo/master/matrix/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.github.com/flixtx/flixrepo/master/matrix</datadir>
-      <hashes>false</hashes>
-  </dir>
-  <dir minversion="17.0.0" maxversion="18.9.0">
-      <info compressed="true">https://raw.github.com/flixtx/flixrepo/master/leia/addons.xml</info>
-      <checksum>https://raw.github.com/flixtx/flixrepo/master/leia/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.github.com/flixtx/flixrepo/master/leia</datadir>
-      <hashes>false</hashes>
-  </dir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Repositorio flix Oficial</summary>
-    <description>Repositorio oficial Addon flix - Proibido reprodução sem previa autorizacao</description>
-    <disclaimer></disclaimer>
-    <platform>all</platform>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="repository.freeg" name="[COLOR gold]Free-G Repository[/COLOR]" version="1.3.0" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="Free-G Repository">
     <dir>
