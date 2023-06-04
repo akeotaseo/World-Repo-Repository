@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="repository.a4kstreaming"
+       name="a4kStreaming Repository"
+       version="1.0.1"
+       provider-name="Unknown">
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml.crc</checksum>
+            <datadir>https://github.com/newt-sc/a4kStreaming/archive</datadir>
+            <artdir>https://github.com/newt-sc/a4kStreaming/releases/download/v0.1.0</artdir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>a4kStreaming</summary>
+        <description>a4kStreaming Repository</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
     <addon id="chamchenko-dev" name="chamchenko-dev" version="0.0.3" provider-name="chamchenko">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -61,21 +80,6 @@
         <extension point="xbmc.addon.metadata">
             <summary>The repository contains addons and scripts to be used with kodi.</summary>
             <description>HellyRepo is a repository that contains addons and scripts to be used with kodi.</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="lanik_p3.repo" name="Lanik (Python 3) Repository" provider-name="Dalibor Lanik" version="1.0.0a">
-	<extension point="xbmc.addon.repository" name="Lanik (Python 3) Repository">
-			<dir>
-				<info compressed="false">http://kodi.lanik.org/_p3repo/addons.xml</info>
-				<checksum>http://kodi.lanik.org/_p3repo/addons.xml.md5</checksum>
-				<datadir zip="true">http://kodi.lanik.org/_p3repo/</datadir>
-			</dir>
-	</extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Repository for my KODI plugins</summary>
-            <description>KODI Repository for stuff made by D. Lanik</description>
             <platform>all</platform>
     </extension>
 </addon>
@@ -520,7 +524,7 @@
     </extension>
 </addon>
 
-<addon id="repository.Andtv-Nexus" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [/COLOR][COLOR blueviolet][B]NEXUS[/B][/COLOR]" version="27.2.23" provider-name="andtv_tvban, JoseAnd">
+<addon id="repository.Andtv-Nexus" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [COLOR limegreen]MAT[COLOR blueviolet]NEX[/COLOR]" version="12.5.23" provider-name="andtv_tvban, JoseAnd">
     <extension point="xbmc.addon.repository" name="[COLOR dodgerblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [COLOR blueviolet][B]NEXUS[/B][/COLOR]">
 		<dir minversion="20.0" maxversion="20.9.0">
             <info compressed="false">https://raw.githubusercontent.com/andtv/Repo-ANDTV/master/nexus/zips/addons.xml</info>
@@ -533,13 +537,12 @@
             <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
         </dir>
     </extension>
-
     <extension point="xbmc.addon.metadata">
-        <summary>[COLOR steelblue]Repo[/COLOR] [COLOR azure]Andtv[/COLOR] [COLOR blueviolet]Nexus[/COLOR]</summary>
+        <summary>[COLOR steelblue]Repo[/COLOR] [COLOR azure]Andtv[/COLOR] [COLOR limegreen]Mat[COLOR blueviolet]Nex[/COLOR]</summary>
         <description>Repositorio de addons para [COLOR azure]ANDTV[/COLOR].
 [B][COLOR lime]CREDITOS:
 [COLOR white]• Developers:[/COLOR][/B] [COLOR gold]JoseAnd[/COLOR]</description>
-        <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons válidos para [COLOR azure]Kodi 20 [COLOR blueviolet]NEXUS.[/COLOR]</disclaimer>
+        <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons válidos para [COLOR azure]Kodi 19 [COLOR limegreen]MATRIX, [COLOR azure]KODI 20 [COLOR blueviolet]NEXUS.[/COLOR]</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -735,7 +738,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.butter" name="Butter Fingers Repo" version="2.1.7" provider-name="J1">
+    <addon id="repository.butter" name="Butter Fingers Repo" version="2.1.8" provider-name="J1">
         <extension point="xbmc.addon.repository" name="Butter Fingers Repo">
         <dir>
             <info compressed="false">http://j1wizard.net/butter-addons/_repo/addons.xml</info>
