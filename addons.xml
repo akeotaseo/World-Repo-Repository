@@ -552,6 +552,26 @@
     </extension>
 </addon>
 
+<addon id="repository.arda" name="Arda Repository" version="2023.06.06" provider-name="Irmu">
+    <extension point="xbmc.addon.repository" name="Arda Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/irmu/arda/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/irmu/arda/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/irmu/arda/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Arda Repository</summary>
+        <description>Arda where all things KODI reside</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.arnoldvink" name="Arnold Vink's Kodi Repository" provider-name="Arnold Vink" version="1.2.0">
   <extension point="xbmc.addon.repository">
     <dir>
@@ -1046,11 +1066,13 @@
 	</extension>
 </addon>
 
-<addon id="repository.devalls" name="devalls' Repository" version="2.1.8" provider-name="devalls">
+<addon id="repository.devalls" name="devalls' Repository" version="2.2.0" provider-name="devalls">
     <extension point="xbmc.addon.repository" name="devalls' Repository">
-        <info compressed="false">https://raw.githubusercontent.com/devalls/repository/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/devalls/repository/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/devalls/repository/master</datadir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/devalls/repository/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/devalls/repository/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/devalls/repository/master</datadir>
+        </dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/lamalanovela/Repo/master/Repositorio/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/lamalanovela/Repo/master/Repositorio/addons.xml.md5</checksum>
@@ -1067,9 +1089,9 @@
             <datadir zip="true">https://raw.githubusercontent.com/balandro-tk/balandro/main/</datadir>
         </dir>
         <dir>
-            <info compressed="false">https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml</info>
-            <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/alfa-addon/alfa-repo/raw/master</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/</datadir>
         </dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
@@ -1082,10 +1104,15 @@
             <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
 	</dir>
         <dir>
-            <info compressed="false">https://hirayasoftware.github.io/addons.xml</info>
-            <checksum>https://hirayasoftware.github.io/addons.xml.md5</checksum>
-            <datadir zip="true">https://hirayasoftware.github.io/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/hirayasoftware/hirayasoftware.github.io/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/hirayasoftware/hirayasoftware.github.io/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/hirayasoftware/hirayasoftware.github.io/master/</datadir>
 	</dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/pepemebe/mag/main/z/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/pepemebe/mag/main/z/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/pepemebe/mag/main/z</datadir>
+        </dir>
         <dir>
             <info>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml.md5</checksum>
@@ -1114,7 +1141,8 @@
 		<screenshot>resources/screenshot-03.jpg</screenshot>
 	</assets>
 	<news>[COLOR blue][B]Official devalls' repository[/B][/COLOR]
-[COLOR green][B]•2.1.8[/B] Update one dir.[/COLOR]
+[COLOR green][B]•2.2.0[/B] Update TW.[/COLOR]
+[COLOR yellow][B]•2.1.8[/B] Update one dir.[/COLOR]
 [COLOR yellow][B]•2.1.7[/B] Add one dir.[/COLOR]
 [COLOR yellow][B]•2.1.5[/B] Add three dir.[/COLOR]
 [COLOR yellow][B]•2.1.3[/B] Add one dir.[/COLOR]
