@@ -3574,30 +3574,6 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.PoodleWiz" name="PoodleWiz Repository" version="1.0.0" provider-name="Poodle">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="PoodleWiz Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Kpoodle/Repo1/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Kpoodle/Repo1/master/addons.xml.md5</checksum>
-            <datadir zip="true"></datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en"></summary>
-        <description lang="en"></description>
-        <disclaimer lang="en"></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-        </assets>
-        <news></news>
-    </extension>
-</addon>
-
 <addon id="repository.rays.files" name="Rays Repository" version="2022.10.17" provider-name="RayW">
 	<extension point="xbmc.addon.repository" name="The Wizard">
 		<dir>
@@ -4266,7 +4242,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.superservidorbrazuca" name="[B][COLOR green]**** Super Servido[/COLOR][COLOR yellow]r Brasileiro ****[/COLOR][/B]" version="1.5.8" provider-name="CachorroCaramelo">
+<addon id="repository.superservidorbrazuca" name="[B][COLOR green]**** Super Servido[/COLOR][COLOR yellow]r Brasileiro ****[/COLOR][/B]" version="3.1" provider-name="CachorroCaramelo">
 	<extension point="xbmc.addon.repository" name="Super Servidor Brasileiro">
 	<dir>
 		<info compressed="false">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml</info>
@@ -4280,60 +4256,48 @@ https://t.me/kodimansgroup</description>
 		<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 		<hashes>false</hashes>
 	</dir>
-	<dir>
-		<info compressed="false">https://github.com/OnePlayHD/OneRepo/raw/master/matrix/addons.xml</info>
-		<checksum>https://github.com/OnePlayHD/OneRepo/raw/master/matrix/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/OnePlayHD/OneRepo/raw/master/matrix</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">http://kodishteam.space/repositorio/addon.xml</info>
-		<checksum>http://kodishteam.space/repositorio/addons.xml.md5</checksum>
-		<datadir zip="true">http://kodishteam.space/repositorio/addons/</datadir>
-		<hashes>false</hashes>
-	</dir>
-	<dir>
-	    <info compressed="false">https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Masterwine/Luar/master/repor/</datadir>
-		<hashes>false</hashes>
-	</dir>
+  		<dir minversion="17.0.0" maxversion="18.9.0">
+			<info compressed="false">https://onepod.inrupt.net/public/repooneplay/leia/addons.xml</info>
+			<checksum>https://onepod.inrupt.net/public/repooneplay/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/zoreu/OneRepo/raw/master/leia</datadir>
+			<hashes>false</hashes>
+    	</dir>
+
+  		<dir minversion="18.9.1">
+			<info compressed="false">https://onepod.inrupt.net/public/repooneplay/matrix/addons.xml</info>
+			<checksum>https://onepod.inrupt.net/public/repooneplay/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/zoreu/OneRepo/raw/master/matrix</datadir>
+			<hashes>false</hashes>
+    	</dir>
 	<dir>
         <info compressed="false">https://raw.githubusercontent.com/Kodi-vStream/venom-xbmc-addons/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Kodi-vStream/venom-xbmc-addons/master/addons.xml.md5</checksum>
         <datadir zip="true">https://github.com/Kodi-vStream/venom-xbmc-addons/raw/master/repo</datadir>
-    </dir>
-    <dir>
+    	</dir>
+
+    	<dir>
         <info compressed="false">https://raw.githubusercontent.com/Ovni-crea/seleniumzip/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Ovni-crea/seleniumzip/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/Ovni-crea/seleniumzip/master</datadir>
-    </dir>
-    <dir>
+        </dir>
+
+        <dir>
         <info compressed="false">https://raw.githubusercontent.com/Arias800/Fichier-divers/master/addon.xml</info>
         <checksum>https://raw.githubusercontent.com/Arias800/Fichier-divers/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/Arias800/script.module.dnspython/master</datadir>
-    </dir>
-	<dir>
-	    <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
-	</dir>
+        </dir>
+
 	<dir>
         <info compressed="false">https://raw.githubusercontent.com/RAPOSO-PAUL/TeamViannaREPO/master/MATRIX/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/RAPOSO-PAUL/TeamViannaREPO/master/MATRIX/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/RAPOSO-PAUL/TeamViannaREPO/master/MATRIX/</datadir>
-    </dir>
-	<dir>
-	  <info compressed="false">https://github.com/euro2000/magellan.github.io/raw/main/matrix/addons.xml</info>
-      <checksum>https://github.com/euro2000/magellan.github.io/raw/main/matrix/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/euro2000/magellan.github.io/raw/main/matrix</datadir>
-      <hashes>false</hashes>
-	</dir>
+        </dir>
 	<dir>
 	  <info compressed="false">https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/matrix/addons.xml</info>
 	  <checksum>https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/matrix/addons.xml.md5</checksum>
 	  <datadir zip="true">https://raw.githubusercontent.com/luminart506/repoluminartstudio/main/matrix/</datadir>
 	  <hashes>false</hashes>
-    </dir>
+        </dir>
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/nemesis668/repository.streamarmy18-19/main/addons.xml</info>
 		<checksum>http://raw.githubusercontent.com/nemesis668/repository.streamarmy18-19/main/addons.xml.md5</checksum>
@@ -4361,6 +4325,12 @@ https://t.me/kodimansgroup</description>
 		<datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/freedocs/install</datadir>
 		<hashes>false</hashes>
 	</dir>
+		<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/canalricos/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/canalricos/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/canalricos/Install</datadir>
+		<hashes>false</hashes>
+	</dir>
 	<dir>
 		<info compressed="false">https://loopaddon.uk/zips19/addons.xml</info>
 		<checksum>https://loopaddon.uk/zips19/addons.xml.md5</checksum>
@@ -4371,23 +4341,95 @@ https://t.me/kodimansgroup</description>
       <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
     </dir>
-	<dir>
-       <info compressed="false">https://raw.githubusercontent.com/Orion7plus/repository.7Plus/master/zips/addons.xml</info>
-       <checksum>https://raw.githubusercontent.com/Orion7plus/repository.7Plus/master/zips/addons.xml.md5</checksum>
-       <datadir zip="true">https://raw.githubusercontent.com/Orion7plus/repository.7Plus/master/zips/</datadir>
-    </dir>
+    	<dir minversion="18.9.0">
+		    <info compressed="false">https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Masterwine/Luar/master/repor/</datadir>
+	    </dir>
+
    <dir minversion="18.9.1">
 			<info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/correcao-repo/main/vk-fix</info>
 			<checksum>https://raw.githubusercontent.com/kodishmediacenter/correcao-repo/main/vk-md5</checksum>
 			<datadir zip="true">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/matrix</datadir>
 			<hashes>false</hashes>
     </dir>
+    <dir>
+			<info>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-matrix.xml</info>
+			<checksum>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-matrix.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/matrix/</datadir>
+	</dir>
 	<dir>
 			<info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/correcao-repo/main/kodiloucos.xml</info>
 			<checksum>https://raw.githubusercontent.com/kodishmediacenter/correcao-repo/main/kodiloucos.md5</checksum>
-			<datadir zip="true">https://github.com/arrownegra/arrownegra.github.io/raw/main/matrix</datadir>
+			<datadir zip="true">https://github.com/arrownegra/arrownegra.github.io/raw/main/nexus</datadir>
 			<hashes>false</hashes>
     </dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/elvis/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/elvis/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/elvis/install</datadir>
+			<hashes>false</hashes>
+    </dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/two/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/two/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/kodishcomplementos/main/two/install</datadir>
+			<hashes>false</hashes>
+    </dir>
+	<dir>
+			<info compressed="false">https://WorldLiveTV.github.io/repo/addons.xml</info>
+			<checksum>https://WorldLiveTV.github.io/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://WorldLiveTV.github.io/repo/</datadir>
+			<hashes>true</hashes>
+	</dir>
+	<dir>
+	                <info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
+	</dir>
+	<dir>
+	                <info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/correcao-repo/main/kodish/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/kodishmediacenter/correcao-repo/main/kodish/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/correcao-repo/main/kodish/install/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/BUILDTONYWARLLEY/2023/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/BUILDTONYWARLLEY/2023/master/addons.xml.md5</checksum>
+			<datadir zip="false">https://raw.githubusercontent.com/BUILDTONYWARLLEY/2023/master/install</datadir>
+	</dir>
+        <dir>
+        		<info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml</info>
+  			<checksum>https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.glive/master</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/7plusteam/7plus-neo.github.io/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/7plusteam/7plus-neo.github.io/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/7plusteam/7plus-neo.github.io/master/zips/</datadir>
+        </dir>
+      <dir>
+      <info compressed="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/addons.xml</info>
+      <checksum>https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="19.0.0">
+      <info compressed="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/matrix/addons.xml</info>
+      <checksum>https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/matrix</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="17.0.0" maxversion="18.9.0">
+      <info compressed="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/leia/addons.xml</info>
+      <checksum>https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/leia</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="16.0.0">
+  <info compressed="false">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml</info>
+  <checksum>https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml.md5</checksum>
+  <datadir zip="true">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/</datadir>
+  </dir>
 	</extension>
 
 
