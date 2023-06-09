@@ -457,7 +457,7 @@
         </extension>
     </addon>
 
-<addon id="repository.allanime" name="[COLOR aqua]All Anime Repository[/COLOR]" version="1.0.1" provider-name="G-Man">
+<addon id="repository.allanime" name="[COLOR aqua]All Anime Repository[/COLOR]" version="1.1.0" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="All Anime Repository">
     <dir>
         <info compressed="false">https://github.com/mrgsi/repository.allanime/raw/master/addons.xml</info>
@@ -473,6 +473,11 @@
 		<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml</info>
+         <checksum>https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/</datadir>
     </dir>
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/pikdum/repository.pikdum/master/repo/zips/addons.xml</info>
@@ -1693,7 +1698,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="repository.freeg" name="[COLOR gold]Free-G Repository[/COLOR]" version="1.3.0" provider-name="G-Man">
+<addon id="repository.freeg" name="[COLOR gold]Free-G Repository[/COLOR]" version="2.0.0" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="Free-G Repository">
     <dir>
         <info compressed="false">https://github.com/mrgsi/repository.freeg/raw/master/addons.xml</info>
@@ -1704,6 +1709,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <info compressed="false">https://github.com/mrgsi/repository.wnt2/raw/master/addons.xml</info>
         <checksum>https://github.com/mrgsi/repository.wnt2/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.wnt2/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml</info>   <checksum>https://raw.githubusercontent.com/mrgsi/repository.glive/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.glive/master/</datadir>
     </dir>
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
@@ -1899,12 +1908,13 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-    <addon id="repository.GreenRevolution" name="[COLOR lime]Green Revolution Repository[/COLOR]" version="4.0a" provider-name="Green Team">
+    <addon id="repository.GreenRevolution" name="[COLOR lime]Green Revolution Repository[/COLOR]" version="4.1a" provider-name="Green Team">
 	<extension point="xbmc.addon.repository" name="[COLOR lime]Green Revolution Repository[/COLOR]">
 			<dir>
 				<info compressed="false">https://repo.bilosta.org/green/addons.xml</info>
 				<checksum>https://repo.bilosta.org/green/addons.xml.md5 </checksum>
 				<datadir zip="true">https://repo.bilosta.org/green/</datadir>
+				<hashes>false</hashes>
 			</dir>
 	</extension>
         <extension point="xbmc.addon.metadata">
@@ -2136,7 +2146,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-<addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.3~beta" provider-name="gujal">
+<addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.3" provider-name="gujal">
 	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
 		<dir>
 	        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
@@ -2148,6 +2158,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/zips/</datadir>
 		</dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/</datadir>
+        </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Third party Addons for Kodi</summary>
@@ -2545,10 +2560,11 @@ https://t.me/kodimansgroup</description>
 
 <addon id="repository.lekma"
        name="lekma's addon repository"
-       version="4.0.0"
+       version="4.0.1"
        provider-name="lekma">
 
-    <extension point="xbmc.addon.repository">
+    <extension point="xbmc.addon.repository"
+               name="lekma's addon repository">
         <dir>
             <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/addons/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/addons/addons.xml.sha256</checksum>
@@ -4026,39 +4042,6 @@ https://t.me/kodimansgroup</description>
         <description lang="ru">Плагины авторов форума XBMC[CR]Если вы обнаружили нерабочее дополнение, сообщите об этом разработчику плагина в соответствующей теме раздела "Помощь по плагинам" русского форума xbmc.ru.</description>
         <disclaimer lang="en_US">Official Team Kodi did not make the add-ons on this repository and are not responsible for their content</disclaimer>
         <disclaimer lang="ru">Разработчики Official Team Kodi не являются авторами дополнений в данном репозитории и не несут ответственность за их содержимое.</disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="repository.sgkodi" name="[B][COLORdeepskyblue]SGK[/COLOR][/B][COLORwhite]ODI REPOSITORY[/COLOR]" version="1.1.6" provider-name="SGK">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="[B][COLORdeepskyblue]SGK[/COLOR][/B][COLORwhite]ODI REPOSITORY[/COLOR]">
-       <dir minversion="13.0.0" maxversion="18.9.0">
-            <info compressed="true">https://kodi-unlimited-support.de/repo/data/addons.xml</info>
-            <checksum>https://kodi-unlimited-support.de/repo/data/addons.xml.md5</checksum>
-            <datadir zip="true">https://kodi-unlimited-support.de/repo/data/</datadir>
-            <hashes>false</hashes>
-        </dir>
-		<dir minversion="18.9.9">
-            <info compressed="true">https://kodi-unlimited-support.de/repo/matrix/data/addons.xml</info>
-            <checksum>https://kodi-unlimited-support.de/repo/matrix/data/addons.xml.md5</checksum>
-            <datadir zip="true">https://kodi-unlimited-support.de/repo/matrix/data</datadir>
-            <hashes>false</hashes>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[B][COLORdeepskyblue]SGK[/COLOR][/B][COLORwhite]ODI REPOSITORY[/COLOR]</summary>
-        <description lang="en">A collection of KODI repositories and addons.[CR][CR]Contact + support:[CR][COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Donation:[CR][COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR]</description>
-        <disclaimer lang="en">[COLORred]The creator of the repository is not the creator of the add-ons and is therefore not responsible for its content![/COLOR]</disclaimer>
-		<summary lang="de">[COLORdeepskyblue]K.U.S-REPOSITORY[/COLOR]</summary>
-        <description lang="de">Eine Sammlung von KODI-Repositories und Addons.[CR][CR]Kontakt + Support:[CR][COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Spende:[CR][COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR]</description>
-         <disclaimer lang="de">[COLORred]Der Ersteller des Repository ist nicht der Ersteller der Addons und somit nicht Verantwortlich für dessen Inhalt![/COLOR]</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
