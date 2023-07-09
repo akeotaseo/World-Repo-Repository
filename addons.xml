@@ -3698,7 +3698,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.rays.files" name="Rays Repository" version="2022.10.17" provider-name="RayW">
+<addon id="repository.rays.files" name="Rays Repository" version="2023.07.09" provider-name="RayW">
 	<extension point="xbmc.addon.repository" name="The Wizard">
 		<dir>
 			<info compressed="false">http://ynsfashion.co.uk/thewiz/repo/addons.xml</info>
@@ -3710,7 +3710,7 @@ https://t.me/kodimansgroup</description>
 			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 		</dir>
-		<dir>
+		<!--<dir>
 			<info compressed="false">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml</info>
 			<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19</datadir>
@@ -3735,7 +3735,7 @@ https://t.me/kodimansgroup</description>
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
-        </dir>
+        </dir>-->
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>The Wizard Repo</summary>
