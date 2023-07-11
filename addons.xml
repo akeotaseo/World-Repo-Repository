@@ -1856,6 +1856,40 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
+    <addon id="repository.gearheads2" name="gearheadsrepo" version="9.6" provider-name="Racesondemand">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="gearheadsrepo">
+		<dir>
+            <info compressed="false">http://racingondemand.xyz/_repo/addons.xml</info>
+            <checksum>http://racingondemand.xyz/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://racingondemand.xyz/_repo/</datadir>
+            <hashes>false</hashes>
+			</dir>
+		<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+
+        <dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Start you're engines!!</summary>
+            <description>Start you're engines!!</description>
+            <platform>all</platform>
+			<assets>
+			<icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+		</assets>
+    </extension>
+</addon>
+
 <addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.7">
     <requires>
         <!--<import addon="xbmc.python" version="3.0.0"/>-->
