@@ -146,6 +146,33 @@
     </extension>
 </addon>
 
+<addon id="repo.bg.plugins"
+		name="Bg Add-ons"
+		version="1.0.2"
+		provider-name="kodi.dev.one@gmail.com">
+	<extension point="xbmc.addon.repository" name="Bg Add-ons">
+		<!-- Kodi 19 Matrix and UP -->
+		<dir minversion="18.90.0">
+			<info compressed="false">https://github.com/kodi1/kodi1.github.io/raw/master/repo/addons.xml</info>
+			<checksum>https://github.com/kodi1/kodi1.github.io/raw/master/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/kodi1/kodi1.github.io/raw/master/repo/</datadir>
+			<artdir>https://github.com/kodi1/kodi1.github.io/raw/master/repo</artdir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="bg_BG">БГ Репо</summary>
+		<summary lang="en_US">Bg Add-on Repository</summary>
+		<description lang="bg_BG">Инсталира добавки за Коди на различни разработчици</description>
+		<description lang="en_US">Install plugins for KODI from diferent developers</description>
+		<disclaimer lang="bg_BG">Авторите на наличните добавки в хранилището не носят отговорност за наличното през тях съдържание, както и за ефекта от инсталирането им във вашето устройство!</disclaimer>
+		<disclaimer lang="en_US">Developers of the addons in this repository are not responsible for available content via their addons and effect of installing them on your device!</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="repo.garmedcen" name="Gargantua Repo" version="1.0a" provider-name="GMC">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
@@ -2797,6 +2824,57 @@ https://t.me/kodimansgroup</description>
 			</assets>
         </extension>
     </addon>
+
+<addon id="repository.majide"
+		name="Majide Add-on repository"
+		version="0.20.8"
+		provider-name="Majide">
+	<extension point="xbmc.addon.repository" name="Majide Add-on repository">
+		<!-- Kodi 19 Matrix -->
+		<dir minversion="18.90.0" maxversion="19.89.999">
+			<info compressed="false">https://andromeda.eu.org/addons/matrix/addons.xml</info>
+			<checksum verify="sha256">https://andromeda.eu.org/addons/matrix/addons.sha256</checksum>
+			<datadir zip="true">https://andromeda.eu.org/addons/matrix</datadir>
+			<artdir>https://andromeda.eu.org/addons/matrix</artdir>
+			<hashes>sha256</hashes>
+		</dir>
+		<!-- Kodi 20 Nexus -->
+		<dir minversion="19.90.0" maxversion="20.89.999">
+			<info compressed="false">https://andromeda.eu.org/addons/nexus/addons.xml</info>
+			<checksum verify="sha256">https://andromeda.eu.org/addons/nexus/addons.sha256</checksum>
+			<datadir zip="true">https://andromeda.eu.org/addons/nexus</datadir>
+			<artdir>https://andromeda.eu.org/addons/nexus</artdir>
+			<hashes>sha256</hashes>
+		</dir>
+		<!-- Kodi 21 Omega -->
+		<dir minversion="20.90.0" maxversion="21.89.999">
+			<info compressed="false">https://andromeda.eu.org/addons/omega/addons.xml</info>
+			<checksum verify="sha256">https://andromeda.eu.org/addons/omega/addons.sha256</checksum>
+			<datadir zip="true">https://andromeda.eu.org/addons/omega</datadir>
+			<artdir>https://andromeda.eu.org/addons/omega</artdir>
+			<hashes>sha256</hashes>
+		</dir>
+		<!-- https://github.com/Gujal00/ResolveURL -->
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="bg_BG">Инсталира добавки на Majide</summary>
+		<summary lang="en_US">Install Add-ons of Majide</summary>
+		<description lang="bg_BG">Сваля и инсталира добавки от неофициалното хранилище на Majide.</description>
+		<description lang="en_US">Download and install add-ons from unofficial repository of Majide.</description>
+		<disclaimer lang="bg_BG">Majide не е автор на всички добавки в хранилището и не носи отговорност за съдържанието им и ефекта от инсталирането им във вашето устройство!</disclaimer>
+		<disclaimer lang="en_US">Majide did not make all the add-ons in this repository and is not responsible for their content and effect of installing them on your device!</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
 
 <addon id="repository.mar33" name="Mar33 Repository" version="3.3.33" provider-name="MartinStZ">
     <extension point="xbmc.addon.repository" name="Mar33 Repository">
