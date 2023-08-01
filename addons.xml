@@ -5639,7 +5639,7 @@ http://zadarbuild.com.hr
 
 <addon
 		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial! A Casa Oficial dos Melhores Add-ons BR[/B][/COLOR]"
-		version="3.20"
+		version="3.31"
 		provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
 
 		<requires>
@@ -5697,5 +5697,30 @@ http://zadarbuild.com.hr
 <disclaimer>[B][COLOR orange]Repositório Vikings é apenas um AGREGADOR de ADDONS e, assim como o Google.com, apenas agrega e organiza ADDONS DE TERCEIROS. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
 
 	</extension>
+</addon>
+
+<addon id="Yonn1981_Repo" name="Yonn1981 Repo" version="1.01" provider-name="Yonn1981">
+    <extension point="xbmc.addon.repository" name="Yonn1981 Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Yonn1981/Repo/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Yonn1981/Repo/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Yonn1981/Repo/master/repo/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Yonn1981 Repo</summary>
+        <description>Persoanl Kodi Repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 </addons>
