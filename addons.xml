@@ -752,7 +752,7 @@
     </extension>
 </addon>
 
-<addon id="repository.axbmcuser" name="axbmcuser REPO" version="1.1.8" provider-name="axbmcuser">
+<addon id="repository.axbmcuser" name="axbmcuser REPO" version="1.2.0" provider-name="axbmcuser">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -785,7 +785,13 @@
 		<website/>
 		<email/>
 		<source/>
-		<news>[B]1.1.8[/B] (2019-11-17)
+		<news>[B]1.2.0[/B] (2023-12-08)
+
+Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numbers vary on other Kodi generations)
+
+- New addon icon
+
+[B]1.1.8[/B] (2019-11-17)
 - New repo icon (higher resolution)
 
 [B]1.1.7[/B] (2019-08-24)
@@ -2331,20 +2337,26 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.hsk.crew.repo" name="[COLOR blue]HSK[/COLOR] CREW Repository" version="1.0.9" provider-name="Loki1979|HSK-DE">
+<addon id="repository.hsk.crew.repo" name="[COLOR blue]HSK[/COLOR] CREW Repository" version="1.1.0" provider-name="Loki1979|HSK-DE">
     <extension point="xbmc.addon.repository" name="HSK CREW Repository">
-	   <dir>
-		<info compressed="false">https://hsk.kodiman.net/hsk/hsk_privat/hsk.crew.repo/addons.xml</info>
-		<checksum>https://hsk.kodiman.net/hsk/hsk_privat/hsk.crew.repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_privat/hsk.crew.repo</datadir>
-		<hashes>false</hashes>
-	   </dir>
-	   <dir minversion="20.0.0">
-		<info compressed="false">https://hsk.kodiman.net/hsk/hsk_privat/hsk.crew.repo/addons.xml</info>
-		<checksum>https://hsk.kodiman.net/hsk/hsk_privat/hsk.crew.repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_privat/hsk.crew.repo</datadir>
-		<hashes>false</hashes>
-	   </dir>
+		<dir>
+			<info compressed="false">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/addons.xml</info>
+			<checksum>https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="19.0.0" maxversion="21.9.0">
+			<info compressed="false">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/addons.xml</info>
+			<checksum>https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="20.9.9"  maxversion="21.9.0">
+			<info compressed="false">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/addons.xml</info>
+			<checksum>https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/</datadir>
+			<hashes>false</hashes>
+		</dir>
 	</extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">[COLORdeepskyblue]HSK[/COLOR] Crew Repository </summary>
@@ -2368,20 +2380,26 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.hsk.forever" name="[COLOR blue]HSK FOREVER[/COLOR]" version="1.0.4" provider-name="Loki1979|HSK-DE">
+<addon id="repository.hsk.forever" name="[COLOR blue]HSK FOREVER[/COLOR]" version="1.0.5" provider-name="Loki1979|HSK-DE">
 	<extension point="xbmc.addon.repository" name="HSK FOREVER">
-	<dir>
-		<info compressed="false">https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo/addons.xml</info>
-		<checksum>https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo</datadir>
-		<hashes>false</hashes>
-	</dir>
-	<dir minversion="20.0.0">
-		<info compressed="false">https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo/addons.xml</info>
-		<checksum>https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_privat/HSK_FOREVER_repo</datadir>
-		<hashes>false</hashes>
-	</dir>
+		<dir>
+			<info compressed="false">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.forever.repo/addons.xml</info>
+			<checksum>https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.forever.repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.forever.repo</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="19.0.0"  maxversion="21.9.0">
+			<info compressed="false">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.forever.repo/addons.xml</info>
+			<checksum>https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.forever.repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.forever.repo</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="20.9.9"  maxversion="21.9.0">
+			<info compressed="false">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.forever.repo/addons.xml</info>
+			<checksum>https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.forever.repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.forever.repo</datadir>
+			<hashes>false</hashes>
+		</dir>
 	</extension>
     <extension point="xbmc.addon.metadata">
 	<summary>Besucht uns auf Facebook oder auf Telegram</summary>
