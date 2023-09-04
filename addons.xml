@@ -5040,32 +5040,6 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.TakeOne" name="TakeOne REPO" version="1.0" provider-name="[COLOR yellow]TEAM TakeOne[/COLOR]">
-
-	<requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-		</requires>
-
-	<extension point="xbmc.addon.repository" name="TeamViannaREPO">
-
-        <dir minversion="19.0.0" maxversion="21.0.0">
-            <info compressed="false">https://raw.githubusercontent.com/TakeOne-Team/TakeOneREPO/master/Omega/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/TakeOne-Team/TakeOneREPO/master/Omega/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/TakeOne-Team/TakeOneREPO/master/Omega/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>[COLOR lime]TEAM TakeOne REPO[/COLOR]</summary>
-        <description>[COLOR green]repositorio oficial Addons TakeOne & TakeOne.TV - Proibido reproducao sem autorização prévia[/COLOR]</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="repository.theblackghost" name="The Black Ghost Repo" version="0.0.2a" provider-name="BlackGhost">
 	<extension point="xbmc.addon.repository" name="theblackghost">
 			<dir>
