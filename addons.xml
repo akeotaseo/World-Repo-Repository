@@ -1664,6 +1664,38 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
+<addon id="repository.enclaveaddonmakers" name="Enclave Addon Maker" provider-name="Enclave" version="1.0.1">
+  <extension point="xbmc.addon.repository" name="Enclave Addon Maker Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+    </dir>
+    <dir minversion="16.0.0" maxversion="18.9.9">
+      <info compressed="false">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/addons.xml</info>
+      <checksum>https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/addons.xml.md5</checksum>
+      <datadir zip="true">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/</datadir>
+	</dir>
+    <dir minversion="18.9.9">
+		<info compressed="false">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/addons.xml</info>
+		<checksum>https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/</datadir>
+	</dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en_GB">Join Us Or Die</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="repository.encryptic" name="EnCryptic Repository" provider-name="Fafo Family" version="1.1.36">
   <extension point="xbmc.addon.repository" name="EnCryptic Repository">
     <dir>
@@ -5129,6 +5161,58 @@ https://t.me/kodimansgroup</description>
         </extension>
     </addon>
 
+<addon id="repository.thelab"
+       name="TheLab Repository"
+       version="23.7.25"
+       provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]">
+    <extension point="xbmc.addon.repository" name="TheLab Repository">
+        <dir minversion="20.0" maxversion="20.9.0"><!--TheLab Nexus Repo-->
+            <info compressed="false">https://thelab.ratpack.appboxes.co/nexus/zips/addons.xml</info>
+            <checksum>https://thelab.ratpack.appboxes.co/nexus/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://thelab.ratpack.appboxes.co/nexus/zips/</datadir>
+        </dir>
+        <dir minversion="19.0" maxversion="19.9.0"><!--TheLab Matrix Repo-->
+            <info compressed="false">https://thelab.ratpack.appboxes.co/matrix/zips/addons.xml</info>
+            <checksum>https://thelab.ratpack.appboxes.co/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://thelab.ratpack.appboxes.co/matrix/zips/</datadir>
+        </dir>
+        <dir minversion="18.0" maxversion="18.9.0"><!--TheLab Leia Repo-->
+            <info compressed="false">https://thelab.ratpack.appboxes.co/leia/zips/addons.xml</info>
+            <checksum>https://thelab.ratpack.appboxes.co/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://thelab.ratpack.appboxes.co/leia/zips/</datadir>
+        </dir>
+		<dir minversion="16.0.0" maxversion="18.9.9"><!--Enclave Leia-->
+			<info compressed="false">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/addons.xml</info>
+			<checksum>https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/</datadir>
+		</dir>
+		<dir minversion="18.9.9"><!--Enclave Matix & above-->
+			<info compressed="false">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/addons.xml</info>
+			<checksum>https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/</datadir>
+		</dir>
+        <dir><!--Jen Stuff-->
+            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+        </dir>
+        <dir><!--ResolveUrl-->
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>TheLab Repository</summary>
+        <description>TheLab Repository</description>
+        <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    </extension>
+</addon>
+
 <addon id="repository.thewarehouse"
        name="The WareHouse Repository"
        version="22.6.8"
@@ -5433,6 +5517,22 @@ https://t.me/kodimansgroup</description>
     <platform>all</platform>
     <news>v2.2.1 (2022-05-09)[CR]- Изменена структура репозитория. Теперь один репозиторий для всех версий KODI</news>
   </extension>
+</addon>
+
+<addon id="repository.vmfmatrix" name="Repo VMF Matrix" version="1.0.3" provider-name="mkendo">
+	<extension point="xbmc.addon.repository" name="VietMedia Matrix Add-on Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/nguyenducmanh609/kodivn/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nguyenducmanh609/kodivn/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/nguyenducmanh609/kodivn/raw/master/repos/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">VietMedia Entertainment</summary>
+		<description lang="en"></description>
+		<genre></genre>
+		<assets><icon>icon.png</icon></assets>
+	</extension>
 </addon>
 
 <addon id="repository.vstream"
