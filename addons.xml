@@ -5493,17 +5493,17 @@ https://t.me/kodimansgroup</description>
   </extension>
 </addon>
 
-<addon id="repository.vmfmatrix" name="Repo VMF Matrix" version="1.0.3" provider-name="mkendo">
-	<extension point="xbmc.addon.repository" name="VietMedia Matrix Add-on Repository">
+<addon id="repository.vmfmatrix" name="Kho tiện ích KODI Việt Nam" version="1.0.5" provider-name="mkendo">
+	<extension point="xbmc.addon.repository" name="Kho tien ich Kodi VietNam">
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/nguyenducmanh609/kodivn/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nguyenducmanh609/kodivn/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/nguyenducmanh609/kodivn/raw/master/repos/</datadir>
+			<info compressed="false">https://mi3s.top/kodivn/addons.xml</info>
+			<checksum>https://mi3s.top/kodivn/addons.xml.md5</checksum>
+			<datadir zip="true">https://mi3s.top/kodivn/repos/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">VietMedia Entertainment</summary>
-		<description lang="en"></description>
+		<summary>Kho tiện ích KODI Việt Nam</summary>
+		<description></description>
 		<genre></genre>
 		<assets><icon>icon.png</icon></assets>
 	</extension>
