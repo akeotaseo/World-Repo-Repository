@@ -886,7 +886,7 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
     </extension>
 </addon>
 
-    <addon id="repository.butter" name="Butter Fingers Repo" version="2.1.9" provider-name="J1">
+    <addon id="repository.butter" name="Butter Fingers Repo" version="2.2.0" provider-name="J1">
         <extension point="xbmc.addon.repository" name="Butter Fingers Repo">
         <dir>
             <info compressed="false">http://j1wizard.net/butter-addons/_repo/addons.xml</info>
