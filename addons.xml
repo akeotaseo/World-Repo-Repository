@@ -1001,7 +1001,7 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
     </extension>
 </addon>
 
-<addon id="repository.chainsrepo" name="Chains Repository" provider-name="Chains" version="0.0.15">
+<addon id="repository.chainsrepo" name="Chains Repository" provider-name="Chains" version="0.0.16">
 	<extension point="xbmc.addon.repository" name="Chains Repo" >
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml</info>
@@ -5085,6 +5085,52 @@ https://t.me/kodimansgroup</description>
             <description>Repo-ul lui silevasile !!</description>
             <platform>all</platform>
     </extension>
+</addon>
+
+<addon
+		id="repository.TakeOne" name="[COLOR gold]TakeOne REPO[/COLOR]"
+		version="3.00"
+		provider-name="[COLOR yellow]TEAM TakeOne[/COLOR]">
+
+		<requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+
+		<extension point="xbmc.addon.repository" name="TEAM TakeOne">
+
+
+   <dir minversion="19.0.0">
+			<info compressed="false">https://raw.githubusercontent.com/TakeOne-Team/REPOTakeOne/master/Omega/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/TakeOne-Team/REPOTakeOne/master/Omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/TakeOne-Team/REPOTakeOne/master/Omega</datadir>
+			<hashes>false</hashes>
+    </dir>
+
+	</extension>
+
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="pt_br"></summary>
+        <description lang="pt_br"></description>
+		<platform>all</platform>
+		<source></source>
+		 <assets>
+            <icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+        </assets>
+
+	<news>
+	Compatibilidade com Kodi 19, 20...
+
+	</news>
+
+	<summary>[COLOR lime]TEAM TakeOne REPO[/COLOR]</summary>
+
+	<description>[COLOR green]repositorio oficial Addons TakeOne / TakeOne.TV - Proibido reproducao sem autorização prévia[/COLOR]</description>
+
+<disclaimer></disclaimer>
+
+	</extension>
 </addon>
 
 <addon id="repository.theblackghost" name="The Black Ghost Repo" version="0.0.2a" provider-name="BlackGhost">
