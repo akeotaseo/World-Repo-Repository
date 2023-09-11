@@ -193,14 +193,9 @@
     </extension>
 </addon>
 
-<addon id="repository.709" name="The[COLOR green] [B]7o9[/B][/COLOR]Repo" version="1.3" provider-name="Zaxxon709">
+<addon id="repository.709" name=" The[COLOR gray][B]7o9[/B][/COLOR]Repo" version="1.0" provider-name="Zaxxon709">
     <extension point="xbmc.addon.repository" name="The7o9Repo">
-        <dir minversion="19.0.0" maxversion="19.9.0">
-            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/matrix/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zaxxon709/matrix/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/matrix/master/zips/</datadir>
-        </dir>
-        <dir minversion="20.0.0">
+        <dir>
             <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/</datadir>
@@ -2660,6 +2655,38 @@ https://t.me/kodimansgroup</description>
             <fanart>icon.png</fanart>
         </assets>
     </extension>
+</addon>
+
+<addon id="repository.jigsaw" name="Jigsaw Repository" version="1.0.0" provider-name="G-Man">
+<extension point="xbmc.addon.repository" name="Jigsaw Repository">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.jigsaw/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.jigsaw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.jigsaw/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://github.com/chrisism/repository.chrisism/raw/master/repository/addons.xml</info>
+        <checksum>https://github.com/chrisism/repository.chrisism/raw/master/repository/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/chrisism/repository.chrisism/raw/master/repository/</datadir>
+    </dir>
+    <dir minversion="18.9.700">
+        <info compressed="false">https://github.com/chrisism/repository.chrisism/raw/master/matrix/addons.xml</info>
+       <checksum>https://github.com/chrisism/repository.chrisism/raw/master/matrix/addons.xml.md5</checksum>
+       <datadir zip="true">https://github.com/chrisism/repository.chrisism/raw/master/matrix/</datadir>
+    </dir>
+    <dir>
+        <info compressed="true">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
+        <checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/zach-morris/repository.zachmorris/master/</datadir>
+    </dir>
+</extension>
+<extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Kodi Gaming</summary>
+    <description>Resources to play games in Kodi[CR]For more information see these web pages:[CR]IAGL - https://github.com/zach-morris/plugin.program.iagl/wiki[CR]AEL - https://github.com/Wintermute0110/plugin.program.advanced.emulator.launcher/wiki[CR]Game Add-ons - https://forum.kodi.tv/forumdisplay.php?fid=291[CR]Gaming - https://forum.kodi.tv/forumdisplay.php?fid=292</description>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+</extension>
 </addon>
 
 <addon id="repository.jizzplanet" name="Jizzplanet Repo" provider-name="Jizzplanet.com" version="3.0.1">
