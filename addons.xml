@@ -5230,38 +5230,23 @@ https://t.me/kodimansgroup</description>
 
 <addon id="repository.thelab"
        name="TheLab Repository"
-       version="23.7.25"
+       version="23.9.10"
        provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]">
     <extension point="xbmc.addon.repository" name="TheLab Repository">
-        <dir minversion="20.0" maxversion="20.9.0"><!--TheLab Nexus Repo-->
-            <info compressed="false">https://thelab.ratpack.appboxes.co/nexus/zips/addons.xml</info>
-            <checksum>https://thelab.ratpack.appboxes.co/nexus/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://thelab.ratpack.appboxes.co/nexus/zips/</datadir>
+        <dir minversion="20.0"><!--TheLab Nexus Repo & Above-->
+            <info compressed="false">https://th3l48.github.io/TheLab/nexus/zips/addons.xml</info>
+            <checksum>https://th3l48.github.io/TheLab/nexus/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://th3l48.github.io/TheLab/nexus/zips/</datadir>
         </dir>
         <dir minversion="19.0" maxversion="19.9.0"><!--TheLab Matrix Repo-->
-            <info compressed="false">https://thelab.ratpack.appboxes.co/matrix/zips/addons.xml</info>
-            <checksum>https://thelab.ratpack.appboxes.co/matrix/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://thelab.ratpack.appboxes.co/matrix/zips/</datadir>
+            <info compressed="false">https://th3l48.github.io/TheLab/matrix/zips/addons.xml</info>
+            <checksum>https://th3l48.github.io/TheLab/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://th3l48.github.io/TheLab/matrix/zips/</datadir>
         </dir>
         <dir minversion="18.0" maxversion="18.9.0"><!--TheLab Leia Repo-->
-            <info compressed="false">https://thelab.ratpack.appboxes.co/leia/zips/addons.xml</info>
-            <checksum>https://thelab.ratpack.appboxes.co/leia/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://thelab.ratpack.appboxes.co/leia/zips/</datadir>
-        </dir>
-		<dir minversion="16.0.0" maxversion="18.9.9"><!--Enclave Leia-->
-			<info compressed="false">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/addons.xml</info>
-			<checksum>https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/</datadir>
-		</dir>
-		<dir minversion="18.9.9"><!--Enclave Matix & above-->
-			<info compressed="false">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/addons.xml</info>
-			<checksum>https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/</datadir>
-		</dir>
-        <dir><!--Jen Stuff-->
-            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            <info compressed="false">https://th3l48.github.io/TheLab/leia/zips/addons.xml</info>
+            <checksum>https://th3l48.github.io/TheLab/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://th3l48.github.io/TheLab/leia/zips/</datadir>
         </dir>
         <dir><!--ResolveUrl-->
             <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
