@@ -2235,7 +2235,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.gscribe" name="[COLOR orange]G-Scribe Repository[/COLOR]" version="1.2.0" provider-name="G-Man">
+<addon id="repository.gscribe" name="[COLOR orange]G-Scribe Repository[/COLOR]" version="1.3.0" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="G-Scribe Repository">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.gscribe/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.gscribe/master/addons.xml.md5</checksum>
@@ -2265,6 +2265,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <info compressed="false">https://github.com/bleak-lodge/repository.bleak-lodge/raw/main/addons.xml</info>
         <checksum>https://github.com/bleak-lodge/repository.bleak-lodge/raw/main/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/bleak-lodge/repository.bleak-lodge/main/</datadir>
+    </dir>
+    <dir minversion="19.0.0">
+        <info compressed="false">https://github.com/arnesongit/repository.tidal2/raw/main/addons.xml</info>
+        <checksum>https://github.com/arnesongit/repository.tidal2/raw/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/arnesongit/repository.tidal2/raw/main</datadir>
+        <hashes>false</hashes>
     </dir>
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
