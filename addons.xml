@@ -2273,7 +2273,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-<addon id="repository.gsource" name="[COLOR lime]G-Source Repository[/COLOR]" version="2.0.0" provider-name="G-Man">
+<addon id="repository.gsource" name="[COLOR lime]G-Source Repository[/COLOR]" version="2.1.0" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="G-Source Repository">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.gsource/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.gsource/master/addons.xml.md5</checksum>
@@ -2299,11 +2299,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-    </dir>
-    <dir>
-        <info compressed="true">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
-        <checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/zach-morris/repository.zachmorris/master/</datadir>
     </dir>
     <dir minversion="18.9.0">
         <info compressed="false">https://raw.github.com/jmooremcc/Repository.jmooremcc/master/addons.xml</info> <checksum>https://raw.github.com/jmooremcc/Repository.jmooremcc/master/addons.xml.md5</checksum>
@@ -3566,13 +3561,28 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.notoco.univ19" name="Notoco Univ Repo" version="3.0" provider-name="notoco">
+<addon id="repository.notoco.univ19" name="Notoco Univ Repo" version="3.1" provider-name="notoco">
         <extension point="xbmc.addon.repository" name="Notoco Univ Repo">
             <dir minversion="18.9.0">
                 <info>https://github.com/notoco/univk19/raw/master/addons.xml</info>
                 <checksum>https://github.com/notoco/univk19/raw/master/addons.xml.md5</checksum>
                 <datadir zip="true">https://github.com/notoco/univk19/raw/master/zip</datadir>
             </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/</datadir>
+        </dir>
+		<dir minversion="18.0" maxversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0" maxversion="19.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
+        </dir>
         <dir minversion="19.9.1">
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml.md5</checksum>
