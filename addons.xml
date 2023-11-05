@@ -1817,7 +1817,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-    <addon id="repository.Fido" name="[COLOR aqua]Fido Repository[/COLOR]" version="1.5c" provider-name="Fido">
+    <addon id="repository.Fido" name="[COLOR aqua]Fido Repository[/COLOR]" version="1.5d" provider-name="Fido">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Fido Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fantazyrepo.uk/_repo/addons.xml</info>
