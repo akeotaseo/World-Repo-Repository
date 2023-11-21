@@ -1817,12 +1817,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-    <addon id="repository.Fido" name="[COLOR aqua]Fido Repository[/COLOR]" version="1.5d" provider-name="Fido">
+    <addon id="repository.Fido" name="[COLOR aqua]Fido Repository[/COLOR]" version="1.5e" provider-name="Fido">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Fido Repository[/COLOR]">
 		    <dir>
-                <info compressed="false">https://fantazyrepo.uk/_repo/addons.xml</info>
-                <checksum>https://fantazyrepo.uk/_repo/addons.xml.md5</checksum>
-                <datadir zip="true">https://fantazyrepo.uk/_repo/</datadir>
+                <info compressed="false">http://fantazyrepo.uk/_repo/addons.xml</info>
+                <checksum>http://fantazyrepo.uk/_repo/addons.xml.md5</checksum>
+                <datadir zip="true">http://fantazyrepo.uk/_repo/</datadir>
 				<hashes>false</hashes>
 			</dir>
 			<dir>
@@ -3668,7 +3668,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.2.1" provider-name="Twiglet">
+    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.2.2" provider-name="Twiglet">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Octopus Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_octopus/addons.xml</info>
@@ -3833,7 +3833,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.peno64" name="peno64 repository" version="1.3" provider-name="peno64">
+<addon id="repository.peno64" name="peno64 repository" version="1.4" provider-name="peno64">
     <extension point="xbmc.addon.repository" name="peno64 repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/addons.xml</info>
@@ -4812,7 +4812,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="The South Paw Repository" version="0.4.0" provider-name="Tom">
+    <addon id="repository.southpaw" name="The South Paw Repository" version="0.4.1" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="The South Paw Repository">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
