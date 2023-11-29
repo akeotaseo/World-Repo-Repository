@@ -5837,7 +5837,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.WorldNexus" name="World Nexus Repository" version="0.1.1" provider-name="World">
+<addon id="repository.WorldNexus" name="World Nexus Repository" version="0.1.3" provider-name="World">
 	<extension point="xbmc.addon.repository" name="World Nexus Repository">
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/akeotaseo/WorldNexus/main/addons.xml</info>
