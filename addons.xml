@@ -449,7 +449,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.2.7" provider-name="Aliunde">
+    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.2.8" provider-name="Aliunde">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
@@ -2221,7 +2221,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.gscribe" name="[COLOR orange]G-Scribe Repository[/COLOR]" version="1.3.0" provider-name="G-Man">
+<addon id="repository.gscribe" name="[COLOR orange]G-Scribe Repository[/COLOR]" version="1.3.1" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="G-Scribe Repository">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.gscribe/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.gscribe/master/addons.xml.md5</checksum>
@@ -2233,9 +2233,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<datadir zip="true">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/</datadir>
     </dir>
     <dir>
-        <info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
-        <checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
+        <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
+        <checksum>https://slyguy.uk/.repo/repository.slyguy/addons.xml.md5</checksum>
+        <datadir zip="true">https://slyguy.uk/.repo/repository.slyguy/</datadir>
     </dir>
     <dir minversion="19.0.0">
 		<info compressed="false">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml</info>
@@ -4806,7 +4806,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="The South Paw Repository" version="0.4.2" provider-name="Tom">
+    <addon id="repository.southpaw" name="The South Paw Repository" version="0.4.3" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="The South Paw Repository">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
@@ -5401,7 +5401,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.topg" name="[COLOR khaki]Top-G Repository[/COLOR]" version="1.6.0" provider-name="G-Man">
+<addon id="repository.topg" name="[COLOR khaki]Top-G Repository[/COLOR]" version="1.6.2" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="Top-G Repository">
     <dir>
         <info compressed="false">https://github.com/mrgsi/repository.topg/raw/master/addons.xml</info>
@@ -5445,6 +5445,11 @@ https://t.me/kodimansgroup</description>
         <checksum>https://raw.githubusercontent.com/thecrewwh/zips/master//matrix/_zip/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master//matrix/_zip</datadir>
 	</dir>
+    <dir>
+		<info compressed="false">https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/</datadir>
+    </dir>
     <dir minversion="18.9.0" maxversion="19.9.0">
         <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
          <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
