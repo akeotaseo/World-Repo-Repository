@@ -126,26 +126,6 @@
 	</extension>
 </addon>
 
-<addon id="OTV_MEDIA.repo" name="OTV_MEDIA Repository" version="1.0.3" provider-name="OTV_MEDIA">
-    <extension point="xbmc.addon.repository" name="OTV_MEDIA Addon Repository">
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/orhantv/otv_media/tree/master/</datadir>
-    </dir>
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/orhantv/otv_media/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/orhantv/otv_media/master/</datadir>
-    </dir>
-  </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>OTV_MEDIA Update for Kodi</summary>
-        <description>OTV_MEDIA Addon Repository</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="repo.bg.plugins"
 		name="Bg Add-ons"
 		version="1.0.2"
@@ -1755,43 +1735,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="repository.encryptic" name="EnCryptic Repository" provider-name="Fafo Family" version="1.1.36">
-  <extension point="xbmc.addon.repository" name="EnCryptic Repository">
-    <dir>
-      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-    </dir>
-	<dir>
-      <info compressed="false">https://repo.encrypticmh.appboxes.co/adds/zips/addons.xml</info>
-      <checksum>https://repo.encrypticmh.appboxes.co/adds/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://repo.encrypticmh.appboxes.co/adds/zips/</datadir>
-	</dir>
-	<dir minversion="16.0.0" maxversion="18.9.9">
-		<info compressed="false">https://www.madhouse.appboxes.co/leia/zips/addons.xml</info>
-		<checksum>https://www.madhouse.appboxes.co/leia/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://www.madhouse.appboxes.co/leia/zips/</datadir>
-	</dir>
-	<dir minversion="18.9.9">
-		<info compressed="false">https://www.madhouse.appboxes.co/matrix/zips/addons.xml</info>
-		<checksum>https://www.madhouse.appboxes.co/matrix/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://www.madhouse.appboxes.co/matrix/zips/</datadir>
-	</dir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <description lang="en_GB">… You can't kill me 'cause I'm already inside you…</description>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news></news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="repository.ezra" name="Ezra Repository" version="0.0.2" provider-name="Ezra-Hubbard">
     <extension point="xbmc.addon.repository" name="Ezra Repository">
         <dir>
@@ -2222,27 +2165,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </assets>
 </extension>
 </addon>
-
-    <addon id="repository.GreenRevolution" name="[COLOR lime]Green Revolution Repository[/COLOR]" version="4.1a" provider-name="Green Team">
-	<extension point="xbmc.addon.repository" name="[COLOR lime]Green Revolution Repository[/COLOR]">
-			<dir>
-				<info compressed="false">https://repo.bilosta.org/green/addons.xml</info>
-				<checksum>https://repo.bilosta.org/green/addons.xml.md5 </checksum>
-				<datadir zip="true">https://repo.bilosta.org/green/</datadir>
-				<hashes>false</hashes>
-			</dir>
-	</extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Please do NOT post this Repository on Youtube, Facebook, Blogs or anywhere on the internet, thank you.</summary>
-            <description>This repository nor the addons within does not form part of the Kodi Media Centre. Please do not seek assistance with this repository or the addons from any of the Official Kodi Support Channels.The authors do not host any of the content in these addons and takes no responsibility for content found</description>
-            <platform>all</platform>
-            <genre>movies</genre>
-			<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            </assets>
-        </extension>
-    </addon>
 
 <addon id="repository.grindhousekodi" name="Grindhouse Repository" version="1.8" provider-name="Grindhouse">
 	<extension point="xbmc.addon.repository" name="Grindhouse">
@@ -2995,26 +2917,6 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.lechonsport" name="repository.lechonsport" version="0.1" provider-name="dressi46">
-    <extension point="xbmc.addon.repository" name="Example Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/dressi46/lechonsport/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/dressi46/lechonsport/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/dressi46/lechonsport/master/repo/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Lechonsport Repository</summary>
-        <description>DESCRIPTION OF YOUR REPO HERE</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="repository.lekma"
        name="lekma's addon repository"
        version="4.0.1"
@@ -3351,29 +3253,6 @@ https://t.me/kodimansgroup</description>
             </assets>
         </extension>
 
-</addon>
-
-<addon id="repository.MBxxx" version="1.0.2a" name="MBxxx repository" provider-name="xxxxx">
-    <extension point="xbmc.addon.repository" name="MBxxx repository">
-    <dir>
-        <info compressed="false">http://mbebe.ueuo.com/zips/addons.xml</info>
-        <checksum>http://mbebe.ueuo.com/zips/addons.xml.md5</checksum>
-        <datadir zip="true">http://mbebe.ueuo.com/zips/</datadir>
-    </dir>
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-    </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <description lang="en">XXX addons by xxxxxmb</description>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="repository.mhancoc7.public" name="mhancoc7 Kodi Addons Repo" version="0.1.5a" provider-name="mhancoc7">
@@ -3962,24 +3841,6 @@ https://t.me/kodimansgroup</description>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-	</extension>
-</addon>
-
-<addon id="repository.plexkodiconnectbeta" name="PlexKodiConnect Beta Addons for Kodi 19 Matrix" version="3.0.0" provider-name="Croneter">
-	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-        <import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.addon.repository" name="PlexKodiConnect Repository BETA Kodi 19 Matrix">
-		<info compressed="false">https://raw.githubusercontent.com/croneter/binary_repo/master/beta_py3/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/croneter/binary_repo/master/beta_py3/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/croneter/binary_repo/master/beta_py3/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>PlexKodiConnect add-on repository for potentially unstable beta versions. Kodi 19 and later only.</summary>
-		<description>Please use the stable PlexKodiConnect repository for a more stable experience with Plex on Kodi.</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
 	</extension>
 </addon>
 
@@ -4770,31 +4631,6 @@ https://t.me/kodimansgroup</description>
             <description>seyirTURK reposudur.</description>
             <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="repository.skinbase.19" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 19" version="3.2.00" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
-	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
-	<dir>
-		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml</info>
-		<checksum>https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE19/master/</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR orange]G[/COLOR]uido[COLOR orange]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Repo</summary>
-        <description lang="de_DE">In Guidos SKINBASE findet ihr Skins ab Kodi Version 16 aus aller Welt. Von den Standard Skins bis hin zu stark Modifizierten. Die Skins sind für die jeweiligen Kodi Versionen farblich markiert.  Viel Spass wünschen euch das SKINBASE TEAM.</description>
-		<description lang="en_GB">In Guido's SKINBASE you will find skins from Kodi version 16 from all over the world. From the standard skins to heavily modified ones. The skins are color coded for the respective Kodi versions. The SKINBASE TEAM wish you a lot of fun.</description>
-        <platform>all</platform>
-        <platform>all</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-		</assets>
-	</extension>
 </addon>
 
 <addon id="repository.skinbase.nexus" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for [COLOR orange]Kodi 19+20[/COLOR] " version="3.0.06" provider-name="[COLOR orange]TEAM-SKINBASE[/COLOR]">
