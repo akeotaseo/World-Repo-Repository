@@ -828,6 +828,39 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 	</extension>
 </addon>
 
+<addon id="repository.balandro" name="Balandro Repo" version="3.0.0" provider-name="Balandro Team">
+
+    <extension point="xbmc.addon.repository" name="balandro repo">
+        <dir>
+            <info>https://raw.githubusercontent.com/balandro-tk/balandro/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/balandro-tk/balandro/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/balandro-tk/balandro/main/</datadir>
+        </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+       <summary>Repositorio de Balandro</summary>
+       <assets>
+          <icon>icon.png</icon>
+       </assets>
+       <news>
+       [COLOR darkorange][B]Versión  [/COLOR][COLOR yellow]3.0.0[/COLOR][COLOR red]  Enero 2023[/B][/COLOR]
+
+       [COLOR goldenrod][B]Media Centers soportados[COLOR plum][I]  20.x,  19.x,  18.x  y  17.x[/I][/B][/COLOR]
+
+       [COLOR springgreen][B]Fuentes:[/COLOR]  [COLOR cyan]balandro-tk.github.io/balandro/[/B][/COLOR]
+       </news>
+       <description>[COLOR yellow][B]Balandro es desde el año [COLOR cyan]2018[COLOR yellow] MOD derivado de Pelisalacarta y Alfa,[COLOR mediumaquamarine] y Tiene Como Objeto, Permitir Visualizar Películas, Series y Documentales, Todo a Través de Internet y Directamente Desde su Sistema Media Center. [COLOR orchid]Este Add-On es Tan Solo un Mero Ejercicio de Aprendizaje Del Lenguaje de Programación Python y se Distribuye Sin Ningún Contenido Multimedia Adjunto al Mismo [COLOR lightgrey][I]En Consecuencia Solo Las Webs Son Plenamente Responsables de Los Contenidos Que Publiquen.[/I][/B][/COLOR]</description>
+       <disclaimer>[COLOR tan][B]Está Prohibida su Distribución, Solo o Junto Con Contenidos Multimedia Protegidos Por Los Derechos de Autor. [COLOR chocolate]Si Este Tipo de Contenido Está Prohibido en su País, Solamente Usted Será el Responsable de su Uso. [COLOR white]La Vulneración de Estas Prohibiciones Exonerarán de Cualquier Culpa a sus Autores, [COLOR red]Siendo el Único Responsable Quien lo Haya Distribuido o Utilizado Ilegalmente.[/B][/COLOR]</disclaimer>
+       <platform>all</platform>
+       <license>GNU GPL v3</license>
+       <source>https://balandro-tk.github.io/balandro/</source>
+       <forum>https://www.mimediacenter.info/foro/</forum>
+    </extension>
+
+    <extension point="xbmc.service" library="service.py" start="login|startup" />
+</addon>
+
 <addon id="repository.bleak-lodge" name="bleak-lodge repo" version="1.0" provider-name="bleak-lodge">
     <extension point="xbmc.addon.repository" name="bleak-lodge repository">
     <dir>
@@ -1585,6 +1618,41 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
 <forum>https://github.com/dobbelina/repository.dobbelina/issues</forum>
         <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.dontpanic" name="Don't Panic" version="0.2.6-1" provider-name="pannal">
+    <extension point="xbmc.addon.repository" name="Don't Panic Kodi Repo">
+        <dir minversion="18.0.0" maxversion="18.9.9">
+            <info compressed="false">https://raw.githubusercontent.com/pannal/dontpanickodi/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/pannal/dontpanickodi/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/pannal/dontpanickodi/master/leia/zips/</datadir>
+        </dir>
+        <dir minversion="19.0.0" maxversion="19.9.9">
+            <info compressed="false">https://raw.githubusercontent.com/pannal/dontpanickodi/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/pannal/dontpanickodi/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/pannal/dontpanickodi/master/matrix/zips/</datadir>
+        </dir>
+        <dir minversion="20.0.0" maxversion="20.9.9">
+            <info compressed="false">https://raw.githubusercontent.com/pannal/dontpanickodi/master/nexus/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/pannal/dontpanickodi/master/nexus/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/pannal/dontpanickodi/master/nexus/zips/</datadir>
+        </dir>
+        <dir minversion="20.90.0">
+            <info compressed="false">https://raw.githubusercontent.com/pannal/dontpanickodi/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/pannal/dontpanickodi/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/pannal/dontpanickodi/master/omega/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>dontpanic</summary>
+        <description>Randomly reasonably stable hacked/improved/altered addons</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 
