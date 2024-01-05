@@ -2157,7 +2157,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.7">
+<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.8">
     <requires>
         <!--<import addon="xbmc.python" version="3.0.0"/>-->
     </requires>
@@ -2177,10 +2177,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <summary lang="en">GitHub virtual Add-on repository</summary>
         <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
         <news>
-            - Add platform check support
-            - Fix arch detection for aarch with 32 bits
-            - Add support to Kodi 20
-            - Small improvements (os_platform, logging)
+- Improve HTTP server
+- Add spanish translation
+- Allow extracting information about running platform
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -3539,7 +3538,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.nexus" name="Nexus Repo" version="3.0.6" provider-name="The Hood">
+<addon id="repository.nexus" name="Nexus Repo" version="3.0.7" provider-name="The Hood">
     <extension point="xbmc.addon.repository" name="Nexus Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/kodiwind/nexus/main/repo/zips/addons.xml</info>
@@ -4540,7 +4539,7 @@ https://t.me/kodimansgroup</description>
 
 <addon id="repository.search.db"
         name="XBMC.ru search db"
-        version="1.1.74"
+        version="1.1.77"
         provider-name="bigbax">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
@@ -4596,6 +4595,11 @@ https://t.me/kodimansgroup</description>
             <info compressed="false">https://rcstv.ru/static/other/xbmc/addons.xml</info>
             <checksum>https://rcstv.ru/static/other/xbmc/addons.xml.md5</checksum>
             <datadir zip="true">https://rcstv.ru/static/other/xbmc/data/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://nemiroff.github.io/kodi_repo/repo/addons_matrix.xml</info>
+            <checksum>https://nemiroff.github.io/kodi_repo/repo/addons_matrix.xml.md5</checksum>
+            <datadir zip="true">https://nemiroff.github.io/kodi_repo/repo</datadir>
         </dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/NIV82/kodi_repo/main/release/addons.xml</info>
@@ -6116,9 +6120,9 @@ http://zadarbuild.com.hr
 	</extension>
 </addon>
 
-<addon id="repository.zeltorix" name="ZelToRiX Add-on repository" version="0.0.31" provider-name="ZelToRiX">
+<addon id="repository.zeltorix" name="ZelToRiX Add-on repository" version="0.0.32" provider-name="ZelToRiX">
   <extension point="xbmc.addon.repository" name="ZelToRiX Add-on repository">
-    <dir minversion="19.0.0">
+    <dir minversion="19.0.0" maxversion="23.0.0">
       <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
       <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
