@@ -4296,6 +4296,43 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
+<addon id="repository.redwizard" name="[COLOR red]The Red Repo[/COLOR]" version="1.0.5" provider-name="[COLOR red]The Red Wizard[/COLOR]">
+    <extension point="xbmc.addon.repository" name="The Red Repo">
+        <dir>
+            <info compressed="false">https://repo.redwizard.xyz/redwizardrepo/main/addons.xml</info>
+            <checksum>https://repo.redwizard.xyz/redwizardrepo/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/main/</datadir>
+        </dir>
+        <dir minversion="19.9.0">
+            <info compressed="false">https://repo.redwizard.xyz/redwizardrepo/20nexus/addons.xml</info>
+            <checksum>https://repo.redwizard.xyz/redwizardrepo/20nexus/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/20nexus/</datadir>
+        </dir>
+		<dir minversion="20.9.0">
+            <info compressed="false">https://repo.redwizard.xyz/redwizardrepo/21omega/addons.xml</info>
+            <checksum>https://repo.redwizard.xyz/redwizardrepo/21omega/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/21omega/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">[COLOR red]Red Wizard Builds and Add-ons[/COLOR]</summary>
+		<description lang="en_GB">[COLOR red]The Red Wizard repo for The Red Wizard builds and add-ons[/COLOR]</description>
+		<disclaimer lang="en_GB"></disclaimer>
+		<news>[COLOR red]2023-08-02
+- The Red Wizard has a new home! Go to https://redwizard.xyz
+- Release for Kodi 20 Nexus and Kodi 21 Omega[/COLOR]</news>
+		<platform>all</platform>
+		<language>en</language>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3</license>
+		<email>info@redwizard.xyz</email>
+		<website>https://www.redwizard.xyz/</website>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.resolveurl" name="ResolveURL Repository" provider-name="gujal" version="1.0.0">
   <extension point="xbmc.addon.repository" name="ResolveURL Repository">
     <dir>
