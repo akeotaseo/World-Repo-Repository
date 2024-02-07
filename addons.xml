@@ -429,7 +429,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.3.3" provider-name="Aliunde">
+    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.3.5" provider-name="Aliunde">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
@@ -1754,6 +1754,36 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
             <icon>icon.png</icon>
         </assets>
     </extension>
+</addon>
+
+<addon id="repository.emad" name="EMAD Repository" version="2024.01.30" provider-name="EMAD Software">
+	<extension point="xbmc.addon.repository" name="EMAD Repository">
+		<dir minversion="19.0">
+			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS19/addons19.xml</info>
+			<checksum>https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS19/addons19.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS19</datadir>
+		</dir>
+		<dir minversion="18.0">
+			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS18/addons18.xml</info>
+			<checksum>https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS18/addons18.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS18</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/emadmahdi/kodirepo/main/ADDONS</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Add-ons from EMAD</summary>
+		<description lang="en">Download and install add-ons from EMAD</description>
+		<platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+
+	</extension>
 </addon>
 
 <addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.7" provider-name="">
@@ -4962,7 +4992,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]" version="0.5.3" provider-name="Tom">
+    <addon id="repository.southpaw" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]" version="0.5.5" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
@@ -5597,7 +5627,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.topg" name="[COLOR khaki]Top-G Repository[/COLOR]" version="1.6.2" provider-name="G-Man">
+<addon id="repository.topg" name="[COLOR khaki]Top-G Repository[/COLOR]" version="1.6.3" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="Top-G Repository">
     <dir>
         <info compressed="false">https://github.com/mrgsi/repository.topg/raw/master/addons.xml</info>
@@ -5622,30 +5652,36 @@ https://t.me/kodimansgroup</description>
         <checksum>https://github.com/mrgsi/repository.alpha.yt/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.alpha.yt/master/</datadir>
     </dir>
+<!-- ResolveURL -->
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
     </dir>
+<!-- Game Launcher -->
     <dir>
         <info compressed="true">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
         <checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/zach-morris/repository.zachmorris/master/</datadir>
     </dir>
+<!-- Superfavourites -->
     <dir minversion="18.9.0">
         <info compressed="false">https://raw.github.com/jmooremcc/Repository.jmooremcc/master/addons.xml</info> <checksum>https://raw.github.com/jmooremcc/Repository.jmooremcc/master/addons.xml.md5</checksum>
 	    <datadir zip="true">https://raw.github.com/jmooremcc/Repository.jmooremcc/master</datadir>
     </dir>
+<!-- The Crew -->
     <dir>
 		<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/matrix/_zip/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/thecrewwh/zips/master//matrix/_zip/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master//matrix/_zip</datadir>
 	</dir>
+<!-- Chains -->
     <dir>
 		<info compressed="false">https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/</datadir>
     </dir>
+<!-- TheMovieDb-Helper -->
     <dir minversion="18.9.0" maxversion="19.9.0">
         <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
          <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
@@ -5656,21 +5692,19 @@ https://t.me/kodimansgroup</description>
         <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/</datadir>
     </dir>
-    <dir minversion="19.0.0">
-        <info compressed="false">https://raw.githubusercontent.com/kodifitzwell/repo/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/kodifitzwell/repo/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/kodifitzwell/repo/master/</datadir>
-    </dir>
+<!-- Scrubs -->
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/jewbmx/repo/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/jewbmx/repo/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/jewbmx/repo/master/zips/</datadir>
     </dir>
+<!-- Narcacist -->
     <dir>
         <info compressed="false">https://mylostsoulspace.co.uk/_repo/addons.xml</info>
         <checksum>https://mylostsoulspace.co.uk/_repo/addons.xml.md5</checksum>
         <datadir zip="true">https://mylostsoulspace.co.uk/_repo/</datadir>
 	</dir>
+<!-- Peno -->
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/addons.xml</info>
        <checksum>https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/addons.xml.md5</checksum>
@@ -5686,6 +5720,7 @@ https://t.me/kodimansgroup</description>
          <checksum>https://raw.githubusercontent.com/peno64/repository.peno64/master/matrix/zips/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/peno64/repository.peno64/master/matrix/zips/</datadir>
     </dir>
+<!-- A4K Subtitles -->
     <dir>
        <info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
        <checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
@@ -5696,7 +5731,7 @@ https://t.me/kodimansgroup</description>
 <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary>G-Man's Top Picks of Great Repos</summary>
-    <description>The add-ons listed are complete listings from other repos Top-G is linked to. Not all add-ons are top picks as they are all contained in repos hosting a few awesome add-ons for Kodi 19/20.[CR]There are many other great add-ons and great repos in the Kodi Universe but I tried to keep the selection as condensed as possible.</description>
+    <description>The add-ons listed in this repository are complete listings from other repos Top-G is linked to. Not all add-ons are top picks as they are all contained in repos hosting a few awesome add-ons for Kodi 19/20/21.[CR]There are many other great add-ons and great repos in the Kodi Universe but I tried to keep the selection as limited as possible. This is simply a jump-start for new users of Kodi. Never stop looking as these are only a few planets in a much bigger universe.</description>
     <assets>
         <icon>icon.png</icon>
     </assets>
