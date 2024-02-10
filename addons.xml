@@ -2068,7 +2068,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
             </assets>
 </addon>
 
-<addon id="repository.freeg" name="[COLOR gold]Free-G Repository[/COLOR]" version="2.0.0" provider-name="G-Man">
+<addon id="repository.freeg" name="[COLOR gold]Free-G Repository[/COLOR]" version="2.1.0" provider-name="G-Man">
 <extension point="xbmc.addon.repository" name="Free-G Repository">
     <dir>
         <info compressed="false">https://github.com/mrgsi/repository.freeg/raw/master/addons.xml</info>
@@ -3693,7 +3693,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.nexus" name="Nexus Repo" version="3.0.7" provider-name="The Hood">
+<addon id="repository.nexus" name="Nexus Repo" version="3.0.9" provider-name="The Hood">
     <extension point="xbmc.addon.repository" name="Nexus Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/kodiwind/nexus/main/repo/zips/addons.xml</info>
