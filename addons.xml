@@ -5478,18 +5478,20 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.thegroove" name="[COLOR khaki][B] Thegroove Repository[/COLOR][/B]" version="1.3" provider-name="Thegroove360">
+    <addon id="repository.thegroove" name="[COLOR khaki][B] Thegroove Repository[/COLOR][/B]" version="1.4" provider-name="Thegroove360">
         <extension point="xbmc.addon.repository" name="Thegroove360 Repository">
             <dir>
-                <info compressed="false">https://thegroove360.tk/zip/addon.xml</info>
-                <checksum>https://thegroove360.tk/zip/addons.xml.md5</checksum>
-                <datadir zip="true">https://thegroove360.tk/zip/</datadir>
+                <info compressed="false">http://thegroove360.org/zip/addon.xml</info>
+                <checksum>http://thegroove360.org/zip/addons.xml.md5</checksum>
+                <datadir zip="true">http://thegroove360.org/zip/</datadir>
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Thegroove 360 Official Repository</summary>
             <description>Repository ufficiale di Thegroove 360</description>
             <news>
+			    1.4
+                cambio dominio
 			    1.3
 			    risolto bug su kodi20
                 1.2
