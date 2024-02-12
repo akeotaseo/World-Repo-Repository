@@ -84,6 +84,58 @@
     </extension>
 </addon>
 
+<addon id="kodivietnam" name="Kodi Việt Nam" version="0.0.1" provider-name="mkendo">
+	<extension point="xbmc.addon.repository" name="Kodi Việt Nam">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/kodivietnam/kodivn/master/addons.xml</info>
+			<checksum>https://random-word-api.herokuapp.com/word</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/kodivietnam/kodivn/master/repos/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
+		</dir>
+		<dir minversion="19.0.0">
+			<info compressed="false">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-nexus.xml</info>
+			<checksum>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-nexus.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/nexus/</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="18.0">
+			<info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
+			<datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
+			<artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kho tiện ích KODI Việt Nam</summary>
+		<description>Yêu cầu:
+			+ Kodi 20 trở lên.
+			+ Mở chế độ "Cập nhật các tiện ích từ Bất kỳ kho lưu trữ nào" bằng cách:
+			- Anh ngữ: Settings > System > Add-ons > Unknown sources > Any repositories
+			- Việt ngữ: Cài đặt > Hệ thống > Tiện ích > Không rõ nguồn gốc > Bất kỳ kho lưu trữ nào
+		</description>
+		<disclaimer>Nội dung được chia sẻ và lưu trữ bởi một ứng dụng bên thứ ba. Chúng tôi không sở hữu, không lưu trữ nội dung này và sẽ không chịu trách nhiệm cho các vấn đề liên quan. Đề nghị khán giả cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>icon.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
 <addon	id="One.repo" name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR][/B]" version="1.11"	provider-name="TEAM [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR]">
 
 	<requires>
