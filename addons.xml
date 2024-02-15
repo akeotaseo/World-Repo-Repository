@@ -704,6 +704,36 @@
     </extension>
 </addon>
 
+<addon id="repository.armaniflix" name="ArmaniFlix Repository" version="0.0.1" provider-name="Sisyphus Sam">
+    <extension point="xbmc.addon.repository" name="ArmaniFlix Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/sisyphussam/sisyphussam.github.io/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/sisyphussam/sisyphussam.github.io/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/sisyphussam/sisyphussam.github.io/main/zips/</datadir>
+        </dir>
+				<dir>
+            <info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/</datadir>
+        </dir>
+				<dir>
+            <info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
+            <datadir zip="true">https://github.com/newt-sc/a4kSubtitles/archive</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>ArmaniFlix Repository</summary>
+        <description>Contains ArmaniFlix video plugin and skin, cocoscrapers, and arkSubtitles</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.arnoldvink" name="Arnold Vink's Kodi Repository" provider-name="Arnold Vink" version="1.2.0">
   <extension point="xbmc.addon.repository">
     <dir>
@@ -3746,7 +3776,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.nexus" name="Nexus Repo" version="3.0.9a" provider-name="The Hood">
+<addon id="repository.nexus" name="Nexus Repo" version="3.1.0" provider-name="The Hood">
     <extension point="xbmc.addon.repository" name="Nexus Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/kodiwind/nexus/main/repo/zips/addons.xml</info>
