@@ -482,7 +482,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.3.6" provider-name="Aliunde">
+    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.3.7" provider-name="Aliunde">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
@@ -4029,6 +4029,26 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
+<addon id="repository.oliver" name="OLIVER Repository" version="1.0.0.1" provider-name="Sir Oliver">
+    <extension point="xbmc.addon.repository" name="Oliver Repository">
+        <dir>
+            <info compressed="false">http://superhik.broke-it.net/repo/zips/addons.xml</info>
+            <checksum>http://superhik.broke-it.net/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">http://superhik.broke-it.net/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>OLIVER REPOSITORY</summary>
+        <description>This is Sir Oliver repo</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.orion" version="4.5.0" name="Orion Repository" provider-name="Orion">
 	<extension point="xbmc.addon.repository" name="Orion Repository">
 		<dir>
@@ -5075,7 +5095,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]" version="0.5.6" provider-name="Tom">
+    <addon id="repository.southpaw" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]" version="0.5.7" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
