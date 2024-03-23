@@ -6028,7 +6028,7 @@ http://zadarbuild.com.hr
 	</extension>
 </addon>
 
-<addon id="repository.zeltorix" name="ZelToRiX Add-on repository" version="0.1.3" provider-name="ZelToRiX">
+<addon id="repository.zeltorix" name="ZelToRiX Add-on repository" version="0.2.1" provider-name="ZelToRiX">
     <extension point="xbmc.addon.repository" name="ZelToRiX Add-on repository">
         <dir minversion="19.0.0" maxversion="19.99.0">
             <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
@@ -6050,6 +6050,11 @@ http://zadarbuild.com.hr
             <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
             <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
         </dir>
+        <dir minversion="19.0.0" maxversion="22.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/third_party/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/third_party/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/third_party/</datadir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Install Add-ons from ZelToRiX repository</summary>
@@ -6059,10 +6064,13 @@ http://zadarbuild.com.hr
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/repository</source>
         <platform>all</platform>
         <news>
-            v0.0.30 (2023-05-13)
-            [fix] Исправлен адрес для обновления, теперь согласно регистру символов
+            v0.2.0 (2024-03-22)
+            [new] Добавления сторонних пакетов
             ...
-            v0.0.1 (2023-01-27)
+            v0.1.0 (2023-11-13)
+            [fix] Перераспределения версий
+            ...
+            v0.0.0 (2023-01-27)
             [new] Создание репозитории для Kodi 19
             [fix] ...
         </news>
