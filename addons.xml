@@ -1547,14 +1547,14 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 	</extension>
 </addon>
 
-<addon id="repository.diggz" name="Diggz Repository" version="17" provider-name="Diggz">
+<addon id="repository.diggz" name="Diggz Repository" version="18" provider-name="Diggz">
     <extension point="xbmc.addon.repository" name="Diggz Repository">
         <dir minversion="20.0.0" maxversion="20.89.0">
             <info compressed="false">https://raw.githubusercontent.com/nebulous42069/Nexus/master/nexus/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/nebulous42069/Nexus/master/nexus/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/nebulous42069/Nexus/master/nexus/zips/</datadir>
         </dir>
-        <dir minversion="20.90.0" maxversion="21.9.9">
+        <dir minversion="20.90.0" maxversion="22.9.9">
             <info compressed="false">https://raw.githubusercontent.com/nebulous42069/Omega/master/omega/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/nebulous42069/Omega/master/omega/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/nebulous42069/Omega/master/omega/zips/</datadir>
@@ -2448,6 +2448,31 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
+<addon id="repository.jacktook" name="Jacktook Add-on Repository" provider-name="Sam-Max" version="0.0.4">
+    <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
+    </requires>
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info>http://127.0.0.1:64236/addons.xml</info>
+            <checksum>http://127.0.0.1:64236/addons.xml.md5</checksum>
+            <datadir>http://127.0.0.1:64236/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/Sam-Max/repository.jacktook/blob/master/LICENSE</license>
+        <source>https://github.com/Sam-Max/repository.jacktook</source>
+        <summary lang="en">Jacktook Repository</summary>
+        <description lang="en">Jacktook Repository for Jacktook Addon.</description>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.jellyfin.kodi" name="Kodi Jellyfin Addons" version="1.0.0" provider-name="null_pointer,angelblue05,sualfred,im85288,xnappo">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
@@ -2647,6 +2672,34 @@ https://t.me/kodimansgroup</description>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
+    </extension>
+</addon>
+
+<addon id="repository.kodiman_public" name="[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]" version="20.1.2" provider-name="[COLOR lime]KODIMAN HIMSELF[/COLOR]">
+    <extension point="xbmc.addon.repository" name="KODIMANS PUBLIC REPOSITORY">
+	   <dir>
+		<info>https://wizard.kodiman.net/repository19/new_repo/addons.xml</info>
+		<checksum>https://wizard.kodiman.net/repository19/new_repo/addons.xml.md5</checksum>
+		<datadir>https://wizard.kodiman.net/repository19/new_repo/</datadir>
+	   </dir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]</summary>
+        <description>Telegram: https://t.me/Kodiman</description>
+        <platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email>ungatonga@t-online.de</email>
+	<source></source>
+	<news>KODIMAN IS BACK!!!</news>
+    <assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
     </extension>
 </addon>
 
@@ -4687,7 +4740,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.skinbase.nexus" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for [COLOR orange]Kodi 19+20[/COLOR] " version="3.0.06" provider-name="[COLOR orange]TEAM-SKINBASE[/COLOR]">
+<addon id="repository.skinbase.nexus" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for [COLOR orange]Kodi NEXUS[/COLOR] " version="4.0.03" provider-name="[COLOR orange]TEAM SKINBASE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir>
 		<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml</info>
@@ -5413,6 +5466,34 @@ https://t.me/kodimansgroup</description>
         <summary>the farm's Repository</summary>
         <description>Unofficial add-ons repository</description>
     </extension>
+</addon>
+
+<addon id="repository.titan.bingie.mod" name="Titan BINGIE MOD Repository" provider-name="AchillesPunks, Matke" version="2.0.1">
+	<extension point="xbmc.addon.repository" name="Titan BINGIE MOD Repository">
+		<requires>
+			<import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+		<dir minversion="20.0.0" maxversion="20.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/nexus/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/nexus/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/nexus/</datadir>
+		</dir>
+		<dir minversion="20.9.1">
+			<info compressed="false">https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/omega/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/AchillesPunks/repository.titan.bingie.mod/master/omega/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Titan BINGIE MOD Repository</summary>
+        <description lang="en">A repository for Titan BINGIE MOD skin.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
 </addon>
 
     <addon id="repository.turkvod" name="TURKvod repository" version="2.2.2a" provider-name="TURKvod TeaM">
