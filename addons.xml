@@ -876,6 +876,22 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 	</extension>
 </addon>
 
+<addon id="repository.azzyaddons" name="AzzyAddons Repository" version="1.0.0" provider-name="azzy9">
+	<extension point="xbmc.addon.repository" name="AzzyAddons add-on Repository">
+		<dir>
+			<info compressed="false">https://azzyaddons.github.io/addons.xml</info>
+			<checksum>https://azzyaddons.github.io/addons.xml.md5</checksum>
+			<datadir zip="true">https://azzyaddons.github.io/plugins/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install AzzyAddons Add-ons</summary>
+		<description lang="en">Add-ons from AzzyAddons repository.</description>
+		<disclaimer lang="en">Repository has non-comercial nature. Created by enthusiasts, acting in good faith.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.balandro" name="Balandro Repo" version="3.0.0" provider-name="Balandro Team">
 
     <extension point="xbmc.addon.repository" name="balandro repo">
