@@ -876,12 +876,12 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 	</extension>
 </addon>
 
-<addon id="repository.azzyaddons" name="AzzyAddons Repository" version="1.0.0" provider-name="azzy9">
+<addon id="repository.azzyaddons" name="AzzyAddons Repository" version="1.0.1" provider-name="azzy9">
 	<extension point="xbmc.addon.repository" name="AzzyAddons add-on Repository">
 		<dir>
-			<info compressed="false">https://azzyaddons.github.io/addons.xml</info>
-			<checksum>https://azzyaddons.github.io/addons.xml.md5</checksum>
-			<datadir zip="true">https://azzyaddons.github.io/plugins/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/azzyaddons/azzyaddons.github.io/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/azzyaddons/azzyaddons.github.io/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/azzyaddons/azzyaddons.github.io/master/plugins/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
