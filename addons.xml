@@ -1402,7 +1402,7 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 </addon>
 
 
-<addon id="repository.dexe" name=" dEXE's Addons Repository" version="1.0.5" provider-name="dEXE">
+<addon id="repository.dexe" name=" dEXE's Addons Repository" version="1.0.6" provider-name="dEXE">
 	<extension point="xbmc.addon.repository" name="dEXE's Addons Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/repo/addons.xml</info>
@@ -1421,26 +1421,6 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 			<datadir zip="true">https://gitfront.io/r/dexe/n7TtSm9NEVFs/dexerepo/raw/zips/</datadir>
 			<hashes>false</hashes>
 		</dir>
-		<!--
-		<dir minversion="20.0.0">
-			<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/nexus/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/deklica/repo.dexe/master/nexus/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/deklica/repo.dexe/master/nexus/</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir minversion="19.0.0" maxversion="19.5.0">
-			<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/matrix/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/deklica/repo.dexe/master/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/deklica/repo.dexe/master/matrix/</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir minversion="17.0.0" maxversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/leia/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/deklica/repo.dexe/master/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/deklica/repo.dexe/master/leia/</datadir>
-			<hashes>false</hashes>
-		</dir>
-		-->
 
 <!--  Repositories  -->
 
@@ -1532,32 +1512,27 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 		</dir>
 
 <!--  pkscout's Skin Modifications  -->
-		<dir minversion="20.0.0">
+		<dir minversion="19.0.0" maxversion="19.9.0">
+			<info>https://raw.github.com/pkscout/repository.skins.pkscout/matrix/addons.xml</info>
+			<checksum>https://raw.github.com/pkscout/repository.skins.pkscout/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/pkscout/repository.skins.pkscout/matrix/download</datadir>
+			<artdir>https://raw.github.com/pkscout/repository.skins.pkscout/matrix/download</artdir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="20.0.0" maxversion="20.8.900">
 			<info>https://raw.github.com/pkscout/repository.skins.pkscout/nexus/addons.xml</info>
 			<checksum>https://raw.github.com/pkscout/repository.skins.pkscout/nexus/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.github.com/pkscout/repository.skins.pkscout/nexus/download</datadir>
 			<artdir>https://raw.github.com/pkscout/repository.skins.pkscout/nexus/download</artdir>
 			<hashes>false</hashes>
 		</dir>
-		<dir minversion="19.0.0" maxversion="19.9.0">
-			<info compressed="true">https://raw.github.com/pkscout/repository.skins.pkscout/matrix/addons.xml</info>
-			<checksum>https://raw.github.com/pkscout/repository.skins.pkscout/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/pkscout/repository.skins.pkscout/matrix/download</datadir>
+		<dir minversion="20.9.0">
+			<info>https://raw.github.com/pkscout/repository.skins.pkscout/omega/addons.xml</info>
+			<checksum>https://raw.github.com/pkscout/repository.skins.pkscout/omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/pkscout/repository.skins.pkscout/omega/download</datadir>
+			<artdir>https://raw.github.com/pkscout/repository.skins.pkscout/omega/download</artdir>
 			<hashes>false</hashes>
 		</dir>
-		<dir minversion="17.0.0" maxversion="18.9.0">
-			<info compressed="true">https://raw.github.com/pkscout/repository.skins.pkscout/helix/addons.xml</info>
-			<checksum>https://raw.github.com/pkscout/repository.skins.pkscout/helix/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/pkscout/repository.skins.pkscout/helix/download</datadir>
-			<hashes>false</hashes>
-		</dir>
-
-<!--  ivarbrandt's Repository  -->
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/</datadir>
-        </dir>
 
 <!--  Zach Morris Add-ons  -->
         <dir minversion="18.0.0">
@@ -1569,7 +1544,7 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Kodi dEXE's Repo</summary>
-		<description>A collection of my, fixed/modded, best and latest Kodi add-ons and dependencies.[CR]One repo to rule them all ;)[CR][CR][I]Install Roooar! (Repo of all Repositories) as part of this repo.[/I][CR][CR]Please do NOT post this Repository on Youtube, Facebook, Blogs, or anywhere on the internet, thank you.</description>
+		<description>A collection of my, fixed/modded, best and latest Kodi add-ons and dependencies.[CR]One repo to rule them all ;)[CR][CR][I]For additional repos & skins install Roooar! (Repo of all Repositories).[/I][CR][CR]Please do NOT post this Repository on Youtube, Facebook, Blogs, or anywhere on the internet, thank you.</description>
 		<disclaimer lang="en">This repository nor the addons within does not form part of the Kodi Media Centre. Please do not seek assistance with this repository or the addons from any of the Official Kodi Support Channels. The authors do not host any of the content in these add-ons and take no responsibility for the content found.</disclaimer>
 		<language>en</language>
 		<platform>all</platform>
@@ -2191,6 +2166,36 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
 		</assets>
+    </extension>
+</addon>
+
+<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.8">
+    <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
+    </requires>
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info>http://127.0.0.1:61234/addons.xml</info>
+            <checksum>http://127.0.0.1:61234/addons.xml.md5</checksum>
+            <datadir>http://127.0.0.1:61234/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/i96751414/repository.github/blob/master/LICENSE</license>
+        <source>https://github.com/i96751414/repository.github</source>
+        <summary lang="en">GitHub virtual Add-on repository</summary>
+        <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
+        <news>
+- Improve HTTP server
+- Add spanish translation
+- Allow extracting information about running platform
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 </addon>
 
