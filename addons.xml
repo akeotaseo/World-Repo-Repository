@@ -2194,36 +2194,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.8">
-    <requires>
-        <!--<import addon="xbmc.python" version="3.0.0"/>-->
-    </requires>
-    <extension point="xbmc.addon.repository">
-        <dir>
-            <info>http://127.0.0.1:61234/addons.xml</info>
-            <checksum>http://127.0.0.1:61234/addons.xml.md5</checksum>
-            <datadir>http://127.0.0.1:61234/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.python.script" library="default.py"/>
-    <extension point="xbmc.service" library="service.py"/>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>See https://github.com/i96751414/repository.github/blob/master/LICENSE</license>
-        <source>https://github.com/i96751414/repository.github</source>
-        <summary lang="en">GitHub virtual Add-on repository</summary>
-        <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
-        <news>
-- Improve HTTP server
-- Add spanish translation
-- Allow extracting information about running platform
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="repository.gknwiz" name="GRwizard Repository" version="1.0.1" provider-name="GRecoTM">
     <extension point="xbmc.addon.repository" name="GRwizard Repository">
         <dir minversion="15.0.0" maxversion="18.9.9">
@@ -3011,6 +2981,38 @@ https://t.me/kodimansgroup</description>
 		<description lang="en"></description>
 		<genre></genre>
 	</extension>
+</addon>
+
+    <addon id="repository.LostSoul" name="Lost Soul Repository" version="1.1.9" provider-name="Team Asgard">
+        <extension point="xbmc.addon.repository" name="Lost Soul Repository">
+		<dir>
+            <info compressed="false">https://mylostsoulspace.co.uk/_repo/addons.xml</info>
+            <checksum>https://mylostsoulspace.co.uk/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://mylostsoulspace.co.uk/_repo/</datadir>
+		</dir>
+
+		<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Install all the latest Updates</summary>
+            <description>Welcome to the New and Improved Team Asgard Repo</description>
+            <platform>all</platform>
+			<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+    </assets>
+    </extension>
 </addon>
 
 <addon id="repository.luar" name="[COLOR lime]Repositorio Luar[/COLOR]" version="2.0.0" provider-name="The Dreamers">
@@ -5483,21 +5485,6 @@ https://t.me/kodimansgroup</description>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
     </assets>
-    </extension>
-</addon>
-
-<addon id="repository.the_farm" name="the farm's Repository" version="1.0.4" provider-name="Elvis Gratton">
-    <extension point="xbmc.addon.repository" name="the farm's Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>the farm's Repository</summary>
-        <description>Unofficial add-ons repository</description>
     </extension>
 </addon>
 
