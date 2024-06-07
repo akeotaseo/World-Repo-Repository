@@ -3006,6 +3006,30 @@ https://t.me/kodimansgroup</description>
 
 </addon>
 
+<addon id="repository.lime" name="Lime Add-ons" version="1.0.4" provider-name="groggyegg">
+    <extension point="xbmc.addon.repository" name="Lime Add-ons">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/groggyegg/lime/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/groggyegg/lime/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/groggyegg/lime/master</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Lime Repository</summary>
+        <description lang="en_GB">Download and install add-ons from Lime Repository.</description>
+        <platform>all</platform>
+        <license>MIT License</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.loop" name="[COLORlime]Loop[/COLOR] Repository" version="3.0.3" provider-name="The Loop">
 	<extension point="xbmc.addon.repository" name="Loop Repository">
 		<dir>
@@ -4264,6 +4288,33 @@ https://t.me/kodimansgroup</description>
         </description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.polishteam" name="PolishTeam_Repo" version="0.1.6" provider-name="Polish Team">
+	<extension point="xbmc.addon.repository" name="PolishTeam-Repo">
+	<dir>
+		<info compressed="false">https://repo.polishteam.one/addons.xml</info>
+		<checksum>https://repo.polishteam.one/addons.xml.md5</checksum>
+		<datadir zip="true">https://repo.polishteam.one/</datadir>
+		<datadir zip="true"></datadir>
+	</dir>
+		<dir>
+		<info compressed="false">https://repo2.polishteam.one/addons.xml</info>
+		<checksum>https://repo2.polishteam.one/addons.xml.md5</checksum>
+		<datadir zip="true">https://repo2.polishteam.one/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repozytorium wizardow Polish Team</summary>
+		<description></description>
+		<platform>all</platform>
+		<license>GNUv3</license>
+		<website>http://polishteam.one/</website>
+		<assets> <!-- poprawka ikon -->
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="repository.pseudotv" name="PseudoTV Repository" version="1.0.6" provider-name="Lunatixz">
@@ -5658,12 +5709,12 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.ukturk" name="UKTurk Addon Repository" version="3.0.1" provider-name="UKTurk">
+<addon id="repository.ukturk" name="UKTurk Addon Repository" version="3.0.2" provider-name="UKTurk">
 		<extension point="xbmc.addon.repository" name="UKTurk Addon Repository">
 			<dir>
-				<info compressed="false">https://ukturks.app/api/Repository/addons.xml</info>
-				<checksum>https://ukturks.app/api/Repository/addons.md5</checksum>
-				<datadir zip="true">https://ukturks.app/api/Repository/addons/</datadir>
+				<info compressed="false">https://uktkodi.ddns.net/Repository/addons.xml</info>
+				<checksum>https://uktkodi.ddns.net/Repository/addons.md5</checksum>
+				<datadir zip="true">https://uktkodi.ddns.net/Repository/addons/</datadir>
 		    </dir>
 				<dir>
 					<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
