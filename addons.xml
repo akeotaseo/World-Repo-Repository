@@ -136,6 +136,75 @@
 	</extension>
 </addon>
 
+<addon id="MB-KODI"
+        name="MB-Kodi Repository"
+        version="4.2"
+        provider-name="M-Borsch,MB-K@DI">
+    <requires>
+        <import addon="xbmc.addon" version="15.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="MB-KODI">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/M-Borsch/MB-KODI/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/M-Borsch/MB-KODI/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/M-Borsch/MB-KODI/main/repo/zips/</datadir>
+	</dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Install add-ons from MB-Kodi</summary>
+        <description lang="en_GB">This repository is for development builds of MB-Kodi Addons.
+
+Program Addons:
+- "Insert/Swap Kodi Favourites" - Program Addon that allows you to easily re-order your favourites. Works in all skins including Confluence skin.</description>
+	<disclaimer>Information published on or related to MB-Kodi® repository is accurate and correct to our knowledge, however, there may be omissions, errors, or mistakes. Content published on or related to MB-Kodi is for informational purposes only. By continuing to use these services, you agree to the Terms and Conditions outlined in the ReadMe file. https://github.com/M-Borsch/repository.kodi.mb/blob/main/README.md</disclaimer>
+        <news>
+        [COLOR lavender][B]M-Borsch Repository[/B][/COLOR]
+[B]4.2:[/B]
+- Minor Release: Repo contains only 1 Program Addon.
+ - This version of "Insert/Swap Kodi Favourites" uses the configuration panel to allow users to set the thumbnail size small/large.
+[B]4.1:[/B]
+- Minor Release: Repo contains only 1 Program Addon.
+ - This version of "Insert/Swap Kodi Favourites" uses the configuration panel to allow users to set the label font size small/med/large.
+[B]4.0:[/B]
+- Major Release: Repo now contains only 1 Program Addon.
+- This version of "Insert/Swap Kodi Favourites" adds the configuration panel for adding settings.
+  Added:
+  - "Insert/Swap Kodi Favourites"
+  Removed:
+  - "Order Favourites"
+[B]3.1:[/B]
+- Minor Release: Repo now contains only 1 version of Order Favourites.
+  Added:
+  - "Order Favourites"
+  Removed:
+  - "Order Favourites - Insert"
+  - "Order Favourites - Swap"
+[B]3.0:[/B]
+- Major Release: Repo now contains two versions of Program Addons:
+  Added:
+  - "Order Favourites - Insert"
+  - Order Favourites - Swap
+[B]2.1:[/B]
+- Minor Fix: Add icon for Addon
+[B]2.0:[/B]
+- Updated version of the M-Borsch MB-Kodi repo with 2 Program addons
+  Added:
+  - Order Favourites
+  - Order Favourites - Swap Version
+[B]1.0:[/B]
+- Original version of the M-Borsch MB-Kodi repo
+        </news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+        <license>GPLv2</license>
+        <website>https://github.com/M-Borsch/</website>
+        <source>https://github.com/M-Borsch/MB-KODI</source>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon	id="One.repo" name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR][/B]" version="1.11"	provider-name="TEAM [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR]">
 
 	<requires>
@@ -5425,6 +5494,31 @@ https://t.me/kodimansgroup</description>
 
 <disclaimer></disclaimer>
 
+	</extension>
+</addon>
+
+<addon id="repository.tdw1980"
+       name="TDW1980 Add-ons"
+	   version="1.0.3"
+	   provider-name="TDW1980">
+<requires>
+  <import addon="xbmc.addon" version="12.0.0"/>
+</requires>
+	<extension point="xbmc.addon.repository" name="TDW1980 XBMC Add-ons">
+                        <dir minversion="13.0.0">
+		<info compressed="false">https://github.com/tdw1980/tdw/raw/master/addons.xml</info>
+		<checksum>https://github.com/tdw1980/tdw/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tdw1980/tdw/raw/master/</datadir>
+                        </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from TDW1980 Add-on Repository</summary>
+		<description>Plug-ins for KODI</description>
+		<disclaimer>There are git my add-ons for KODI</disclaimer>
+		<platform>all</platform>
+                                <assets>
+			<icon>icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
