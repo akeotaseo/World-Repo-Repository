@@ -1426,7 +1426,7 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 	</extension>
 </addon>
 
-<addon id="repository.devalls" name="devalls' Repository" version="2.2.0" provider-name="devalls">
+<addon id="repository.devalls" name="devalls' Repository" version="2.3.3" provider-name="devalls">
     <extension point="xbmc.addon.repository" name="devalls' Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/devalls/repository/master/addons.xml</info>
@@ -1444,19 +1444,14 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 	    <datadir zip="true">https://raw.githubusercontent.com/joheos11/repository.kodispain/master/</datadir>
         </dir>
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/balandro-tk/balandro/main/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/balandro-tk/balandro/main/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/balandro-tk/balandro/main/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/repobal/base/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/repobal/base/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/repobal/base/main/</datadir>
         </dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
         </dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
@@ -1467,16 +1462,6 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
             <info compressed="false">https://raw.githubusercontent.com/hirayasoftware/hirayasoftware.github.io/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/hirayasoftware/hirayasoftware.github.io/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/hirayasoftware/hirayasoftware.github.io/master/</datadir>
-	</dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/pepemebe/mag/main/z/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/pepemebe/mag/main/z/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/pepemebe/mag/main/z</datadir>
-        </dir>
-        <dir>
-            <info>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/</datadir>
 	</dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml</info>
@@ -1501,7 +1486,8 @@ Version in sync for major rework of "A Confluence ZEITGEIST" 3.6.0 (Version numb
 		<screenshot>resources/screenshot-03.jpg</screenshot>
 	</assets>
 	<news>[COLOR blue][B]Official devalls' repository[/B][/COLOR]
-[COLOR green][B]•2.2.0[/B] Update TW.[/COLOR]
+[COLOR green][B]•2.3.3[/B] Update.[/COLOR]
+[COLOR yellow][B]•2.3.0[/B] Update TW.[/COLOR]
 [COLOR yellow][B]•2.1.8[/B] Update one dir.[/COLOR]
 [COLOR yellow][B]•2.1.7[/B] Add one dir.[/COLOR]
 [COLOR yellow][B]•2.1.5[/B] Add three dir.[/COLOR]
@@ -3821,6 +3807,26 @@ https://t.me/kodimansgroup</description>
             </assets>
         </extension>
     </addon>
+
+<addon id="repository.nxtflix" name="[COLOR lightskyblue]NXTFlix[/COLOR]" version="1.0" provider-name="blry">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/blry12/nxtflix/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/blry12/nxtflix/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/blry12/nxtflix/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>NXTFlix</summary>
+        <description>Repo for the NXTFlix Wizard</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 
 <addon id="repository.ocean" name="Ocean" version="0.0.1a" provider-name="wahed">
     <extension point="xbmc.addon.repository" name="Ocean">
