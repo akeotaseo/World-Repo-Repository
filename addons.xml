@@ -1268,6 +1268,24 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 	</extension>
 </addon>
 
+<addon id="repository.Chameleon" name="[COLOR red]Chame[/COLOR][COLOR blue]leon20[/COLOR] [COLOR yellow]TV[/COLOR] [COLOR green] Repository [/COLOR] " version="5.1.1" provider-name="Chameleon">
+	<extension point="xbmc.addon.repository" name="Chameleon repo">
+		<dir>
+			<info compressed="false">https://cha1m20.github.io/oper/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/cha1m20/oper/main/addons.xml.md5</checksum>
+			<datadir zip="true">https://cha1m20.github.io/oper/zips</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+		<summary>Chameleon repo</summary>
+		<description>Chameleon repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
     <addon id="repository.cMaNWizard" name="cMaN's Wizard Repository" version="2.1" provider-name="cMaN">
         <extension point="xbmc.addon.repository" name="cMaN's Wizard Repository">
 		<dir>
@@ -2318,7 +2336,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.8">
+<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.9">
     <requires>
         <!--<import addon="xbmc.python" version="3.0.0"/>-->
     </requires>
@@ -2338,9 +2356,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <summary lang="en">GitHub virtual Add-on repository</summary>
         <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
         <news>
-- Improve HTTP server
-- Add spanish translation
-- Allow extracting information about running platform
+- Add Kodi platform detection as default (fallback to OS platforms)
+- Add support for relative assets
+- Make sure repository addons order is always maintained
+- Minor improvements
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -2407,69 +2426,31 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.GTKing-Matrix" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]GTKing[/B] [/COLOR][COLOR limegreen][B]MATRIX[/B][/COLOR]" version="1.9" provider-name="GTKingTEAM">
-    <extension point="xbmc.addon.repository" name="[COLOR dodgerblue][B]Repo[/B][/COLOR] [COLOR azure][B]GTKing[/B] [COLOR limegreen][B]MATRIX[/B][/COLOR]">
-        <dir minversion="18.0" maxversion="18.9.0">
-            <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/</datadir>
-        </dir>
-        <dir minversion="18.9.0">
-            <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/</datadir>
-        </dir>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <summary>[COLOR steelblue]Repo[/COLOR] [COLOR azure]GTKing[/COLOR] [COLOR limegreen]MATRIX[/COLOR]</summary>
-        <description>Repositorio de addons [COLOR dodgerblue]GTKING[/COLOR].
-[COLOR gold]Developers:[/COLOR] DavidZgZ, JoseaTEBA y GTKing TEAM</description>
-        <disclaimer>Éste repositorio sólo recoge addons válidos para Kodi 19.x MATRIX.</disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-		<source>https://github.com/gtkingbuild/Repo-GTKing/</source>
-    </extension>
-</addon>
-
-<addon id="repository.GTKing-Phoenix-Nexus" name="[B][COLOR steelblue]Repo [COLOR azure]GTKing [COLOR gold]PHOENIX [COLOR limegreen]TEAM[/COLOR][/B]" version="20.1.2" provider-name="GTKing PHOENIX TEAM">
-    <extension point="xbmc.addon.repository" name="[B][COLOR dodgerblue]Repo [COLOR azure]GTKing [COLOR gold]PHOENIX [COLOR limegreen]TEAM[/COLOR][/B]">
-        <dir minversion="18.0" maxversion="18.9.0">
-            <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/</datadir>
-        </dir>
-        <dir minversion="18.9.0" maxversion="19.9.9">
-            <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/</datadir>
-        </dir>
+<addon id="repository.GTKing-Phoenix" name="[B][COLOR steelblue]Repo [COLOR azure]GTKing [COLOR yellow]P[COLOR gold]H[COLOR goldenrod]O[COLOR orange]E[COLOR darkorange]N[COLOR red]I[COLOR orangered]X [COLOR limegreen]TEAM[/COLOR][/B]" version="21.0.0" provider-name="GTKing PHOENIX TEAM">
+    <extension point="xbmc.addon.repository" name="[B][COLOR dodgerblue]Repo [COLOR azure]GTKing [COLOR yellow]P[COLOR gold]H[COLOR goldenrod]O[COLOR orange]E[COLOR darkorange]N[COLOR red]I[COLOR orangered]X [COLOR limegreen]TEAM[/COLOR][/B]">
 		<dir minversion="19.9.9" maxversion="20.9.9">
             <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/nexus/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/nexus/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/nexus/zips/</datadir>
         </dir>
         <dir minversion="20.9.9" maxversion="21.9.9">
-            <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/nexus/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/nexus/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/nexus/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/omega/zips/</datadir>
         </dir>
     </extension>
 
     <extension point="xbmc.addon.metadata">
-        <summary>[COLOR steelblue]Repo [COLOR azure]GTKing [COLOR gold]PHOENIX [COLOR limegreen]TEAM[/COLOR]</summary>
-        <description>Repositorio de addons [COLOR dodgerblue]GTKING [COLOR gold]PHOENIX[/COLOR].
-[COLOR gold]Developers:[/COLOR] DavidZgZ y GTKing PHOENIX TEAM</description>
+        <summary>[COLOR steelblue]Repo [COLOR azure]GTKing [COLOR yellow]P[COLOR gold]H[COLOR goldenrod]O[COLOR orange]E[COLOR darkorange]N[COLOR red]I[COLOR orangered]X [COLOR limegreen]TEAM[/COLOR]</summary>
+        <description>Repositorio de addons [COLOR azure]GTKING [COLOR yellow]P[COLOR gold]H[COLOR goldenrod]O[COLOR orange]E[COLOR darkorange]N[COLOR red]I[COLOR orangered]X [COLOR limegreen]TEAM[/COLOR].
+[COLOR gainsboro]Developers:[/COLOR] [COLOR aquamarine]DavidZgZ [COLOR white]y [COLOR azure]GTKing [COLOR yellow]P[COLOR gold]H[COLOR goldenrod]O[COLOR orange]E[COLOR darkorange]N[COLOR red]I[COLOR orangered]X [COLOR limegreen]TEAM[/COLOR]</description>
         <disclaimer>Este repositorio sólo recoge addons creados por terceras personas.</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-		<source>https://grkingbuild.github.io</source>
+		<source>https://gtkingbuild.github.io</source>
     </extension>
 </addon>
 
@@ -3387,17 +3368,9 @@ https://t.me/kodimansgroup</description>
 
 <addon id="repository.majide"
 		name="Majide Add-on repository"
-		version="0.20.8"
+		version="0.21.1"
 		provider-name="Majide">
 	<extension point="xbmc.addon.repository" name="Majide Add-on repository">
-		<!-- Kodi 19 Matrix -->
-		<dir minversion="18.90.0" maxversion="19.89.999">
-			<info compressed="false">https://andromeda.eu.org/addons/matrix/addons.xml</info>
-			<checksum verify="sha256">https://andromeda.eu.org/addons/matrix/addons.sha256</checksum>
-			<datadir zip="true">https://andromeda.eu.org/addons/matrix</datadir>
-			<artdir>https://andromeda.eu.org/addons/matrix</artdir>
-			<hashes>sha256</hashes>
-		</dir>
 		<!-- Kodi 20 Nexus -->
 		<dir minversion="19.90.0" maxversion="20.89.999">
 			<info compressed="false">https://andromeda.eu.org/addons/nexus/addons.xml</info>
@@ -3412,6 +3385,14 @@ https://t.me/kodimansgroup</description>
 			<checksum verify="sha256">https://andromeda.eu.org/addons/omega/addons.sha256</checksum>
 			<datadir zip="true">https://andromeda.eu.org/addons/omega</datadir>
 			<artdir>https://andromeda.eu.org/addons/omega</artdir>
+			<hashes>sha256</hashes>
+		</dir>
+		<!-- Kodi 22 Piers -->
+		<dir minversion="21.90.0" maxversion="22.89.999">
+			<info compressed="false">https://andromeda.eu.org/addons/piers/addons.xml</info>
+			<checksum verify="sha256">https://andromeda.eu.org/addons/piers/addons.sha256</checksum>
+			<datadir zip="true">https://andromeda.eu.org/addons/piers</datadir>
+			<artdir>https://andromeda.eu.org/addons/piers</artdir>
 			<hashes>sha256</hashes>
 		</dir>
 		<!-- https://github.com/Gujal00/ResolveURL -->
