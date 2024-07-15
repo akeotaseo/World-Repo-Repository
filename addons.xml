@@ -830,6 +830,30 @@ Program Addons:
 	</extension>
 </addon>
 
+<addon id="repository.asgardrepo" name="[COLOR red]Asgard Repo[/COLOR]" version="0.0.1" provider-name="MrBlamo">
+	<extension point="xbmc.addon.repository" name="[COLOR red]Asgard Repo[/COLOR]">
+		<dir minversion="20.90.0" maxversion="22.9.9">
+            <info compressed="false">https://raw.githubusercontent.com/theasguard/Repo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/theasguard/Repo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/theasguard/Repo/master/zips/</datadir>
+		</dir>
+		<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Official Repo for MrBlamo</summary>
+		<description>The Official Repo for MrBlamo</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+		<genre>movies,usa</genre>
+	</extension>
+</addon>
+
 <addon id="repository.atlas" name="Atlas Repository" version="0.0.2" provider-name="NP-Bugatsinho -(Modified by TechNEWSology)">
 	<extension point="xbmc.addon.repository" name="Atlas Repository">
 		<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/atlas/main/addons.xml</info>
@@ -1058,6 +1082,58 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
             <icon>resources/icon.png</icon>
         </assets>
     </extension>
+</addon>
+
+<addon id="repository.BrazucaPlay" name="[B][COLOR white]Brazuca Play [COLOR blue]Repo[/COLOR][/COLOR][/B]" version="1.5" provider-name="Brazuca Play">
+<requires>
+<import addon="xbmc.addon" version="12.0.0"/>
+</requires>
+<extension point="xbmc.addon.repository" name="Brazuca Play Repository">
+<dir minversion="16.0.0" maxversion="18.9.0">
+<info compressed="false">https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/Plugins/</datadir>
+<hashes>false</hashes>
+</dir>
+<dir minversion="18.9.1">
+<info compressed="false">https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml</info>
+<checksum>https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/addons_matrix.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/skyrisk/brazucaplay/master/addons/repo/Plugins/</datadir>
+<hashes>false</hashes>
+</dir>
+<dir>
+<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+</dir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="pt_br"></summary>
+<description lang="pt_br"></description>
+<platform>all</platform>
+<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/home.jpg</screenshot>
+<screenshot>resources/movies.jpg</screenshot>
+<screenshot>resources/series.jpg</screenshot>
+</assets>
+<news>
+[COLOR blue]●[/COLOR] v1.5 - ADD RESOLVEURL.
+[COLOR blue]●[/COLOR] v1.4 - KODI 19 MATRIX.
+[COLOR blue]●[/COLOR] v1.3 - CORREÇÕES DE BUGS.
+[COLOR blue]●[/COLOR] v1.2 - UPDATES CORRIGIDOS.
+[COLOR blue]●[/COLOR] v1.1 - PEQUENAS CORREÇÕES.
+[COLOR blue]●[/COLOR] v1.0 - VERSÃO INICIAL.
+</news>
+<summary>Repositório Brazuca Play</summary>
+<description>
+[B][COLOR blue]●[/COLOR] [COLOR white]Repositório oficial do Brazuca Play - 2021[/COLOR][/B]
+[B][COLOR firebrick]●[/COLOR] [COLOR white]Proibido a venda dos add-ons do Brazuca Play.[/COLOR][/B]
+[B][COLOR firebrick]●[/COLOR] [COLOR white]Não vendemos IPTV, caso ache sites ou mesmo apps é falso.[/COLOR][/B]
+</description>
+<disclaimer>[B][COLOR white]Brazuca Play é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
+</extension>
 </addon>
 
 <addon id="repository.breezz" name="Breezz Repo" version="1.2" provider-name="Breezz">
@@ -2856,7 +2932,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.kodinerds" name="Kodinerds Addon Repo" version="7.0.1.6" provider-name="Kodinerds">
+<addon id="repository.kodinerds" name="Kodinerds Addon Repo" version="7.0.1.7" provider-name="Kodinerds">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -2868,9 +2944,9 @@ https://t.me/kodimansgroup</description>
             <hashes>false</hashes>
         </dir>
         <dir minversion="21.9.9" maxversion="22.9.0">
-            <info compressed="true">https://repo.kodinerds.net/addons/pegasus/addons.xml</info>
-            <checksum>https://repo.kodinerds.net/addons/omega/addons.xml.md5</checksum>
-            <datadir zip="true">https://repo.kodinerds.net/addons/omega/zip/</datadir>
+            <info compressed="true">https://repo.kodinerds.net/addons/piers/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/piers/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/piers/zip/</datadir>
             <hashes>false</hashes>
         </dir>
         <dir minversion="21.0.0" maxversion="22.9.0">
