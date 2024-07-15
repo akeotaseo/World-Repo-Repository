@@ -6557,11 +6557,11 @@ http://zadarbuild.com.hr
     </extension>
 </addon>
 
-<addon id="repovnmedia" name="Repo VN Media" version="0.0.1" provider-name="vnmedia">
+<addon id="repovnmedia" name="Repo VN Media" version="0.0.2" provider-name="vnmedia">
 	<extension point="xbmc.addon.repository" name="Repo VN Media">
 		<dir>
 			<info compressed="false">http://thunghiem.x10.mx/vnmedia/addons.xml</info>
-			<checksum>https://random-word-api.herokuapp.com/word</checksum>
+			<checksum>https://one.one.one.one/cdn-cgi/trace</checksum>
 			<datadir zip="true">http://thunghiem.x10.mx/vnmedia/repos/</datadir>
 		</dir>
 		<dir>
