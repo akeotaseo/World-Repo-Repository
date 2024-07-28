@@ -3209,7 +3209,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.loop" name="[COLORlime]Loop[/COLOR] Repository" version="3.0.3" provider-name="The Loop">
+<addon id="repository.loop" name="[COLORlime]Loop[/COLOR] Repository" version="3.0.4" provider-name="The Loop">
 	<extension point="xbmc.addon.repository" name="Loop Repository">
 		<dir>
 			<info compressed="false">https://loopaddon.uk/zips19/addons.xml</info>
@@ -3895,7 +3895,7 @@ https://t.me/kodimansgroup</description>
         </extension>
     </addon>
 
-<addon id="repository.nxtflix" name="[COLOR lightskyblue]NXTFlix[/COLOR]" version="1.0" provider-name="blry">
+<addon id="repository.nxtflix" name="[COLOR lightskyblue]NXTFlix[/COLOR]" version="1.1" provider-name="blry">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/blry12/nxtflix/master/repo/zips/addons.xml</info>
