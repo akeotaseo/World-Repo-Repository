@@ -1008,13 +1008,13 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 	</extension>
 </addon>
 
-<addon id="repository.balandro" name="Balandro Repo" version="3.0.0" provider-name="Balandro Team">
+<addon id="repository.balandro" name="[COLOR aqua]Balandro[/COLOR] Repo" version="4.0.1" provider-name="Team Balandro">
 
     <extension point="xbmc.addon.repository" name="balandro repo">
         <dir>
-            <info>https://raw.githubusercontent.com/balandro-tk/balandro/main/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/balandro-tk/balandro/main/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/balandro-tk/balandro/main/</datadir>
+            <info>https://raw.githubusercontent.com/repobal/base/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/repobal/base/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/repobal/base/main/</datadir>
         </dir>
     </extension>
 
@@ -1024,17 +1024,21 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
           <icon>icon.png</icon>
        </assets>
        <news>
-       [COLOR darkorange][B]Versión  [/COLOR][COLOR yellow]3.0.0[/COLOR][COLOR red]  Enero 2023[/B][/COLOR]
+       [COLOR darkorange][B]Versión  [/COLOR][COLOR yellow]4.0.1[/COLOR][COLOR red]  Marzo 2024[/B][/COLOR]
 
-       [COLOR goldenrod][B]Media Centers soportados[COLOR plum][I]  20.x,  19.x,  18.x  y  17.x[/I][/B][/COLOR]
+       [COLOR goldenrod][B]Media Centers:[/B][/COLOR]
+           [COLOR tan][B]Kodi Versiones Oficiales Soportadas:[/B][/COLOR]
+           [COLOR plum][B]21.x Omega,  20.x Nexus,  19.x Matrix,[/B][/COLOR]
+           [COLOR plum][B]18.x Leia  y  17.x Krypton[/B][/COLOR]
 
-       [COLOR springgreen][B]Fuentes:[/COLOR]  [COLOR cyan]balandro-tk.github.io/balandro/[/B][/COLOR]
+       [COLOR springgreen][B]Fuente[/COLOR]  [COLOR cyan]repobal.github.io/base/[/B][/COLOR]
        </news>
-       <description>[COLOR yellow][B]Balandro es desde el año [COLOR cyan]2018[COLOR yellow] MOD derivado de Pelisalacarta y Alfa,[COLOR mediumaquamarine] y Tiene Como Objeto, Permitir Visualizar Películas, Series y Documentales, Todo a Través de Internet y Directamente Desde su Sistema Media Center. [COLOR orchid]Este Add-On es Tan Solo un Mero Ejercicio de Aprendizaje Del Lenguaje de Programación Python y se Distribuye Sin Ningún Contenido Multimedia Adjunto al Mismo [COLOR lightgrey][I]En Consecuencia Solo Las Webs Son Plenamente Responsables de Los Contenidos Que Publiquen.[/I][/B][/COLOR]</description>
-       <disclaimer>[COLOR tan][B]Está Prohibida su Distribución, Solo o Junto Con Contenidos Multimedia Protegidos Por Los Derechos de Autor. [COLOR chocolate]Si Este Tipo de Contenido Está Prohibido en su País, Solamente Usted Será el Responsable de su Uso. [COLOR white]La Vulneración de Estas Prohibiciones Exonerarán de Cualquier Culpa a sus Autores, [COLOR red]Siendo el Único Responsable Quien lo Haya Distribuido o Utilizado Ilegalmente.[/B][/COLOR]</disclaimer>
+       <summary>Balandro es un Navegador de Páginas Webs</summary>
+       <description>[COLOR moccasin][B]Navega con Kodi por Páginas Webs para poder ver sus contenidos de manera fácil. [COLOR yellow]Balandro es desde el año [COLOR cyan]2018[COLOR yellow] un MOD derivado de [COLOR yellowgreen]Pelisalacarta y Alfa[COLOR yellow],[COLOR mediumaquamarine] y tiene como objeto, permitir visualizar [COLOR deepskyblue]Películas[COLOR mediumaquamarine], [COLOR hotpink]Series[COLOR mediumaquamarine], [COLOR darkcyan]Documentales[COLOR mediumaquamarine], etc., todo a través de Internet y directamente desde su sistema Media Center. [COLOR orchid]Este Add-On es tan solo un mero Ejercicio de Aprendizaje del Lenguaje de Programación Python y se distribuye sin Ningún Contenido Multimedia adjunto al mismo [COLOR lightgrey][I]En consecuencia solo las Webs son Plenamente Responsables de los contenidos que publiquen.[/I][/B][/COLOR]</description>
+       <disclaimer>[COLOR aqua][B]Los Propietarios y Distribuidores de este Add-On no Proveen ni Distribuyen Ningún Contenido Mostrado por el Add-On, ni Tienen Afiliación alguna con los Proveedores/Webs de contenidos. [COLOR tan]Está Prohibida su distribución, solo ó junto con Contenidos Multimedia Protegidos por los Derechos de Autor. [COLOR chocolate]Si este tipo de contenido está Prohibido en su País, solamente Usted será el Responsable de su uso. [COLOR white]La vulneración de estas prohibiciones Exonerarán de cualquier Culpa a sus Autores, [COLOR red]Siendo el unico Responsable quien lo haya Distribuido ó Utilizado Ilegalmente.[/B][/COLOR]</disclaimer>
        <platform>all</platform>
        <license>GNU GPL v3</license>
-       <source>https://balandro-tk.github.io/balandro/</source>
+       <source>https://repobal.github.io/base/</source>
        <forum>https://www.mimediacenter.info/foro/</forum>
     </extension>
 
@@ -2902,6 +2906,46 @@ https://t.me/kodimansgroup</description>
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
+</addon>
+
+  <addon
+  id="repository.kodiloucosbr"
+  name="[COLOR gold]Repositório KodiloucosBR [COLOR green]OFICIAL[/COLOR]"
+  version="1.0.1"
+  provider-name="Marcão">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="[COLOR white]KodiloucosBR [COLOR gold]Repositorio[/COLOR]">
+      <dir>
+      <info compressed="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/addons.xml</info>
+      <checksum>https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="19.0.0">
+      <info compressed="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/matrix/addons.xml</info>
+      <checksum>https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/matrix</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="17.0.0" maxversion="18.9.0">
+      <info compressed="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/leia/addons.xml</info>
+      <checksum>https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr.github.io/master/leia</datadir>
+      <hashes>false</hashes>
+  </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Repositorio KodiloucosBR Oficial</summary>
+    <description>Repositorio oficial Addon KodiloucosBR - Proibido reprodução sem previa autorizacao</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="repository.kodiman_public" name="[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]" version="20.1.2" provider-name="[COLOR lime]KODIMAN HIMSELF[/COLOR]">
