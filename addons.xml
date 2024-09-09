@@ -3582,6 +3582,58 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
+<addon id="repository.lattsrepo" name="[COLOR red]Latts'[/COLOR] [COLOR white]KODI[/COLOR] [COLOR blue]Repo[/COLOR]" version="4.0.2" provider-name="Latts">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Latts' KODI Repo">
+		<dir>
+			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/addons.xml</info>
+			<checksum>https://holybid.com/kodi/lattsrepo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master</datadir>
+		</dir>
+		<dir minversion="17.0.0" maxversion="17.6.0.0">
+			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/krypton/addons.xml</info>
+			<checksum>https://holybid.com/kodi/lattsrepo/master/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/krypton/</datadir>
+		</dir>
+		<dir minversion="18.8.0" maxversion="18.9.0">
+			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/leia/addons.xml</info>
+			<checksum>https://holybid.com/kodi/lattsrepo/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/leia/</datadir>
+		</dir>
+		<dir minversion="19.0.0" maxversion="19.9.0">
+			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/matrix/addons.xml</info>
+			<checksum>https://holybid.com/kodi/lattsrepo/master/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/matrix/</datadir>
+		</dir>
+		<dir minversion="20.0.0" maxversion="20.9.0">
+			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/nexus/addons.xml</info>
+			<checksum>https://holybid.com/kodi/lattsrepo/master/nexus/addons.xml.md5</checksum>
+			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/nexus/</datadir>
+		</dir>
+		<dir minversion="20.90.801" maxversion="21.9.0">
+			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/omega/addons.xml</info>
+			<checksum>https://holybid.com/kodi/lattsrepo/master/omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/omega/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Latts' Kodi Repo</summary>
+		<description lang="en">KODI addons provided by Latts.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<fanart>resources/fanart.jpg</fanart>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<news>[B][COLOR=FF2CD13B]v4.0.2[/COLOR][/B] - Release date December 3, 2023[CR]
+[B][COLOR=FFFFA500]ADDITIONS[/COLOR][/B]
+• Omega repo added.
+		</news>
+	</extension>
+</addon>
+
 <addon id="repository.lekma"
        name="lekma's addon repository"
        version="4.0.1"
