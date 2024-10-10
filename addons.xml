@@ -4845,17 +4845,12 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.redwizard" name="[COLOR red]The Red Repo[/COLOR]" version="1.0.8" provider-name="[COLOR red]The Red Wizard[/COLOR]">
+<addon id="repository.redwizard" name="[COLOR red]The Red Repo[/COLOR]" version="1.1.1" provider-name="[COLOR red]The Red Wizard[/COLOR]">
     <extension point="xbmc.addon.repository" name="The Red Repo">
         <dir>
             <info compressed="false">https://repo.redwizard.xyz/redwizardrepo/main/addons.xml</info>
             <checksum>https://repo.redwizard.xyz/redwizardrepo/main/addons.xml.md5</checksum>
             <datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/main/</datadir>
-        </dir>
-		<dir>
-            <info compressed="false">https://repo.redwizard.xyz/redwizardrepo/nonbuild/addons.xml</info>
-            <checksum>https://repo.redwizard.xyz/redwizardrepo/nonbuild/addons.xml.md5</checksum>
-            <datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/nonbuild/</datadir>
         </dir>
         <dir minversion="19.9.0" maxversion="20.8.9">
             <info compressed="false">https://repo.redwizard.xyz/redwizardrepo/20nexus/addons.xml</info>
@@ -4877,17 +4872,17 @@ https://t.me/kodimansgroup</description>
         <summary lang="en_GB">[COLOR red]Red Wizard Builds and Add-ons[/COLOR]</summary>
 		<description lang="en_GB">[COLOR red]The Red Wizard repo for The Red Wizard builds and add-ons[/COLOR]</description>
 		<disclaimer lang="en_GB"></disclaimer>
-		<news>[COLOR red]2024-09-06
-- Additional directory for non The Red Wizard Build add-ons
-- Change to addon.xml
+		<news>[COLOR red]2024-10-08
+- Build and non-build directories removed as no longer necessary
+- Forum added to addon.xml
 - Directories for Kodi 22 Piers, Kodi 21 Omega and Kodi 20 Nexus
-- Add maxversion to dir
 - The Red Wizard has a new home! Go to https://redwizard.xyz[/COLOR]</news>
 		<platform>all</platform>
 		<language>en</language>
 		<license>GNU GENERAL PUBLIC LICENSE Version 3</license>
 		<email>info@redwizard.xyz</email>
 		<website>https://www.redwizard.xyz/</website>
+		<forum>https://t.me/theredwizard</forum>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
