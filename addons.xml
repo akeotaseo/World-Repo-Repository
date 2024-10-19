@@ -3277,7 +3277,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.lattsrepo" name="[COLOR red]Latts'[/COLOR] [COLOR white]KODI[/COLOR] [COLOR blue]Repo[/COLOR]" version="4.0.2" provider-name="Latts">
+<addon id="repository.lattsrepo" name="[COLOR red]Latts'[/COLOR] [COLOR white]KODI[/COLOR] [COLOR blue]Repo[/COLOR]" version="4.0.3" provider-name="Latts">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -3287,7 +3287,7 @@ https://t.me/kodimansgroup</description>
 			<checksum>https://holybid.com/kodi/lattsrepo/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master</datadir>
 		</dir>
-		<dir minversion="17.0.0" maxversion="17.6.0.0">
+		<dir minversion="17.0.0" maxversion="17.6">
 			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/krypton/addons.xml</info>
 			<checksum>https://holybid.com/kodi/lattsrepo/master/krypton/addons.xml.md5</checksum>
 			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/krypton/</datadir>
@@ -3307,10 +3307,15 @@ https://t.me/kodimansgroup</description>
 			<checksum>https://holybid.com/kodi/lattsrepo/master/nexus/addons.xml.md5</checksum>
 			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/nexus/</datadir>
 		</dir>
-		<dir minversion="20.90.801" maxversion="21.9.0">
+		<dir minversion="21.0.0" maxversion="21.9.0">
 			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/omega/addons.xml</info>
 			<checksum>https://holybid.com/kodi/lattsrepo/master/omega/addons.xml.md5</checksum>
 			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/omega/</datadir>
+		</dir>
+		<dir minversion="21.90.700" maxversion="22.9.0">
+			<info compressed="false">https://holybid.com/kodi/lattsrepo/master/piers/addons.xml</info>
+			<checksum>https://holybid.com/kodi/lattsrepo/master/piers/addons.xml.md5</checksum>
+			<datadir zip="true">https://holybid.com/kodi/lattsrepo/master/piers/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -3322,7 +3327,7 @@ https://t.me/kodimansgroup</description>
 			<fanart>resources/fanart.jpg</fanart>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<news>[B][COLOR=FF2CD13B]v4.0.2[/COLOR][/B] - Release date December 3, 2023[CR]
+		<news>[B][COLOR=FF2CD13B]v4.0.3[/COLOR][/B] - Release date October 18, 2024[CR]
 [B][COLOR=FFFFA500]ADDITIONS[/COLOR][/B]
 • Omega repo added.
 		</news>
@@ -3865,6 +3870,26 @@ https://t.me/kodimansgroup</description>
 		<assets>
 			<icon>icon.png</icon>
 		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.movieshark" version="2.7.2" name="MovieShark repository" provider-name="MSrepo">
+	<extension point="xbmc.addon.repository" name="MovieShark repository">
+		<dir>
+			<info compressed="false">https://repo.mvshrk.xyz/addons.xml</info>
+			<checksum>https://repo.mvshrk.xyz/addons.xml.md5</checksum>
+			<datadir zip="true">https://repo.mvshrk.xyz/plugins/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">MovieShark Repository</summary>
+		<description lang="en">Az MSREPO Magyarország legnagyobb KODI-hoz fejlesztett magyar nyelvű kiegészítőinek tárolóhelye. Itt megtalálod a legismertebb média tartalmait más hasznos kiegészítőkkel egyetemben. A repository semmilyen illegális anyagot nem tartalmaz, az információk nem egyediek – bárki által szabadon hozzáférhetők az interneten. A legtöbb kiegészítőnél maga a jogtulajdonos tette lehetővé a tartalmak ingyenes megtekintését. A telepítésüket senkinek nem ajánljuk, csupán kisérleti jelleggel készültek. A használatukból eredő következményekért a felelősség a felhasználót terheli. </description>
+		<platform>all</platform>
 	</extension>
 </addon>
 
@@ -5384,7 +5409,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]" version="0.7.8" provider-name="Tom">
+    <addon id="repository.southpaw" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]" version="0.7.9" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
