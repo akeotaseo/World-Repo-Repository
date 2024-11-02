@@ -6814,34 +6814,8 @@ http://zadarbuild.com.hr
 	</extension>
 </addon>
 
-<addon id="repository.zeltorix" name="ZelToRiX Add-on repository" version="0.4.2" provider-name="ZelToRiX">
+<addon id="repository.zeltorix" name="ZelToRiX Add-on repository" version="1.0.1" provider-name="ZelToRiX">
     <extension point="xbmc.addon.repository" name="ZelToRiX Add-on repository">
-<!--        Репозитории основные-->
-        <dir minversion="19.0.0" maxversion="19.99.0">
-            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
-        </dir>
-        <dir minversion="20.0.0" maxversion="20.99.0">
-            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
-        </dir>
-        <dir minversion="21.0.0" maxversion="21.99.0">
-            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
-        </dir>
-        <dir minversion="22.0.0" maxversion="22.99.0">
-            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
-        </dir>
-        <dir minversion="23.0.0" maxversion="23.99.0">
-            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
-        </dir>
 <!--        Репозитория пакетов-->
         <dir minversion="19.0.0" maxversion="19.99.0">
             <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/packages/addons.xml</info>
@@ -6893,6 +6867,58 @@ http://zadarbuild.com.hr
             <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/utility/addons.xml.md5</checksum>
             <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/utility/</datadir>
+        </dir>
+        <!--        Репозитории основные-->
+        <dir minversion="19.0.0" maxversion="19.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
+        </dir>
+        <dir minversion="20.0.0" maxversion="20.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
+        </dir>
+        <dir minversion="21.0.0" maxversion="21.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
+        </dir>
+        <dir minversion="22.0.0" maxversion="22.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
+        </dir>
+        <dir minversion="23.0.0" maxversion="23.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release/</datadir>
+        </dir>
+        <!--        Репозитории интернациональные основные-->
+        <dir minversion="19.0.0" maxversion="19.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release_int/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release_int/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release_int/</datadir>
+        </dir>
+        <dir minversion="20.0.0" maxversion="20.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release_int/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release_int/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release_int/</datadir>
+        </dir>
+        <dir minversion="21.0.0" maxversion="21.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release_int/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release_int/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release_int/</datadir>
+        </dir>
+        <dir minversion="22.0.0" maxversion="22.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release_int/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release_int/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release_int/</datadir>
+        </dir>
+        <dir minversion="23.0.0" maxversion="23.99.0">
+            <info compressed="false">https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release_int/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zeltorix/kodi/main/repository/release_int/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Zeltorix/kodi/raw/main/repository/release_int/</datadir>
         </dir>
 <!--        Репозитории адонов третьих лиц-->
         <dir minversion="19.0.0" maxversion="19.99.0">
@@ -6955,6 +6981,12 @@ http://zadarbuild.com.hr
         <source>https://github.com/Zeltorix/kodi/raw/main/source/release/repository</source>
         <platform>all</platform>
         <news>
+            v1.0.0 (2024-11-02)
+            [new] Новая структура для репозиториев
+            ...
+            v0.4.0 (2024-10-24)
+            [new] Добавления сторонних адонов
+            ...
             v0.3.0 (2024-10-08)
             [new] Перераспределение адонов
             ...
@@ -6966,7 +6998,6 @@ http://zadarbuild.com.hr
             ...
             v0.0.0 (2023-01-27)
             [new] Создание репозитории для Kodi 19
-            [fix] ...
         </news>
         <platform>all</platform>
         <assets>
