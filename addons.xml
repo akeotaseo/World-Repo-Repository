@@ -2178,6 +2178,25 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
+<addon id="repository.estupalant" name="Repositorio Palantir" version="1.0.1" provider-name="The Lords Of Flix">
+    <extension point="xbmc.addon.repository" name="Palantir 3 y Skin">
+    	<dir minversion="19.0.0">
+    	    <info compressed="false">https://palantir.5g.in/Repo/addons.xml</info>
+        	<checksum>https://palantir.5g.in/Repo/addons.xml.md5</checksum>
+        	<datadir zip="true">https://palantir.5g.in/Repo/</datadir>
+	    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+   		<description lang="en">Repositorio oficial de Palantir y Estuary Palantir</description>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
+</addon>
+
 <addon id="repository.ezra" name="Ezra Repository" version="0.0.2" provider-name="Ezra-Hubbard">
     <extension point="xbmc.addon.repository" name="Ezra Repository">
         <dir>
@@ -3145,6 +3164,25 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
+<addon id="repository.kodinewbs" name="Kodi Newbs Repository" version="1.0.0" provider-name="maynero">
+    <extension point="xbmc.addon.repository" name="Kodi Newbs Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/maynero/repository.kodinewbs/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/maynero/repository.kodinewbs/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/maynero/repository.kodinewbs/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kodi Newbs Repository</summary>
+        <description>Kodi Newbs Repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.kodipirates" name="[COLOR orange]Kodi Pirates Repo[/COLOR]" version="1.2" provider-name="[COLOR orange]Kodi Pirates[/COLOR]">
 	<extension point="xbmc.addon.repository" name="[COLOR orange]Kodi Pirates[/COLOR]">
 		<dir>
@@ -3955,6 +3993,61 @@ https://t.me/kodimansgroup</description>
     <extension point="xbmc.addon.metadata">
         <summary>New DiamondInfo_Mod Repo</summary>
         <description>New DiamondInfo_Mod Repo</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.newf" name="[COLOR deepskyblue]Repository Newf[/COLOR]" version="1.5.2" provider-name="[COLOR deepskyblue]Newf276[/COLOR]">
+    <extension point="xbmc.addon.repository" name="[COLOR deepskyblue]Repository Newf[/COLOR]">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/newf276/kodirepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/newf276/kodirepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/newf276/kodirepo/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml</info><checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/</datadir>
+        </dir>
+		<dir>
+	        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+        <dir>
+			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
+        </dir>
+        <dir>
+            <info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
+            <datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
+            <artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
+        </dir>
+            <dir>
+            <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
+            <checksum>https://slyguy.uk/.repo/repository.slyguy/addons.xml.md5</checksum>
+            <datadir zip="true">https://slyguy.uk/.repo/repository.slyguy/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://slyguy.uk/.repo/repository.slyguy.inputstreamhelper/addons.xml</info>
+            <checksum>https://slyguy.uk/.repo/repository.slyguy.inputstreamhelper/addons.xml.md5</checksum>
+            <datadir zip="true">https://slyguy.uk/.repo/repository.slyguy.inputstreamhelper/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://slyguy.uk/.repo/repository.slyguy.youtube/addons.xml</info>
+            <checksum>https://slyguy.uk/.repo/repository.slyguy.youtube/addons.xml.md5</checksum>
+            <datadir zip="true">https://slyguy.uk/.repo/repository.slyguy.youtube/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kodirepo</summary>
+        <description>Newfs Kodi Stuff</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
