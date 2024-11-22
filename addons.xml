@@ -84,12 +84,12 @@
     </extension>
 </addon>
 
-<addon id="kodivietnam" name="Kodi Việt Nam" version="0.0.1" provider-name="mkendo">
+<addon id="kodivietnam" name="Kodi Việt Nam" version="0.0.1a" provider-name="bcp">
 	<extension point="xbmc.addon.repository" name="Kodi Việt Nam">
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/kodivietnam/kodivn/master/addons.xml</info>
+			<info compressed="false">https://raw.githubusercontent.com/bencooper1/kdv/master/addons.xml</info>
 			<checksum>https://random-word-api.herokuapp.com/word</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/kodivietnam/kodivn/master/repos/</datadir>
+			<datadir zip="true">https://raw.githubusercontent.com/bencooper1/kdv/master/repos/</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
@@ -105,6 +105,16 @@
 			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.github.com/jmooremcc/Repository.jmooremcc/master/addons.xml</info>
+			<checksum>https://raw.github.com/jmooremcc/Repository.jmooremcc/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/jmooremcc/Repository.jmooremcc/master</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/5-star/repository.5star/raw/master/zips/</datadir>
 		</dir>
 		<dir minversion="19.0.0">
 			<info compressed="false">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-nexus.xml</info>
@@ -606,7 +616,7 @@ Program Addons:
     </extension>
 </addon>
 
-    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.6.1" provider-name="Aliunde">
+    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.6.2" provider-name="Aliunde">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
@@ -2153,7 +2163,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="repository.enigmawiz" name="Enigma Repo" version="1.7.0" provider-name="Enigma Repo">
+<addon id="repository.enigmawiz" name="Enigma Repo" version="1.7.2" provider-name="Enigma Repo">
 <extension point="xbmc.addon.repository" name="Enigma Repo">
 <dir>
 <info compressed="false">https://team-enigma.xyz/repo/zips/addons.xml</info>
@@ -7042,6 +7052,28 @@ http://zadarbuild.com.hr
         <description lang="en">arabic vod addon</description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.zomboided.plugins" name="Zomboided Add-on Repository" version="1.0.1" provider-name="zomboided">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Zomboided Add-on Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/zomboided/xbmc.zomboided.plugins/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/zomboided/xbmc.zomboided.plugins/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/zomboided/xbmc.zomboided.plugins/raw/master/plugins/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Zomboided Add-on Repository</summary>
+		<description>This repo contains the add-ons by Zomboided</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="repovnmedia" name="Repo VN Media" version="0.0.2" provider-name="vnmedia">
