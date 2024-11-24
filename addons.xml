@@ -19,6 +19,31 @@
     </extension>
 </addon>
 
+<addon id="bassemhelal18_Repo" name="Baseem Repo" version="1.3" provider-name="bassemhelal18">
+    <extension point="xbmc.addon.repository" name="Bassem Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/bassemhelal18/Repo/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bassemhelal18/Repo/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bassemhelal18/Repo/master/repo/zips/</datadir>
+        </dir>
+        <dir>
+         <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+         <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+         <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Bassem Repo</summary>
+        <description>kodi addon</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
     <addon id="chamchenko-dev" name="chamchenko-dev" version="0.0.3" provider-name="chamchenko">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -2131,38 +2156,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.enclaveaddonmakers" name="Enclave Addon Maker" provider-name="Enclave" version="1.0.1">
-  <extension point="xbmc.addon.repository" name="Enclave Addon Maker Repository">
-    <dir>
-      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-    </dir>
-    <dir minversion="16.0.0" maxversion="18.9.9">
-      <info compressed="false">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/addons.xml</info>
-      <checksum>https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/</datadir>
-	</dir>
-    <dir minversion="18.9.9">
-		<info compressed="false">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/addons.xml</info>
-		<checksum>https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/</datadir>
-	</dir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <description lang="en_GB">Join Us Or Die</description>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news></news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="repository.enigmawiz" name="Enigma Repo" version="1.7.2" provider-name="Enigma Repo">
 <extension point="xbmc.addon.repository" name="Enigma Repo">
 <dir>
@@ -2897,38 +2890,6 @@ https://t.me/kodimansgroup</description>
             <fanart>icon.png</fanart>
         </assets>
     </extension>
-</addon>
-
-<addon id="repository.jigsaw" name="Jigsaw Repository" version="1.0.0" provider-name="G-Man">
-<extension point="xbmc.addon.repository" name="Jigsaw Repository">
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/mrgsi/repository.jigsaw/master/addons.xml</info>       <checksum>https://raw.githubusercontent.com/mrgsi/repository.jigsaw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/mrgsi/repository.jigsaw/master/</datadir>
-    </dir>
-    <dir>
-        <info compressed="false">https://github.com/chrisism/repository.chrisism/raw/master/repository/addons.xml</info>
-        <checksum>https://github.com/chrisism/repository.chrisism/raw/master/repository/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/chrisism/repository.chrisism/raw/master/repository/</datadir>
-    </dir>
-    <dir minversion="18.9.700">
-        <info compressed="false">https://github.com/chrisism/repository.chrisism/raw/master/matrix/addons.xml</info>
-       <checksum>https://github.com/chrisism/repository.chrisism/raw/master/matrix/addons.xml.md5</checksum>
-       <datadir zip="true">https://github.com/chrisism/repository.chrisism/raw/master/matrix/</datadir>
-    </dir>
-    <dir>
-        <info compressed="true">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
-        <checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/zach-morris/repository.zachmorris/master/</datadir>
-    </dir>
-</extension>
-<extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Kodi Gaming</summary>
-    <description>Resources to play games in Kodi[CR]For more information see these web pages:[CR]IAGL - https://github.com/zach-morris/plugin.program.iagl/wiki[CR]AEL - https://github.com/Wintermute0110/plugin.program.advanced.emulator.launcher/wiki[CR]Game Add-ons - https://forum.kodi.tv/forumdisplay.php?fid=291[CR]Gaming - https://forum.kodi.tv/forumdisplay.php?fid=292</description>
-    <assets>
-        <icon>icon.png</icon>
-    </assets>
-</extension>
 </addon>
 
 <addon id="repository.jizzplanet" name="Jizzplanet Repo" provider-name="Jizzplanet.com" version="3.0.1">
@@ -3807,6 +3768,25 @@ https://t.me/kodimansgroup</description>
 
 </addon>
 
+<addon id="repository.mediafusion" version="4.1.9" name="MediaFusion Repository" provider-name="Mohamed Zumair">
+    <extension point="xbmc.addon.repository" name="MediaFusion Repository">
+        <dir>
+            <info compressed="false">https://mhdzumair.github.io/MediaFusion/addons.xml</info>
+            <checksum>https://mhdzumair.github.io/MediaFusion/addons.xml.md5</checksum>
+            <datadir zip="true">https://mhdzumair.github.io/MediaFusion/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>MediaFusion Repository</summary>
+        <description>Repository for MediaFusion Kodi addon</description>
+        <platform>all</platform>
+        <assets>
+            <icon>mediafusion_logo.png</icon>
+            <fanart>mediafusion_logo.png</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.mhancoc7.public" name="mhancoc7 Kodi Addons Repo" version="0.1.5a" provider-name="mhancoc7">
     <extension point="xbmc.addon.repository" name="mhancoc7 Kodi Addons Repo">
 			<dir>
@@ -4012,7 +3992,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.newf" name="[COLOR deepskyblue]Repository Newf[/COLOR]" version="1.5.2" provider-name="[COLOR deepskyblue]Newf276[/COLOR]">
+<addon id="repository.newf" name="[COLOR deepskyblue]Repository Newf[/COLOR]" version="1.5.3" provider-name="[COLOR deepskyblue]Newf276[/COLOR]">
     <extension point="xbmc.addon.repository" name="[COLOR deepskyblue]Repository Newf[/COLOR]">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/newf276/kodirepo/master/zips/addons.xml</info>
@@ -5533,7 +5513,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]" version="0.7.9" provider-name="Tom">
+    <addon id="repository.southpaw" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]" version="0.8.0" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
