@@ -1183,8 +1183,8 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
     </extension>
 </addon>
 
-<addon id="repository.bossanova808" name="bossanova808's XBMC Addons" version="0.2.6" provider-name="bossanova808">
-    <extension point="xbmc.addon.repository" name="bossanova808's Kodi Addon Repository">
+<addon id="repository.bossanova808" name="[B]Bossanova[I]808[/I][/B]" version="0.2.7" provider-name="Bossanova808">
+    <extension point="xbmc.addon.repository" name="Bossanova808's Kodi Addon Repository">
         <dir>
             <info>https://raw.githubusercontent.com/bossanova808/repository.bossanova808/master/staging/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/bossanova808/repository.bossanova808/master/staging/addons.xml.md5</checksum>
@@ -1203,7 +1203,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
         <forum />
         <email />
         <news>
-            v0.2.6 - Version bump for new build system.
+            v0.2.7 - add some text decoration.
         </news>
         <assets>
             <icon>resources/icon.png</icon>
@@ -2965,19 +2965,14 @@ https://t.me/kodimansgroup</description>
 <addon id="repository.kodifitzwell" version="0.0.1" name="kodifitzwell repository" provider-name="kodifitzwell">
     <extension point="xbmc.addon.repository" name="kodifitzwell repository">
         <dir minversion="19.0.0">
-            <info compressed="false">https://raw.githubusercontent.com/kodifitzwell/repo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/kodifitzwell/repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/kodifitzwell/repo/master/</datadir>
+            <info compressed="false">https://kodifitzwell.codeberg.page/repo/packages/addons.xml</info>
+            <checksum>https://kodifitzwell.codeberg.page/repo/packages/addons.xml.md5</checksum>
+            <datadir zip="true">https://kodifitzwell.codeberg.page/repo/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
         <description>kodifitzwell repository</description>
-        <disclaimer></disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
+        <assets><icon>icon.png</icon></assets>
     </extension>
 </addon>
 
@@ -4218,7 +4213,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.2.9" provider-name="Twiglet">
+    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.3.0" provider-name="Twiglet">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Octopus Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_octopus/addons.xml</info>
@@ -5466,6 +5461,24 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
+<addon id="repository.sktv" name="[COLOR gold]SKTV Repo[/COLOR]" version="1.0.1" provider-name="Astro">
+	<extension point="xbmc.addon.repository" name="Retro">
+		<dir>
+			<info compressed="false">https://sktv.wtf/addons/addons.xml</info>
+			<checksum>https://sktv.wtf/addons/addons.xml.md5</checksum>
+			<datadir zip="true">https://sktv.wtf/addons/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repo For SKTV</summary>
+		<description>SKTV Repo https://sktv.wtf</description>
+		<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+	</assets>
+	</extension>
+</addon>
+
 <addon id="repository.slyguy" name="SlyGuy Repository" provider-name="SlyGuy" version="0.0.9">
   <extension point="xbmc.addon.repository" name="SlyGuy Repository">
     <dir>
@@ -5513,7 +5526,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.southpaw" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]" version="0.8.0" provider-name="Tom">
+    <addon id="repository.southpaw" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]" version="0.8.1" provider-name="Tom">
         <extension point="xbmc.addon.repository" name="[COLOR dodgerblue]The South[/COLOR][COLOR red] Paw Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://southpawlefty2468rocky.com/_repo/addons.xml</info>
@@ -7184,30 +7197,5 @@ http://zadarbuild.com.hr
 <disclaimer>[B][COLOR orange]Repositório Vikings é apenas um AGREGADOR de ADDONS e, assim como o Google.com, apenas agrega e organiza ADDONS DE TERCEIROS. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
 
 	</extension>
-</addon>
-
-<addon id="Yonn1981_Repo" name="Yonn1981 Repo" version="1.01" provider-name="Yonn1981">
-    <extension point="xbmc.addon.repository" name="Yonn1981 Repo">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Yonn1981/Repo/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Yonn1981/Repo/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Yonn1981/Repo/master/repo/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Yonn1981 Repo</summary>
-        <description>Persoanl Kodi Repository</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 </addons>
