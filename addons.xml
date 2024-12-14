@@ -6534,6 +6534,37 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
+<addon id="repository.wave"
+		name="Wave repo"
+		version="0.0.2"
+		provider-name="The Wave Team">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="The Wave repo">
+		<!-- Do not forget to bump add-on version when changing paths to force a repo refresh -->
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/zeWave/Repo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/zeWave/Repo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/zeWave/Repo/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Add-ons from The Wave repository</summary>
+		<summary lang="he_IL">התקנת הרחבות ממאגר זא-וואב</summary>
+		<description lang="en">Download and install add-ons from The Wave repository.[CR]	All add-ons on this repository have under gone basic testing.[CR] If you find a broken or not working add-on please report it to The Wave Team so we can take any action needed.</description>
+		<description lang="he_IL">הורדה והתקנה של הרחבות ממאגר זא-וואב. [CR] כל ההרחבות במאגר זה עברו בדיקות בסיסיות. [CR] אם נמצאו הרחבות לא תקינות בבקשה לדווח על כך לצוות זא-וואב כדי שנוכל לתקן את הבעיה.</description>
+		<disclaimer lang="en">The Wave Team did not make all the add-ons on this repository and are not responsible for their content</disclaimer>
+		<disclaimer lang="he_IL">צוות זא-וואב לא יצר את כל ההרחבות במאגר זה ואינם אחראים לתוכנן</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+		</assets>
+        <news></news>
+	</extension>
+</addon>
+
 <addon id="repository.Wherethemonsterslive" name="Where The Monsters Live Repository" version="1.10" provider-name="Wolfey B">
 	<extension point="xbmc.addon.repository" name="Where The Monsters Live Repository">
     <dir>
