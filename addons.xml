@@ -2332,7 +2332,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-    <addon id="repository.Fido" name="[COLOR aqua]Fido Repository[/COLOR]" version="1.5f" provider-name="Fido">
+    <addon id="repository.Fido" name="[COLOR aqua]Fido Repository[/COLOR]" version="1.5g" provider-name="Fido">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Fido Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">http://fantazyrepo.uk/_repo/addons.xml</info>
@@ -6390,29 +6390,14 @@ https://t.me/kodimansgroup</description>
         </extension>
 </addon>
 
-<addon id="repository.twistednutz" name="[COLOR orange]Twisted Nutz Repo[/COLOR]" version="1.5" provider-name="[COLOR orange]Twisted Nutz[/COLOR]">
+<addon id="repository.twistednutz" name="[COLOR orange]Twisted Nutz Repo[/COLOR]" version="1.6" provider-name="[COLOR orange]Twisted Nutz[/COLOR]">
 	<extension point="xbmc.addon.repository" name="[COLOR orange]Twisted Nutz[/COLOR]">
 		<dir>
 			<info compressed="false">http://twistednutz.xyz/twisted/repo/addons.xml</info>
 			<checksum>http://twistednutz.xyz/twisted/repo/addonsmd5.txt</checksum>
 			<datadir zip="true">http://twistednutz.xyz/twisted/repo/</datadir>
 		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-		</dir>
-	</extension>
+		</extension>
 	<extension point="xbmc.addon.metadata">
         <summary lang="en">Twisted Nutz Repository</summary>
         <description lang="en">Educational use only, Twisted Nutz Repository For Kodi</description>
