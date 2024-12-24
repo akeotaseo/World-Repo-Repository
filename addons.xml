@@ -2211,7 +2211,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.enigmawiz" name="[COLOR purple]Enigma[/COLOR] Repo" version="1.7.5" provider-name="Enigma Repo">
+<addon id="repository.enigmawiz" name="[COLOR purple]Enigma[/COLOR] Repo" version="1.8.1" provider-name="Enigma Repo">
 <extension point="xbmc.addon.repository" name="Enigma Repo">
 <dir>
 <info compressed="false">https://team-enigma.xyz/repo/zips/addons.xml</info>
@@ -2509,16 +2509,16 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.gaia.full" version="6.1.0" name="Gaia Repository (Full)" provider-name="Gaia">
+<addon id="repository.gaia.full" version="7.0.0" name="Gaia Repository (Full)" provider-name="Gaia">
 	<extension point="xbmc.addon.repository" name="Gaia Repository (Full)">
 		<dir minversion="19.0.0">
-			<info compressed="false">https://github.com/gaiakodi/gaiamain/raw/master/addons.xml?v=6.1.0</info>
-			<checksum>https://github.com/gaiakodi/gaiamain/raw/master/addons.xml.md5?v=6.1.0</checksum>
+			<info compressed="false">https://github.com/gaiakodi/gaiamain/raw/master/addons.xml?v=7.0.0</info>
+			<checksum>https://github.com/gaiakodi/gaiamain/raw/master/addons.xml.md5?v=7.0.0</checksum>
 			<datadir zip="true">https://github.com/gaiakodi/gaiamain/raw/master/</datadir>
 		</dir>
 		<dir minversion="19.0.0">
-			<info compressed="false">https://github.com/gaiakodi/gaiamain/raw/master/common/addons.full.xml?v=6.1.0</info>
-			<checksum>https://github.com/gaiakodi/gaiamain/raw/master/common/addons.full.xml.md5?v=6.1.0</checksum>
+			<info compressed="false">https://github.com/gaiakodi/gaiamain/raw/master/common/addons.full.xml?v=7.0.0</info>
+			<checksum>https://github.com/gaiakodi/gaiamain/raw/master/common/addons.full.xml.md5?v=7.0.0</checksum>
 			<datadir zip="true">https://github.com/gaiakodi/gaiamain/raw/master/common/</datadir>
 		</dir>
 	</extension>
@@ -3808,7 +3808,7 @@ https://t.me/kodimansgroup</description>
 
 </addon>
 
-<addon id="repository.mediafusion" version="4.1.23" name="MediaFusion Repository" provider-name="Mohamed Zumair">
+<addon id="repository.mediafusion" version="4.2.1" name="MediaFusion Repository" provider-name="Mohamed Zumair">
     <extension point="xbmc.addon.repository" name="MediaFusion Repository">
         <dir>
             <info compressed="false">https://mhdzumair.github.io/MediaFusion/addons.xml</info>
@@ -6826,6 +6826,36 @@ https://t.me/kodimansgroup</description>
 		<description>Repository for Xonfluence</description>
 		<platform>all</platform>
 		<news>[I]v1.0.2[/I][CR]- Include Xonfluence backgrounds addon in repo</news>
+	</extension>
+</addon>
+
+<addon id="repository.xship" name="[B]xShip Repository[/B]" version="1.5.0" provider-name="xShip-Team">
+	<extension point="xbmc.addon.repository" name="xShip Repository">
+		<dir minversion="18.9.701" maxversion="21.9.700">
+            <info compressed="false">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/addons.xml</info>
+			<checksum verify="sha256">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/addons.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/</datadir>
+        </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">xShip Repository</summary>
+		<summary lang="en_GB">xShip Repository</summary>
+		<description lang="de_DE">Dies ist das offizielle xShip Repository.[CR]Bei der Bereitstellung einer neuen xShip Version, wird diese vor der Veröffentlichung auf Funktionalität geprüft. Sollten dennoch Probleme auftreten, benachrichtige bitte das offizielle xShip-Team via Telegram.</description>
+		<description lang="de_GB">This is the official xShip repository.[CR]When a new xShip version is released, it is tested for functionality before being released. If you still encounter problems, please notify the official xShip team via Telegram.</description>
+		<disclaimer lang="de_DE">Sie können dieses Video Addon gerne verwenden. Der bereitgestellte Inhalt der Webseiten steht in keinem Bezug zu xShip oder den Entwicklern! Weitere Informationen finden Sie auf unserer Github Seite.</disclaimer>
+		<disclaimer lang="en_GB">You are welcome to use this video addon. The content provided on the websites has no connection to xShip or the developers! For more information, see our Github page.</disclaimer>
+		<language>de en</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<website>https://tiny.one/xship</website>
+		<source></source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/banner.png</banner>
+			<clearlogo>resources/clearlogo.png</clearlogo>
+			<screenshot></screenshot>
+		</assets>
 	</extension>
 </addon>
 
