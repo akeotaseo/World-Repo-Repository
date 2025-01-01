@@ -1657,11 +1657,13 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 	</extension>
 </addon>
 
-<addon id="repository.cywteow" name="cywteow Add-ons" version="1.1.0" provider-name="cywteow">
-    <extension point="xbmc.addon.repository" name="cywteow Add-ons">
-        <info compressed="false">https://raw.githubusercontent.com/cywteow/cywteow.github.io/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/cywteow/cywteow.github.io/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/cywteow/cywteow.github.io/master</datadir>
+<addon id="repository.cywteow" name="cywteow Add-ons" version="1.1.1" provider-name="cywteow">
+	<extension point="xbmc.addon.repository" name="cywteow Add-ons">
+    		<dir>
+		        <info compressed="false">https://raw.githubusercontent.com/cywteow/cywteow.github.io/master/addons.xml</info>
+		        <checksum>https://raw.githubusercontent.com/cywteow/cywteow.github.io/master/addons.xml.md5</checksum>
+		        <datadir zip="true">https://raw.githubusercontent.com/cywteow/cywteow.github.io/master</datadir>
+	        </dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
@@ -2069,7 +2071,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.dregs" name="[COLOR red]Dr[/COLOR]e[COLOR black]Gs[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.22" provider-name="Black Eagle">
+<addon id="repository.dregs" name="[COLOR red]Dr[/COLOR]e[COLOR black]Gs[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.38" provider-name="Black Eagle">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
@@ -2080,6 +2082,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <datadir zip="true">https://raw.github.com/dregs1/dregs1.github.io/master</datadir>
     <hashes>false</hashes>
 </dir>
+<dir minversion="20.0.0">
+      <info compressed="true">https://raw.github.com/dregs1/dregs1.github.io/master/omega/addons.xml</info>
+      <checksum>https://raw.github.com/dregs1/dregs1.github.io/master/omega/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/dregs1/dregs1.github.io/master/omega</datadir>
+      <hashes>false</hashes>
+  </dir>
   <dir minversion="19.9.9">
       <info compressed="true">https://raw.github.com/dregs1/dregs1.github.io/master/nexus/addons.xml</info>
       <checksum>https://raw.github.com/dregs1/dregs1.github.io/master/nexus/addons.xml.md5</checksum>
@@ -2232,7 +2240,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.enigmawiz" name="[COLOR purple]Enigma[/COLOR] Repo" version="1.8.1" provider-name="Enigma Repo">
+<addon id="repository.enigmawiz" name="[COLOR purple]Enigma[/COLOR] Repo" version="1.8.3" provider-name="Enigma Repo">
 <extension point="xbmc.addon.repository" name="Enigma Repo">
 <dir>
 <info compressed="false">https://team-enigma.xyz/repo/zips/addons.xml</info>
@@ -2783,7 +2791,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.hsk.crew.repo" name="[COLOR blue]HSK[/COLOR] CREW Repository" version="1.1.1" provider-name="Loki1979|HSK-DE">
+<addon id="repository.hsk.crew.repo" name="[COLOR blue]HSK[/COLOR] CREW Repository" version="1.1.2" provider-name="Loki1979|HSK-DE">
     <extension point="xbmc.addon.repository" name="HSK CREW Repository">
 		<dir minversion="19.0.0" maxversion="22.0.0">
 			<info compressed="true">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/addons.xml.gz</info>
@@ -3829,7 +3837,7 @@ https://t.me/kodimansgroup</description>
 
 </addon>
 
-<addon id="repository.mediafusion" version="4.2.1" name="MediaFusion Repository" provider-name="Mohamed Zumair">
+<addon id="repository.mediafusion" version="4.3.4" name="MediaFusion Repository" provider-name="Mohamed Zumair">
     <extension point="xbmc.addon.repository" name="MediaFusion Repository">
         <dir>
             <info compressed="false">https://mhdzumair.github.io/MediaFusion/addons.xml</info>
@@ -6321,6 +6329,36 @@ https://t.me/kodimansgroup</description>
             <fanart>fanart.jpg</fanart>
         </assets>
 	</extension>
+</addon>
+
+<addon id="repository.torrest" name="Torrest Add-on repository" provider-name="i96751414" version="0.0.8">
+    <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
+    </requires>
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info>http://127.0.0.1:61234/addons.xml</info>
+            <checksum>http://127.0.0.1:61234/addons.xml.md5</checksum>
+            <datadir>http://127.0.0.1:61234/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/i96751414/repository.github/blob/master/LICENSE</license>
+        <source>https://github.com/i96751414/repository.github</source>
+        <summary lang="en">GitHub virtual Add-on repository</summary>
+        <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
+        <news>
+- Improve HTTP server
+- Add spanish translation
+- Allow extracting information about running platform
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
 </addon>
 
     <addon id="repository.turkvod" name="TURKvod repository" version="2.2.2a" provider-name="TURKvod TeaM">
