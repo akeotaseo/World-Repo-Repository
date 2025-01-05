@@ -2240,7 +2240,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.enigmawiz" name="[COLOR purple]Enigma[/COLOR] Repo" version="1.8.3" provider-name="Enigma Repo">
+<addon id="repository.enigmawiz" name="[COLOR purple]Enigma[/COLOR] Repo" version="1.8.5" provider-name="Enigma Repo">
 <extension point="xbmc.addon.repository" name="Enigma Repo">
 <dir>
 <info compressed="false">https://team-enigma.xyz/repo/zips/addons.xml</info>
@@ -3837,7 +3837,7 @@ https://t.me/kodimansgroup</description>
 
 </addon>
 
-<addon id="repository.mediafusion" version="4.3.4" name="MediaFusion Repository" provider-name="Mohamed Zumair">
+<addon id="repository.mediafusion" version="4.3.5" name="MediaFusion Repository" provider-name="Mohamed Zumair">
     <extension point="xbmc.addon.repository" name="MediaFusion Repository">
         <dir>
             <info compressed="false">https://mhdzumair.github.io/MediaFusion/addons.xml</info>
@@ -5639,7 +5639,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.StreamArmy" name="[COLOR crimson]S[COLOR silver]tream Army Addons[/COLOR]" version="15.0.004" provider-name="@Nemzzy668 / @_Manc_ // LordJD">
+<addon id="repository.StreamArmy" name="[COLOR crimson]S[COLOR silver]tream Army Addons[/COLOR]" version="16.0.000" provider-name="@Nemzzy668 / @_Manc_ // LordJD">
 	<extension point="xbmc.addon.repository" name="Stream Army">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/nemesis668/repository.streamarmy18-19/main/addons.xml</info>
