@@ -109,6 +109,90 @@
     </extension>
 </addon>
 
+<addon id="kentestvn" name="kentestvn" version="0.0.5" provider-name="kentestvn">
+	<extension point="xbmc.addon.repository" name="kentestvn">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/kentestvn/kentestvn.github.io/master/addons.xml</info>
+			<checksum>https://one.one.one.one/cdn-cgi/trace</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/kentestvn/kentestvn.github.io/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/siku2/kodi-repository/refs/heads/master/addons/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/siku2/kodi-repository/refs/heads/master/addons/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/siku2/kodi-repository/refs/heads/master/addons/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml</info>
+			<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/zips/</datadir>
+		</dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.github.com/jmooremcc/Repository.jmooremcc/master/addons.xml</info>
+			<checksum>https://raw.github.com/jmooremcc/Repository.jmooremcc/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/jmooremcc/Repository.jmooremcc/master</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/5-star/repository.5star/raw/master/zips/</datadir>
+		</dir>
+		<dir minversion="19.0.0">
+			<info compressed="false">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-nexus.xml</info>
+			<checksum>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-nexus.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/nexus/</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="18.0">
+			<info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
+			<datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
+			<artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
+		</dir>
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml</info>
+			<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="19.0.0">
+            <info compressed="false">https://download.osmc.tv/dev/anxdpanic/kodi/youtube/unofficial/addons.xml</info>
+            <checksum>https://download.osmc.tv/dev/anxdpanic/kodi/youtube/unofficial/addons.xml.md5</checksum>
+            <datadir zip="true">https://download.osmc.tv/dev/anxdpanic/kodi/youtube/unofficial/zips</datadir>
+            <hashes>false</hashes>
+        </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>kentestvn</summary>
+		<description>kentestvn</description>
+		<disclaimer>kentestvn</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>icon.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="kodivietnam" name="Kodi Việt Nam" version="0.0.1a" provider-name="bcp">
 	<extension point="xbmc.addon.repository" name="Kodi Việt Nam">
 		<dir>
@@ -3956,6 +4040,27 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
+<addon id="repository.mrfixit2001" name="MrFixit2001 Repository" version="1.0.2" provider-name="mrfixit2001">
+    <extension point="xbmc.addon.repository" name="MrFixit2001 Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/mrfixit2001/mrfixit2001.github.io/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mrfixit2001/mrfixit2001.github.io/main/addons.version</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/mrfixit2001/mrfixit2001.github.io/main/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>MrFixit2001 Repository</summary>
+        <description>Addons preferred by MrFixIt2001, some of which he maintains</description>
+        <source>https://github.com/mrfixit2001/mrfixit2001.github.io</source>
+        <platform>all</platform>
+        <nofanart>true</nofanart>
+        <assets>
+            <icon>mrfixit2001.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.mtr81" name="mtr81" version="1.0" provider-name="lg">
     <extension point="xbmc.addon.repository" name="mtr81">
         <dir>
@@ -5516,6 +5621,27 @@ https://t.me/kodimansgroup</description>
             <summary>seyirTURK Reposu</summary>
             <description>seyirTURK reposudur.</description>
             <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.siku2" name="siku2's Repository" version="1.0.0" provider-name="siku2">
+    <extension point="xbmc.addon.repository">
+    <dir minversion="1.0.0">
+        <info>https://siku2.io/kodi-repository/addons/addons.xml</info>
+        <checksum>https://siku2.io/kodi-repository/addons/addons.xml.md5</checksum>
+        <datadir>https://siku2.io/kodi-repository/addons</datadir>
+    </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">siku2's Kodi add-on repository</summary>
+        <description lang="en_GB">Contains all add-ons created by siku2.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <website>https://siku2.io/kodi-repository</website>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 </addon>
 
