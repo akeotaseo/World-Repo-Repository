@@ -250,38 +250,6 @@ Program Addons:
 	</extension>
 </addon>
 
-<addon id="repo.atlantis" name="REPO ATLANTIS" version="0.0.1" provider-name="Joel">
-    <extension point="xbmc.addon.repository" name="REPO ATLANTIS">
-		<dir>
-    		<info compressed="false">https://github.com/Gujal00/smrzips/raw/master/addons.xml</info>
-    		<checksum>https://github.com/Gujal00/smrzips/raw/master/addons.xml.md5</checksum>
-    		<datadir zip="true">https://github.com/Gujal00/smrzips/raw/master/zips</datadir>
-			<hashes>false</hashes>
-		</dir>
-  		<dir minversion="17.0.0" maxversion="18.9.0">
-			<info compressed="false">https://gitea.com/joel00/brkodirepo/raw/branch/main/leia/addons.xml</info>
-			<checksum>https://gitea.com/joel00/brkodirepo/raw/branch/main/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://gitea.com/joel00/brkodirepo/raw/branch/main/leia</datadir>
-			<hashes>false</hashes>
-    	</dir>
-  		<dir minversion="19.0.0">
-			<info compressed="false">https://gitea.com/joel00/brkodirepo/raw/branch/main/nexus/addons.xml</info>
-			<checksum>https://gitea.com/joel00/brkodirepo/raw/branch/main/nexus/addons.xml.md5</checksum>
-			<datadir zip="true">https://gitea.com/joel00/brkodirepo/raw/branch/main/nexus</datadir>
-			<hashes>false</hashes>
-    	</dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Atlantis repo</summary>
-        <description>Atlantis repo</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>icon.png</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="repo.bg.plugins"
 		name="Bg Add-ons"
 		version="1.0.2"
@@ -2104,49 +2072,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.7" provider-name="">
-	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
-	<extension point="xbmc.addon.repository" name="Kodi Emby Repository">
-		<dir>
-			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml</info>
-			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml.md5</checksum>
-			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/</datadir>
-		</dir>
-		<dir minversion="19.999.0">
-			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/addons.xml</info>
-			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/addons.xml.md5</checksum>
-			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/</datadir>
-		</dir>
-		<dir minversion="18.999.0">
-			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml</info>
-			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/</datadir>
-		</dir>
-		<dir minversion="17.999.0">
-			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml</info>
-			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/</datadir>
-		</dir>
-		<dir minversion="16.999.0">
-			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml</info>
-			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml.md5</checksum>
-			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Kodi Emby Addon Repository</summary>
-		<description>This repo contains add-ons for Emby related support</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="repository.enigmawiz" name="[COLOR hotpink]Enigma[/COLOR] Repo" version="1.8.9" provider-name="Enigma Repo">
 <extension point="xbmc.addon.repository" name="Enigma Repo">
 <dir>
@@ -2846,40 +2771,6 @@ https://t.me/kodimansgroup</description>
     </assets>
   </extension>
 </addon>
-
-    <addon id="repository.jenrepo" name="Jen Repo" version="1.0.3" provider-name="Community">
-        <extension point="xbmc.addon.repository" name="Jen Addon Repo">
-            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-        </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Official Repo For Jen Dependencies</summary>
-            <description>Jen Brings The Dawn Of A New Day in Kodi .. You Now Have The Power To Make Your Add-On</description>
-            <platform>all</platform>
-            <genre>movies,usa</genre>
-        </extension>
-    </addon>
 
 <addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.6.0" provider-name="JewBMX">
     <extension point="xbmc.addon.repository" name="[COLOR purple]JewRepo[/COLOR]">
@@ -4614,32 +4505,6 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.pogowurst.addons" name="Pogowurst Add-on Repository" version="1.0.0a" provider-name="pogowurst">
-    <extension point="xbmc.addon.repository" name="Pogowurst Add-on Repository">
-            <dir >
-                <info compressed="false">https://raw.github.com/pogowurst/repository.pogowurst.addons/master/addons.xml</info>
-                <checksum>https://raw.github.com/pogowurst/repository.pogowurst.addons/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.github.com/pogowurst/repository.pogowurst.addons/master/</datadir>
-            </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">
-            Install Addons from github.com/pogowurst development repository
-        </summary>
-        <summary lang="de">
-            Installiere Addons vom github.com/pogowurst Entwicklungs-Repository
-        </summary>
-        <description lang="en">
-            Here you can find the latest add-on developement versions.[CR]These versions might be
-            [B]unstable[/B]![CR]Use them with caution.
-        </description>
-        <description lang="de">
-            Enthält die neuesten Addon Entwicklungsversionen.[CR]Diese Versionen können instabil sein!
-        </description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="repository.polishteam" name="PolishTeam_Repo" version="0.1.6" provider-name="Polish Team">
 	<extension point="xbmc.addon.repository" name="PolishTeam-Repo">
 	<dir>
@@ -6183,6 +6048,26 @@ https://t.me/kodimansgroup</description>
         </extension>
 </addon>
 
+<addon id="repository.twistednutz" name="[COLOR orange]Twisted Nutz Repo[/COLOR]" version="1.6" provider-name="[COLOR orange]Twisted Nutz[/COLOR]">
+	<extension point="xbmc.addon.repository" name="[COLOR orange]Twisted Nutz[/COLOR]">
+		<dir>
+			<info compressed="false">http://twistednuts.co.uk/twisted/repo/addons.xml</info>
+			<checksum>http://twistednuts.co.uk/twisted/repo/addonsmd5.txt</checksum>
+			<datadir zip="true">http://twistednuts.co.uk/twisted/repo/</datadir>
+		</dir>
+		</extension>
+	<extension point="xbmc.addon.metadata">
+        <summary lang="en">Twisted Nutz Repository</summary>
+        <description lang="en">Educational use only, Twisted Nutz Repository For Kodi</description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+        <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+	</extension>
+</addon>
+
 <addon id="repository.ukturk" name="UKTurk Addon Repository" version="3.0.2" provider-name="UKTurk">
 		<extension point="xbmc.addon.repository" name="UKTurk Addon Repository">
 			<dir>
@@ -6683,26 +6568,6 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.yt.testing_official" name="YouTube Test Repo (Official)" version="2.0.5" provider-name="anxdpanic">
-    <requires>
-        <import addon="xbmc.python" version="3.0.1"/>
-    </requires>
-	<extension point="xbmc.addon.repository" name="YouTube Test Repo (Official)">
-        <dir minversion="20.0.0">
-            <info compressed="false">https://download.osmc.tv/dev/anxdpanic/kodi/youtube/python3/official_testing/addons.xml</info>
-            <checksum>https://download.osmc.tv/dev/anxdpanic/kodi/youtube/python3/official_testing/addons.xml.md5</checksum>
-            <datadir zip="true">https://download.osmc.tv/dev/anxdpanic/kodi/youtube/python3/official_testing/zips</datadir>
-            <hashes>false</hashes>
-        </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install alpha and beta versions of the YouTube add-on.</summary>
-		<description>Install alpha and beta versions of the YouTube add-on.</description>
-		<disclaimer>This add-on is not supported or endorsed by Google/YouTube.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.ytmusic" name="Ytmusic's Repository" version="1.0" provider-name="Goldenfreddy0703">
     <extension point="xbmc.addon.repository" name="Ytmusic's Repository">
         <dir>
@@ -6734,26 +6599,6 @@ https://t.me/kodimansgroup</description>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Zach Morris Add-ons</summary>
         <description>Zach Morris Add-ons</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="repository.zadarbuild" name="ZADARBUILD Repository" version="1.0.0.0" provider-name="Zadar Team">
-    <extension point="xbmc.addon.repository" name="Zadarbuild Repository">
-        <dir>
-            <info compressed="false">http://zadarbuild.eu/repo/zips/addons.xml</info>
-            <checksum>http://zadarbuild.eu/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">http://zadarbuild.eu/repo/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Zadarbuild REPOSITORY</summary>
-        <description>Ovo je ZADARBUILD repo</description>
-        <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
