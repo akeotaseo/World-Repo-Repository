@@ -1924,15 +1924,15 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<datadir zip="true">https://raw.githubusercontent.com/doomzdayteam/repo/master/_zipfiles/</datadir>
 			<hashes>false</hashes>
 		</dir>
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-        </dir>
         <dir>
            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+		<dir>
+           <info compressed="false">https://raw.githubusercontent.com/MJInit/repo/main/_zips/addons.xml</info>
+           <checksum>https://raw.githubusercontent.com/MJInit/repo/main/_zips/addons.xml.md5</checksum>
+           <datadir zip="true">https://raw.githubusercontent.com/MJInit/repo/master/_zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -5719,9 +5719,9 @@ https://t.me/kodimansgroup</description>
 <addon id="repository.the666mafia" name="[COLOR red]the666Mafia[/COLOR]" version="1.0" provider-name="the666Mafia">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/the666mafia/repo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/the666mafia/repo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/the666mafia/repo/master/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/the666mafia/repo/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/the666mafia/repo/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/the666mafia/repo/master/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
