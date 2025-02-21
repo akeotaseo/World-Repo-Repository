@@ -1419,7 +1419,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 	</extension>
 </addon>
 
-    <addon id="repository.cMaNWizard" name="cMaN's Wizard Repository" version="2.1" provider-name="cMaN">
+    <addon id="repository.cMaNWizard" name="cMaN's Wizard Repository" version="2.3" provider-name="cMaN">
         <extension point="xbmc.addon.repository" name="cMaN's Wizard Repository">
 		<dir>
             <info compressed="false">https://cmanbuilds.com/cman/repo/addons.xml</info>
@@ -1437,6 +1437,11 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
 		</dir>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/</datadir>
+        </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Install all the latest Builds</summary>
