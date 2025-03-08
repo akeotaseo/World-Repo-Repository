@@ -2032,7 +2032,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.enigmawiz" name="[COLOR hotpink]Enigma[/COLOR] Repo" version="1.8.9" provider-name="Enigma Repo">
+<addon id="repository.enigmawiz" name="[COLOR hotpink]Enigma[/COLOR] Repo" version="1.9.1" provider-name="Enigma Repo">
 <extension point="xbmc.addon.repository" name="Enigma Repo">
 <dir>
 <info compressed="false">https://team-enigma.xyz/repo/zips/addons.xml</info>
@@ -5920,6 +5920,37 @@ https://t.me/kodimansgroup</description>
         </news>
         <assets>
             <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.tr.kw" name="[COLORgold]T.R.K.W[/COLOR] AIO Repository" version="3.8" provider-name="[COLORgold]T.R.K.W[/COLOR]">
+	<extension point="xbmc.addon.repository" name="T.R.K.W Repository">
+        <dir minversion="19.0.0" maxversion="22.0.0">
+            <info compressed="false">https://kodiwelt.de/repo/addons.xml.gz</info>
+            <checksum verify="sha256">https://kodiwelt.de/repo/addons.xml.gz.sha256</checksum>
+            <datadir zip="true">https://kodiwelt.de/repo</datadir>
+            <hashes>sha256</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">[COLORgold]T.R.K.W[/COLOR] AIO Repository</summary>
+		<summary lang="de_DE">[COLORgold]T.R.K.W[/COLOR] AIO Repository</summary>
+        <description lang="en_GB">Download and install addons from the T.R.K.W repository.[CR][CR]Contact + support:[CR][COLORgold]https://www.facebook.com/groups/kodiwelt[/COLOR][CR]Donation:[CR][COLORgold]kodiwelt@outlook.de[/COLOR]</description>
+        <description lang="de_DE">Downloade und installiere Addons aus dem T.R.K.W Repository.[CR][CR]Kontakt + Support:[CR][COLORgold]https://www.facebook.com/groups/kodiwelt[/COLOR][CR]Spenden-Adresse Paypal:[CR][COLORgold]kodiwelt@outlook.de[/COLOR]</description>
+        <disclaimer lang="en_GB">[B][COLORred]This is a third party repository and is unrelated to the official Kodi team.[/COLOR][/B]</disclaimer>
+		<disclaimer lang="de_DE">[B][COLORred]Dies ist ein Drittanbieter-Repository und steht nicht in Zusammenhang mit dem offiziellen Team Kodi.[/COLOR][/B]</disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<news></news>
+        <assets>
+            <icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
         </assets>
     </extension>
 </addon>
