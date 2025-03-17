@@ -1831,7 +1831,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.dregs" name="[COLOR red]Dr[/COLOR]e[COLOR black]Gs[/COLOR] [COLORcyan]Repository[/COLOR]" version="2.34" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="repository.dregs" name="[COLOR red]Dr[/COLOR]e[COLOR black]Gs[/COLOR] [COLORcyan]Repository[/COLOR]" version="2.36" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
@@ -1842,6 +1842,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <datadir zip="true">https://raw.github.com/dregs1/dregs1.github.io/master</datadir>
     <hashes>false</hashes>
 </dir>
+<dir minversion="29.9.9">
+      <info compressed="true">https://raw.github.com/dregs1/dregs1.github.io/master/pires/addons.xml</info>
+      <checksum>https://raw.github.com/dregs1/dregs1.github.io/master/pires/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/dregs1/dregs1.github.io/master/pires</datadir>
+      <hashes>false</hashes>
+  </dir>
 <dir minversion="20.0.0">
       <info compressed="true">https://raw.github.com/dregs1/dregs1.github.io/master/omega/addons.xml</info>
       <checksum>https://raw.github.com/dregs1/dregs1.github.io/master/omega/addons.xml.md5</checksum>
