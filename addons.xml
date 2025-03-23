@@ -2548,9 +2548,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.hsk.crew.repo" name="[COLOR blue]HSK[/COLOR] CREW Repository" version="1.1.2" provider-name="Loki1979|HSK-DE">
+<addon id="repository.hsk.crew.repo" name="[COLOR blue]HSK[/COLOR] CREW Repository" version="1.1.3" provider-name="Loki1979|HSK-DE">
     <extension point="xbmc.addon.repository" name="HSK CREW Repository">
-		<dir minversion="19.0.0" maxversion="22.0.0">
+		<dir minversion="19.0.0" maxversion="21.9.0">
 			<info compressed="true">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/addons.xml.gz</info>
 			<checksum>https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/addons.xml.gz.sha256</checksum>
 			<datadir zip="true">https://hsk.kodiman.net/hsk/hsk_repos/hsk.crew.nexus.matrix.repo/</datadir>
