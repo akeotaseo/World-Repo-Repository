@@ -5727,13 +5727,13 @@ https://t.me/kodimansgroup</description>
 
 <addon id="repository.thelab"
        name="TheLab Repository"
-       version="24.6.6"
+       version="25.3.25"
        provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]">
     <extension point="xbmc.addon.repository" name="TheLab Repository">
         <dir minversion="21.0" maxversion="21.9.0"><!--TheLab Omega Repo-->
-            <info compressed="false">https://www.midian.appboxes.co/wolfyB/Th3L48/nexus/zips/addons.xml</info>
-            <checksum>https://www.midian.appboxes.co/wolfyB/Th3L48/nexus/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://www.midian.appboxes.co/wolfyB/Th3L48/nexus/zips/</datadir>
+            <info compressed="false">https://www.midian.appboxes.co/wolfyB/Th3L48/omega/zips/addons.xml</info>
+            <checksum>https://www.midian.appboxes.co/wolfyB/Th3L48/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://www.midian.appboxes.co/wolfyB/Th3L48/omega/zips/</datadir>
         </dir>
         <dir minversion="20.0" maxversion="20.9.0"><!--TheLab Nexus Repo-->
             <info compressed="false">https://www.midian.appboxes.co/wolfyB/Th3L48/nexus/zips/addons.xml</info>
