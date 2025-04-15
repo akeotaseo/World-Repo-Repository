@@ -1559,7 +1559,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 </addon>
 
 
-<addon id="repository.dexe" name=" dEXE's Addons Repository" version="1.0.7" provider-name="dEXE">
+<addon id="repository.dexe" name=" dEXE's Addons Repository" version="1.0.8" provider-name="dEXE">
 	<extension point="xbmc.addon.repository" name="dEXE's Addons Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/repo/addons.xml</info>
@@ -1633,9 +1633,9 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 
 <!--  CocoScrapers Module  -->
 		<dir minversion="19.0">
-			<info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/</datadir>
 		</dir>
 
 <!--  a4kStreaming Repository  -->
