@@ -3306,8 +3306,8 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.luc_repo" name="luc_repo" version="1.0.3" provider-name="[COLOR mediumspringgreen]apoyotech[/COLOR]">
-   <extension point="xbmc.addon.repository" name="[COLOR mediumspringgreen]luc_[/COLOR]repo">
+<addon id="repository.luc_repo" name="luc_repo" version="1.0.4" provider-name="[COLOR mediumspringgreen]apoyotech[/COLOR]">
+   <extension point="xbmc.addon.repository" name="[COLOR fffe9900]luc_repo[/COLOR]">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/apoyotech/luc_repo/refs/heads/main/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/apoyotech/luc_repo/refs/heads/main/addons.xml.md5</checksum>
