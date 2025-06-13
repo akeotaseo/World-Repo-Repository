@@ -1587,7 +1587,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 </addon>
 
 
-<addon id="repository.dexe" name=" dEXE's Addons Repository" version="1.0.8" provider-name="dEXE">
+<addon id="repository.dexe" name=" dEXE's Addons Repository" version="1.0.9" provider-name="dEXE">
 	<extension point="xbmc.addon.repository" name="dEXE's Addons Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/repo/addons.xml</info>
@@ -1606,10 +1606,16 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 			<datadir zip="true">https://gitfront.io/r/dexe/n7TtSm9NEVFs/dexerepo/raw/zips/</datadir>
 			<hashes>false</hashes>
 		</dir>
+		<dir minversion="19.0.0">
+			<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/misc/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/deklica/repo.dexe/master/misc/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/deklica/repo.dexe/master/misc/</datadir>
+			<hashes>false</hashes>
+		</dir>
 
 <!--  Repositories  -->
 
-<!--  Nixgates Repo  -->
+<!--  Nixgates Repo 2.2.0  -->
 		<dir minversion="18.0">
 			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/addons.xml.md5</checksum>
@@ -1626,7 +1632,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/matrix/zips/</datadir>
 		</dir>
 
-<!--  Umbrella Repository  -->
+<!--  Umbrella Repository 2.2.4 -->
 		<dir minversion="18.9.701" maxversion="19.5">
 			<info compressed="false">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/matrix/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/matrix/zips/addons.xml.md5</checksum>
@@ -1638,35 +1644,28 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 			<datadir zip="true">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/nexus/zips/</datadir>
 		</dir>
 
-<!--  kodifitzwell repository  -->
+<!--  kodifitzwell repository 0.0.1  -->
 		<dir minversion="19.0.0">
 			<info compressed="false">https://kodifitzwell.codeberg.page/repo/packages/addons.xml</info>
 			<checksum>https://kodifitzwell.codeberg.page/repo/packages/addons.xml.md5</checksum>
 			<datadir zip="true">https://kodifitzwell.codeberg.page/repo/</datadir>
 		</dir>
 
-<!--  Jacktook Add-on Repository  -->
+<!--  Jacktook Add-on Repository 0.0.5  -->
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Sam-Max/repository.jacktook/master/repo/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Sam-Max/repository.jacktook/master/repo/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Sam-Max/repository.jacktook/master/repo/zips/</datadir>
 		</dir>
 
-<!--  bleak-lodge repository  -->
-		<dir>
-			<info compressed="false">https://github.com/bleak-lodge/repository.bleak-lodge/raw/main/addons.xml</info>
-			<checksum>https://github.com/bleak-lodge/repository.bleak-lodge/raw/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/bleak-lodge/repository.bleak-lodge/main/</datadir>
-		</dir>
-
-<!--  CocoScrapers Module  -->
+<!--  CocoScrapers Module 1.0.0  -->
 		<dir minversion="19.0">
 			<info compressed="false">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/</datadir>
 		</dir>
 
-<!--  a4kStreaming Repository  -->
+<!--  a4kStreaming Repository 1.0.1  -->
 		<dir minversion="18.0">
 			<info>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml.crc</checksum>
@@ -1674,7 +1673,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 			<artdir>https://github.com/newt-sc/a4kStreaming/releases/download/v0.1.0</artdir>
 		</dir>
 
-<!--  a4kSubtitles Repository  -->
+<!--  a4kSubtitles Repository 1.1.1  -->
 		<dir minversion="18.0">
 			<info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
@@ -1682,28 +1681,28 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 			<artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
 		</dir>
 
-<!--  Dobbelina Repository -->
+<!--  Dobbelina Repository 1.0.4  -->
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
 		</dir>
 
-<!--  ResolveURL Repository  -->
+<!--  ResolveURL Repository 1.0.0  -->
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 		</dir>
 
-<!--  Orion Repository  -->
+<!--  Orion Repository 5.0.0  -->
 		<dir>
 			<info compressed="false">https://repo.orionoid.com/addons.xml</info>
 			<checksum>https://repo.orionoid.com/addons.xml.md5</checksum>
 			<datadir zip="true">https://repo.orionoid.com</datadir>
 		</dir>
 
-<!--  Yatse Kodi Add-on repository  -->
+<!--  Yatse Kodi Add-on repository 1.1.0  -->
 		<dir minversion="14.0.0">
 			<info compressed="false">https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/addons.xml.md5</checksum>
@@ -1717,7 +1716,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 			<hashes>false</hashes>
 		</dir>
 
-<!--  pkscout's Skin Modifications  -->
+<!--  pkscout's Skin Modifications 2.0.1  -->
 		<dir minversion="19.0.0" maxversion="19.9.0">
 			<info>https://raw.github.com/pkscout/repository.skins.pkscout/matrix/addons.xml</info>
 			<checksum>https://raw.github.com/pkscout/repository.skins.pkscout/matrix/addons.xml.md5</checksum>
@@ -1740,12 +1739,6 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 			<hashes>false</hashes>
 		</dir>
 
-<!--  Zach Morris Add-ons  -->
-		<dir minversion="18.0.0">
-			<info compressed="false">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
-			<checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/zach-morris/repository.zachmorris/raw/master/</datadir>
-		</dir>
 
 	</extension>
 	<extension point="xbmc.addon.metadata">
