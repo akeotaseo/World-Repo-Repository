@@ -2850,6 +2850,34 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
+<addon id="repository.kodi.reavey05.com"
+        name="KODI Repository @ reavey05.com"
+        version="0.1.6"
+        provider-name="Brian Reavey">
+
+    <extension point="xbmc.addon.repository">
+    <dir>
+        <info>https://repository.kodi.reavey05.com/addons.xml</info>
+        <checksum>https://repository.kodi.reavey05.com/addons.xml.sha256</checksum>
+        <datadir>https://repository.kodi.reavey05.com/</datadir>
+        <hashes>sha256</hashes>
+    </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>KODI Repository @ reavey05.com</summary>
+        <description>A repository of add-ons developed for a personal Kodi system</description>
+        <disclaimer></disclaimer>
+        <news>0.1.6 - Add multi-addon support</news>
+        <platform>all</platform>
+        <language></language>
+        <license>GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007</license>
+        <website>https://repository.kodi.reavey05.com/</website>
+        <source>https://github.com/brianpatrickreavey/repository.kodi.reavey05.com</source>
+        <email>brian at reavey05 dot com</email>
+    </extension>
+</addon>
+
 <addon id="repository.kodifitzwell" version="0.0.1" name="kodifitzwell repository" provider-name="kodifitzwell">
     <extension point="xbmc.addon.repository" name="kodifitzwell repository">
         <dir minversion="19.0.0">
