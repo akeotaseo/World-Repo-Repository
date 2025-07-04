@@ -391,12 +391,12 @@ Program Addons:
     </extension>
 </addon>
 
-<addon id="repository.acestream-channels" name="[COLOR FF00FFFF]Gunter25 Addons[/COLOR]" version="1.0.0" provider-name="Gunter25">
+<addon id="repository.acestream-channels" name="[COLOR FF00FFFF]Gunter25 Addons[/COLOR]" version="1.2.0" provider-name="Gunter25">
     <extension point="xbmc.addon.repository" name="Gunter25 Addons">
         <dir>
-            <info compressed="false">https://hparlon6.github.io/repoachannels/addons.xml</info>
-            <checksum>https://hparlon6.github.io/repoachannels/addons.xml.md5</checksum>
-            <datadir zip="true">https://hparlon6.github.io/repoachannels/repo/</datadir>
+            <info compressed="false">https://gunter257.github.io/repoachannels/addons.xml</info>
+            <checksum>https://gunter257.github.io/repoachannels/addons.xml.md5</checksum>
+            <datadir zip="true">https://gunter257.github.io/repoachannels/repo/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
