@@ -2912,6 +2912,11 @@ https://t.me/kodimansgroup</description>
             <checksum>https://kodifitzwell.codeberg.page/repo/packages/addons.xml.md5</checksum>
             <datadir zip="true">https://kodifitzwell.codeberg.page/repo/</datadir>
         </dir>
+        <dir minversion="19.0.0">
+            <info compressed="false">https://kodiyashimaru.github.io/repo/packages/addons.xml</info>
+            <checksum>https://kodiyashimaru.github.io/repo/packages/addons.xml.md5</checksum>
+            <datadir zip="true">https://kodiyashimaru.github.io/repo/</datadir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <description>kodifitzwell repository</description>
