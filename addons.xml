@@ -6634,9 +6634,9 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.xship" name="[B]xShip Repository[/B]" version="1.5.0" provider-name="xShip-Team">
+<addon id="repository.xship" name="[B]xShip Repository[/B]" version="1.5.1" provider-name="xShip-Team">
 	<extension point="xbmc.addon.repository" name="xShip Repository">
-		<dir minversion="18.9.701" maxversion="21.9.700">
+		<dir minversion="18.9.701" maxversion="22.9.700">
             <info compressed="false">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/addons.xml</info>
 			<checksum verify="sha256">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/addons.xml.sha256</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/</datadir>
