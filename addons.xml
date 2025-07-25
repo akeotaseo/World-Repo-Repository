@@ -6084,7 +6084,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.tr.kw" name="[COLORgold]T.R.K.W[/COLOR] AIO Repository" version="4.0" provider-name="[COLORgold]T.R.K.W[/COLOR]">
+<addon id="repository.tr.kw" name="[COLORgold]T.R.K.W[/COLOR] AIO Repository" version="4.1" provider-name="[COLORgold]T.R.K.W[/COLOR]">
 	<extension point="xbmc.addon.repository" name="T.R.K.W Repository">
         <dir minversion="19.0.0" maxversion="22.0.0">
             <info compressed="false">https://kodiwelt.de/repo/addons.xml.gz</info>
@@ -6097,7 +6097,7 @@ https://t.me/kodimansgroup</description>
         <summary lang="en_GB">[COLORgold]T.R.K.W[/COLOR] AIO Repository</summary>
 		<summary lang="de_DE">[COLORgold]T.R.K.W[/COLOR] AIO Repository</summary>
         <description lang="en_GB">Download and install addons from the T.R.K.W repository.[CR][CR]Contact + support:[CR][COLORgold]https://www.facebook.com/groups/kodiwelt[/COLOR][CR]Donation:[CR][COLORgold]kodiwelt@outlook.de[/COLOR]</description>
-        <description lang="de_DE">Downloade und installiere Addons aus dem T.R.K.W Repository.Die Facebook Gruppe KodiWeLT ist privat.Zugang nur nach persoenlicher Einladung und Freischaltung vom Admin.[CR][CR]Kontakt + Support:[CR][COLORgold]https://www.facebook.com/groups/kodiwelt[/COLOR][CR]Spenden-Adresse Paypal:[CR][COLORgold]kodiwelt@outlook.de[/COLOR]</description>
+        <description lang="de_DE">Downloade und installiere Addons aus dem T.R.K.W Repository.Die Facebook Gruppe KodiWeLT ist privat.Eintritt nach persoenlicher Einladung und / oder Freischaltung moeglich.[CR][CR]Kontakt + Support:[CR][COLORgold]https://www.facebook.com/groups/kodiwelt[/COLOR][CR]Spenden-Adresse Paypal:[CR][COLORgold]kodiwelt@outlook.de[/COLOR]</description>
         <disclaimer lang="en_GB">[B][COLORred]This is a third party repository and is unrelated to the official Kodi team.[/COLOR][/B]</disclaimer>
 		<disclaimer lang="de_DE">[B][COLORred]Dies ist ein Drittanbieter-Repository und steht nicht in Zusammenhang mit dem offiziellen Team Kodi.[/COLOR][/B]</disclaimer>
 		<language>de</language>
