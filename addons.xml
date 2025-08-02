@@ -3985,7 +3985,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.notoco.univ19" name="Notoco Univ Repo" version="3.1" provider-name="notoco">
+<addon id="repository.notoco.univ19" name="Notoco Univ Repo" version="3.2" provider-name="notoco">
         <extension point="xbmc.addon.repository" name="Notoco Univ Repo">
             <dir minversion="18.9.0">
                 <info>https://github.com/notoco/univk19/raw/master/addons.xml</info>
@@ -6115,14 +6115,18 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-    <addon id="repository.turkvod" name="TURKvod repository" version="2.2.2a" provider-name="TURKvod TeaM">
-	<extension point="xbmc.addon.repository" name="TURKvod repository">
-			<dir>
-				<info compressed="false">http://repo.turkvod.site/addons.xml</info>
-				<checksum>http://repo.turkvod.site/addons.xml.md5</checksum>
-				<datadir zip="true">http://repo.turkvod.site/</datadir>
-			</dir>
-	</extension>
+    <addon id="repository.turkvod" name="TURKvod repository" version="3.0.1" provider-name="BerkEnkey">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="TURKvod repository">
+		    <dir>
+                <info compressed="false">https://turkvod.com.tr/addons.xml</info>
+                <checksum>https://turkvod.com.tr/addons.xml.md5</checksum>
+                <datadir zip="true">https://turkvod.com.tr/</datadir>
+                <hashes>false</hashes>
+		    </dir>
+        </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Based on enigma2 plugin TURKvod. Support: www.turk-dreamworld.com</summary>
             <description>Based on enigma2 plugin TURKvod. Support: www.turk-dreamworld.com</description>
