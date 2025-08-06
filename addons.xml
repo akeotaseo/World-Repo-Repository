@@ -773,7 +773,7 @@ Program Addons:
 	</extension>
 </addon>
 
-<addon id="repository.asgardrepo" name="[COLOR red]Asgard Repo[/COLOR]" version="0.0.2" provider-name="MrBlamo">
+<addon id="repository.asgardrepo" name="[COLOR red]Asgard Repo[/COLOR]" version="0.0.3" provider-name="MrBlamo">
 	<extension point="xbmc.addon.repository" name="[COLOR red]Asgard Repo[/COLOR]">
 		<dir minversion="20.90.0" maxversion="22.9.9">
             <info compressed="false">https://raw.githubusercontent.com/theasguard/Repo/master/zips/addons.xml</info>
