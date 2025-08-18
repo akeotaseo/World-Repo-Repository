@@ -3390,8 +3390,8 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.luc_repo" name="luc_repo" version="1.0.5" provider-name="[COLOR mediumspringgreen]apoyotech[/COLOR]">
-   <extension point="xbmc.addon.repository" name="[COLOR fffe9900]luc_repo[/COLOR]">
+<addon id="repository.luc_repo" name="[B][COLOR ff00fa9a]luc_[/COLOR][/B]repo" version="1.0.6" provider-name="[COLOR ffffae00]apoyotech[/COLOR]">
+   <extension point="xbmc.addon.repository" name="luc_repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/apoyotech/luc_repo/refs/heads/main/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/apoyotech/luc_repo/refs/heads/main/addons.xml.md5</checksum>
@@ -3402,7 +3402,7 @@ https://t.me/kodimansgroup</description>
     <summary lang="en_GB"> Welcome to the luc_repo</summary>
     <description lang="en_GB">[COLOR fffa9900]luc_repo,repository for open source,Kodi[/COLOR]</description>
     <platform>all</platform>
-  <license>MIT License</license>
+  <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
   <disclaimer lang="en">The author of this repository do not host any of the content which is found and have no affiliation with any of the content providers. Use at your own risk!</disclaimer>
   <assets>
 	 <icon>icon.png</icon>
