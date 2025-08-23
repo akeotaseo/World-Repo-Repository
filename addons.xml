@@ -3712,7 +3712,7 @@ https://t.me/kodimansgroup</description>
 
 </addon>
 
-<addon id="repository.mediafusion" version="4.3.33" name="MediaFusion Repository" provider-name="Mohamed Zumair">
+<addon id="repository.mediafusion" version="4.3.34" name="MediaFusion Repository" provider-name="Mohamed Zumair">
     <extension point="xbmc.addon.repository" name="MediaFusion Repository">
         <dir>
             <info compressed="false">https://mhdzumair.github.io/MediaFusion/addons.xml</info>
@@ -7074,6 +7074,26 @@ http://zadarbuild.com.hr
 		<platform>all</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="repo_vietmediaf_offical" name="VIETMEDIAF_OFFICIAL" version="0.0.1" provider-name="repo_vietmediaf_official">
+	<extension point="xbmc.addon.repository" name="repo_vietmediaf_official">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/master/addons.xml</info>
+			<checksum>https://one.one.one.one/cdn-cgi/trace</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>repo_vietmediaf_official</summary>
+		<description>repo_vietmediaf_offiicial</description>
+		<disclaimer>repo_vietmediaf_official</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>icon.jpg</fanart>
 		</assets>
 	</extension>
 </addon>
