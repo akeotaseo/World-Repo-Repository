@@ -2964,34 +2964,6 @@ https://t.me/kodimansgroup</description>
   </extension>
 </addon>
 
-<addon id="repository.kodiman_public" name="[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]" version="20.1.2" provider-name="[COLOR lime]KODIMAN HIMSELF[/COLOR]">
-    <extension point="xbmc.addon.repository" name="KODIMANS PUBLIC REPOSITORY">
-	   <dir>
-		<info>https://wizard.kodiman.net/repository19/new_repo/addons.xml</info>
-		<checksum>https://wizard.kodiman.net/repository19/new_repo/addons.xml.md5</checksum>
-		<datadir>https://wizard.kodiman.net/repository19/new_repo/</datadir>
-	   </dir>
-	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]</summary>
-        <description>Telegram: https://t.me/Kodiman</description>
-        <platform>all</platform>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<email>ungatonga@t-online.de</email>
-	<source></source>
-	<news>KODIMAN IS BACK!!!</news>
-    <assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
-		<banner></banner>
-		<clearlogo></clearlogo>
-		<screenshot></screenshot>
-	</assets>
-    </extension>
-</addon>
-
 <addon id="repository.kodinerds" name="Kodinerds Addon Repo" version="7.0.1.7" provider-name="Kodinerds">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
