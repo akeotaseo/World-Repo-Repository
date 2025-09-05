@@ -5926,6 +5926,30 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
+<addon id="repository.terrytibbs" name="Terrys 25 repo" version="2.8" provider-name="Terry Tibbs">
+    <extension point="xbmc.addon.repository" name="Terrys 25 Repository">
+        <dir>
+            <info compressed="false">https://githubraw.com/terrytibbs2023/build/main/repo25/zips/addons.xml</info>
+
+
+<checksum>https://githubraw.com/terrytibbs2023/build/main/repo25/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://githubraw.com/terrytibbs2023/build/main/repo25/zips/</datadir>
+        </dir>
+
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Terry Tibbs Repo</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.the666mafia" name="[COLOR red]the666Mafia[/COLOR]" version="1.0" provider-name="the666Mafia">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
