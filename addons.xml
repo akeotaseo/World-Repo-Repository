@@ -1659,7 +1659,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 </addon>
 
 
-<addon id="repository.dexe" name=" dEXE's Addons Repository" version="1.0.10" provider-name="dEXE">
+<addon id="repository.dexe" name=" dEXE's Addons Repository" version="1.0.11" provider-name="dEXE">
 	<extension point="xbmc.addon.repository" name="dEXE's Addons Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/deklica/repo.dexe/master/repo/addons.xml</info>
@@ -1687,23 +1687,6 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 
 <!--  Repositories  -->
 
-<!--  Nixgates Repo 2.2.0  -->
-		<dir minversion="18.0">
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/</datadir>
-		</dir>
-		<dir minversion="18.0" maxversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/leia/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/leia/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/leia/zips/</datadir>
-		</dir>
-		<dir minversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/matrix/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/matrix/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/matrix/zips/</datadir>
-		</dir>
-
 <!--  Umbrella Repository 2.2.4 -->
 		<dir minversion="18.9.701" maxversion="19.5">
 			<info compressed="false">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/matrix/zips/addons.xml</info>
@@ -1729,7 +1712,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 		</dir>
 
 <!--  Jacktook Add-on Repository 0.0.5  -->
-		<dir>
+		<dir minversion="19.0.0">
 			<info compressed="false">https://raw.githubusercontent.com/Sam-Max/repository.jacktook/master/repo/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Sam-Max/repository.jacktook/master/repo/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Sam-Max/repository.jacktook/master/repo/zips/</datadir>
@@ -1743,7 +1726,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 		</dir>
 
 <!--  a4kStreaming Repository 1.0.1  -->
-		<dir minversion="18.0">
+		<dir minversion="19.0">
 			<info>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml.crc</checksum>
 			<datadir>https://github.com/newt-sc/a4kStreaming/archive</datadir>
@@ -1751,7 +1734,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 		</dir>
 
 <!--  a4kSubtitles Repository 1.1.1  -->
-		<dir minversion="18.0">
+		<dir minversion="19.0">
 			<info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
 			<datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
@@ -1759,33 +1742,27 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 		</dir>
 
 <!--  Dobbelina Repository 1.0.4  -->
-		<dir>
+		<dir minversion="19.0.0">
 			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
 		</dir>
 
 <!--  ResolveURL Repository 1.0.0  -->
-		<dir>
+		<dir minversion="19.0.0">
 			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 		</dir>
 
 <!--  Orion Repository 5.0.0  -->
-		<dir>
+		<dir minversion="19.0.0">
 			<info compressed="false">https://repo.orionoid.com/addons.xml</info>
 			<checksum>https://repo.orionoid.com/addons.xml.md5</checksum>
 			<datadir zip="true">https://repo.orionoid.com</datadir>
 		</dir>
 
 <!--  Yatse Kodi Add-on repository 1.1.0  -->
-		<dir minversion="14.0.0">
-			<info compressed="false">https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/</datadir>
-			<hashes>false</hashes>
-		</dir>
 		<dir minversion="18.9.0">
 			<info compressed="false">https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/matrix/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/matrix/addons.xml.md5</checksum>
