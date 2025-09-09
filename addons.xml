@@ -5908,7 +5908,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.terrytibbs" name="Terrys 25 repo" version="2.8" provider-name="Terry Tibbs">
+<addon id="repository.terrytibbs" name="Terrys 25 repo" version="5.8" provider-name="Terry Tibbs">
     <extension point="xbmc.addon.repository" name="Terrys 25 Repository">
         <dir>
             <info compressed="false">https://githubraw.com/terrytibbs2023/build/main/repo25/zips/addons.xml</info>
