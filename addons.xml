@@ -317,6 +317,30 @@ Program Addons:
     </extension>
 </addon>
 
+<addon id="repository.2026" name="Terrys 2026 repo" version="1.0" provider-name="Terry Tibbs">
+    <extension point="xbmc.addon.repository" name="Terrys 2026 Repository">
+        <dir>
+            <info compressed="false">https://githubraw.com/terrytibbs2023/build/main/repo2026/zips/addons.xml</info>
+
+
+<checksum>https://githubraw.com/terrytibbs2023/build/main/repo2026/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://githubraw.com/terrytibbs2023/build/main/repo2026/zips/</datadir>
+        </dir>
+
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Terry Tibbs Repo</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.5star" name="5Star Kodi addons" version="6.4.0" provider-name="Luis Rodrigues">
     <extension point="xbmc.addon.repository" name="5Star Kodi addons">
 		<dir>
@@ -3374,7 +3398,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.luc_repo" name="[B][COLOR ff00fa9a]luc_[/COLOR][/B]repo" version="1.0.8" provider-name="[COLOR ffffae00]apoyotech[/COLOR]">
+<addon id="repository.luc_repo" name="[B][COLOR ff00fa9a]luc_[/COLOR][/B]repo" version="1.0.9" provider-name="[COLOR ffffae00]apoyotech[/COLOR]">
    <extension point="xbmc.addon.repository" name="luc_repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/apoyotech/luc_repo/refs/heads/main/addons.xml</info>
