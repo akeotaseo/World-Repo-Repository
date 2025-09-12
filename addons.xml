@@ -129,41 +129,6 @@
     </extension>
 </addon>
 
-<addon id="MatrixFlix.Repo" name="MatrixFlix Repository" version="1.02e" provider-name="MatrixFlix Media">
-    <extension point="xbmc.addon.repository" name="MatrixFlix XBMC Addon Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/MatrixFlix/Dist/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/MatrixFlix/Dist/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/MatrixFlix/Dist/master/repo/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/</datadir>
-        </dir>
-        <dir>
-            <info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
-            <datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>MatrixFlix Repository</summary>
-        <description>MatrixFlix Installer</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="MB-KODI"
         name="MB-Kodi Repository"
         version="4.2"
@@ -2171,63 +2136,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-    <addon id="repository.EzzerMacsWizard" name="EzzerMacs Wizard Repository" version="1.1.7" provider-name="EzzerMac">
-        <extension point="xbmc.addon.repository" name="EzzerMacs Wizard Repository">
-		<dir>
-            <info compressed="false">http://www.ezzer-mac.com/_repo/addons.xml</info>
-            <checksum>http://www.ezzer-mac.com/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://www.ezzer-mac.com/_repo/</datadir>
-			</dir>
-
-            <dir>
-			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-		</dir>
-
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-        </dir>
-
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-        </dir>
-
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
-            <hashes>false</hashes>
-        </dir>
-
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-
-
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Install all the latest Builds</summary>
-            <description>Welcome to the New and Improved EZZERMACS WIZARD for all your Community Builds, All the Help and Assistance can be found Here</description>
-            <platform>all</platform>
-		<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		</assets>
-    </extension>
-</addon>
-
     <addon id="repository.Fido" name="[COLOR aqua]Fido Repository[/COLOR]" version="1.5g" provider-name="Fido">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Fido Repository[/COLOR]">
 		    <dir>
@@ -3345,38 +3253,6 @@ https://t.me/kodimansgroup</description>
 		<description lang="en"></description>
 		<genre></genre>
 	</extension>
-</addon>
-
-    <addon id="repository.LostSoul" name="Lost Soul Repository" version="1.2.0" provider-name="Team Asgard">
-        <extension point="xbmc.addon.repository" name="Lost Soul Repository">
-		<dir>
-            <info compressed="false">https://mylostsoulspace.co.uk/_repo/addons.xml</info>
-            <checksum>https://mylostsoulspace.co.uk/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://mylostsoulspace.co.uk/_repo/</datadir>
-		</dir>
-
-		<dir>
-        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Install all the latest Updates</summary>
-            <description>Welcome to the New and Improved Team Asgard Repo</description>
-            <platform>all</platform>
-			<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
-    </extension>
 </addon>
 
 <addon id="repository.luar" name="[COLOR lime]Repositorio Luar[/COLOR]" version="2.0.0" provider-name="The Dreamers">
