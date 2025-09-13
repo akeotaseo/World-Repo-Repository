@@ -2474,6 +2474,26 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
+<addon id="repository.greenball" name="GreenBall Repository" version="1.0.0" provider-name="ajsm90">
+    <extension point="xbmc.addon.repository" name="GreenBall Repository">
+        <dir>
+            <info compressed="true">https://ajsm90.github.io/greenball.repo/repo/zips/addons.xml</info>
+            <checksum>https://ajsm90.github.io/greenball.repo/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://ajsm90.github.io/greenball.repo/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio GreenBall</summary>
+        <description>Repositorio con addons de GreenBall</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.grindhousekodi" name="Grindhouse Repository" version="1.8" provider-name="Grindhouse">
 	<extension point="xbmc.addon.repository" name="Grindhouse">
 		<dir>
