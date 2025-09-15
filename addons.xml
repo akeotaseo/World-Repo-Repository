@@ -2689,6 +2689,24 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
+<addon id="repository.hub" name="Hub Repository" version="1.0.5" provider_name="1X &amp;amp; Geamanu">
+    <extension point="xbmc.addon.repository" name="Hub Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/staycanuca/hub/main/zip/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/staycanuca/hub/main/zip/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/staycanuca/hub/main/zip/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>The official repository for Hub Repository.</summary>
+        <description>Install this to get the latest updates from Hub Repository.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.ivarbrandt" name="ivarbrandt's Repository" version="1.0.1" provider-name="Ivar Brandt">
     <extension point="xbmc.addon.repository" name="ivarbrandt's Repository">
         <dir>
