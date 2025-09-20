@@ -2715,7 +2715,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.hub" name="Hub Repo" version="1.0.6" provider-name="1x">
+<addon id="repository.hub" name="Hub Repo" version="1.0.7" provider-name="1x">
     <extension point="xbmc.addon.repository" name="Hub Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/staycanuca/hub/main/zip/addons.xml</info>
