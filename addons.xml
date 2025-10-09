@@ -2853,6 +2853,39 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
+<addon id="repository.JuDeer" name="JuDeer Repo" version="1.5" provider-name="Goupon">
+	<extension point="xbmc.addon.repository" name="JuDeer Repo">
+	  <dir>
+		<info compressed="false">https://raw.githubusercontent.com/JuDeer/folder/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/JuDeer/folder/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/JuDeer/folder/master/</datadir>
+	  </dir>
+
+	  <dir>
+		<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+	  </dir>
+
+	  <dir minversion="19.0.0">
+		<info compressed="false">https://download.osmc.tv/dev/anxdpanic/kodi/youtube/unofficial/addons.xml</info>
+		<checksum>https://download.osmc.tv/dev/anxdpanic/kodi/youtube/unofficial/addons.xml.md5</checksum>
+		<datadir zip="true">https://download.osmc.tv/dev/anxdpanic/kodi/youtube/unofficial/zips</datadir>
+		<hashes>false</hashes>
+	  </dir>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
+</addon>
+
 <addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.5" provider-name="jurialmunkey">
     <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
         <dir>
