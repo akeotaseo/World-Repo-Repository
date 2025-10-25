@@ -5938,19 +5938,37 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.theblackghost" name="The Black Ghost Repo" version="0.0.2a" provider-name="BlackGhost">
-	<extension point="xbmc.addon.repository" name="theblackghost">
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/blackghostaddon/repo/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/blackghostaddon/repo/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/blackghostaddon/repo/master/</datadir>
-			</dir>
-	</extension>
+<addon id="repository.theblackghost"
+       name="Black Ghost Repo"
+       version="0.0.7"
+       provider-name="BlackGhost">
+
+    <requires>
+        <!-- Obligatorio para Kodi 19+ (Python 3) -->
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+
+    <extension point="xbmc.addon.repository" name="theblackghost">
+        <dir>
+            <info compressed="false">https://site27.xyz/repo/addons.xml</info>
+            <checksum>https://site27.xyz/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://site27.xyz/repo/</datadir>
+        </dir>
+    </extension>
+
     <extension point="xbmc.addon.metadata">
-        <summary>Black all Black Ghost</summary>
-        <description></description>
-        <disclaimer></disclaimer>
         <platform>all</platform>
+        <summary>Black all Black Ghost</summary>
+        <description lang="en_GB">Black Ghost REPO</description>
+        <description lang="es_ES">Black Ghost Repositorio</description>
+        <license></license>
+        <language></language>
+        <website></website>
+        <news></news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 
