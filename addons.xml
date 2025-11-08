@@ -2392,7 +2392,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-    <addon id="repository.gearheads2" name="gearheadsrepo" version="9.6" provider-name="Racesondemand">
+    <addon id="repository.gearheads2" name="gearheadsrepo" version="9.6a" provider-name="Racesondemand">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
