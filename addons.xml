@@ -5078,7 +5078,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.search.db" name="XBMC.ru search db" version="1.1.78" provider-name="bigbax">
+<addon id="repository.search.db" name="XBMC.ru search db" version="1.1.79" provider-name="bigbax">
   <requires>
     <import addon="xbmc.addon" version="12.0.0" />
   </requires>
@@ -5139,10 +5139,15 @@ https://t.me/kodimansgroup</description>
             <datadir zip="true">https://nemiroff.github.io/kodi_repo/repo</datadir>
         </dir>
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/NIV82/kodi_repo/main/release/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/NIV82/kodi_repo/main/release/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/NIV82/kodi_repo/raw/main/release/</datadir>
-        </dir>
+			<info compressed="false">https://raw.githubusercontent.com/NIV82/kodi_repo/main/packages/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/NIV82/kodi_repo/main/packages/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/NIV82/kodi_repo/raw/main/packages/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/NIV82/kodi_repo/main/release/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/NIV82/kodi_repo/main/release/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/NIV82/kodi_repo/raw/main/release/</datadir>
+		</dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/jarvis/repo/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/jarvis/repo/addons.xml.md5</checksum>
