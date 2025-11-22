@@ -504,14 +504,14 @@ Program Addons:
     </extension>
 </addon>
 
-<addon id="repository.al8ina" name="Bee Queen" version="1.0.2" provider-name="ASistem">
+<addon id="Bee-Queen" name="Bee Queen" version="1.0.4" provider-name="ASistem">
     <extension point="xbmc.addon.repository" name="Bee Queen Repository">
 	    <dir>
             <info compressed="false">https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/repo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/repo/zips/</datadir>
         </dir>
-        <dir minversion="17.0.0" maxversion="17.9.9">
+		<dir minversion="17.0.0" maxversion="17.9.9">
             <info compressed="false">https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/krypton/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/krypton/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/krypton/zips/</datadir>
@@ -519,7 +519,7 @@ Program Addons:
 		<dir minversion="18.0.0" maxversion="18.9.9">
             <info compressed="false">https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/leia/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/leia/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/matrix/zips/</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/leia/zips/</datadir>
         </dir>
 		<dir minversion="19.0.0">
             <info compressed="false">https://raw.githubusercontent.com/audiosistem/Bee-Queen/main/matrix/zips/addons.xml</info>
