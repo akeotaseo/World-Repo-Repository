@@ -234,19 +234,19 @@ Program Addons:
 </addon>
 
 <addon	id="One.repo"
-		version="1.12"
+		version="1.14"
         name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR][/B]"
 		provider-name="TEAM [COLOR aquamarine]ONE[/COLOR][COLOR white]PLAY[/COLOR]">
 	<requires>
     	<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="OnePlay Repositorio">
-  		<dir>
-			<info compressed="false">https://github.com/oneplayhd/onerepo/raw/master/addons.xml</info>
-			<checksum>https://github.com/oneplayhd/onerepo/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/oneplayhd/onerepo/raw/master</datadir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/oneplayhd/OneRepo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/oneplayhd/OneRepo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/oneplayhd/OneRepo/master/OneRepo/</datadir>
 			<hashes>false</hashes>
-    	</dir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
@@ -258,7 +258,8 @@ Program Addons:
 • Adição de capturas de tela em "resources" para visualização prévia.
 • Atualização dos links de apontamento para o GitHub.
 • O repositório oferecerá suporte apenas para as versões mais recentes.
-• Atualização em: 05/06/2025
+• Atualizado os links de apontamento para raw.usercontent
+• Atualização em: 10/12/2025
 		</news>
 		 <assets>
             <icon>icon.png</icon>
@@ -6930,6 +6931,28 @@ Uživajte
 http://zadarbuild.com.hr
 </news>
 	</extension>
+</addon>
+
+<addon id="repository.zarepo"
+       name="Addie Streams"
+       version="1.0.13"
+       provider-name="Addie">
+    <extension point="xbmc.addon.repository" name="AddieStreams">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/adenaan/stream/main/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/adenaan/stream/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/adenaan/stream/main/zips/</datadir>
+    </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">ZA Kodi Add-ons Repository</summary>
+        <description lang="en_GB">Repository for South Africa Kodi add-ons.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="repository.zeltorix" name="ZelToRiX Add-on repository" version="1.0.2" provider-name="ZelToRiX">
