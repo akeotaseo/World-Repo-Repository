@@ -1447,6 +1447,41 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
     </extension>
 </addon>
 
+<addon id="repository.codingPF" name="repository.codingPF" version="1.2.0" provider-name="codingPF">
+    <extension point="xbmc.addon.repository" name="CodingPF Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/codingPF/repository.codingPF/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/codingPF/repository.codingPF/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/codingPF/repository.codingPF/main/repo/zips/</datadir>
+        </dir>
+		<dir minversion="17.9.910" maxversion="18.9.700">
+		    <info compressed="false">https://raw.githubusercontent.com/codingPF/repository.codingPF/main/leia/zips/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/codingPF/repository.codingPF/main/leia/zips/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/codingPF/repository.codingPF/main/leia/zips/</datadir>
+		</dir>
+		<dir minversion="18.9.701" maxversion="19.9.700">
+		    <info compressed="false">https://raw.githubusercontent.com/codingPF/repository.codingPF/main/matrix/zips/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/codingPF/repository.codingPF/main/matrix/zips/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/codingPF/repository.codingPF/main/matrix/zips/</datadir>
+		</dir>
+		<dir minversion="19.9.701">
+		    <info compressed="false">https://raw.githubusercontent.com/codingPF/repository.codingPF/main/nexus/zips/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/codingPF/repository.codingPF/main/nexus/zips/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/codingPF/repository.codingPF/main/nexus/zips/</datadir>
+		</dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>repository.codingPF</summary>
+        <description>My Kodi Plugins</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.collabsvito" name="Collabsvito that's my AiO REPO" version="3.6.6" provider-name="Collabsvito">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
