@@ -4244,6 +4244,24 @@ https://t.me/kodimansgroup</description>
 </extension>
 </addon>
 
+<addon id="repository.onzarking1300" name="[COLOR grey]Onzarking1300 repository[/COLOR]" version="1.1" provider-name="onzarking1300">
+    <extension point="xbmc.addon.repository" name="[COLOR grey]Onzarking1300 repository[/COLOR]">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/OLSRzdWQXo/QFbuuulxXB/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/OLSRzdWQXo/QFbuuulxXB/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/OLSRzdWQXo/QFbuuulxXB/master/</datadir>
+		</dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">repository for fun.</summary>
+        <description lang="en_GB"></description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.openwizard" name="[COLOR limegreen][B]Open[/B][/COLOR]Wizard Repository" version="2.0" provider-name="drinfernoo">
     <extension point="xbmc.addon.repository" name="[COLOR limegreen][B]Open[/B][/COLOR]Wizard Repository">
         <dir minversion="18.0" maxversion="18.9.0">
