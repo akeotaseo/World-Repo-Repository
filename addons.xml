@@ -4892,12 +4892,12 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.rdplayer" name="RD Player Repo" version="1.0.1" provider-name="Diamond Build">
+<addon id="repository.rdplayer" name="RD Player Repo" version="1.0.4" provider-name="Diamond Build">
     <extension point="xbmc.addon.repository" name="RD Player Repo">
         <dir>
-            <info>https://uck.st/rdprepo/addons.xml</info>
+            <info compressed="false">https://uck.st/rdprepo/addons.xml</info>
             <checksum>https://uck.st/rdprepo/addons.xml.md5</checksum>
-            <datadir zip="true">https://uck.st/rdprepo</datadir>
+            <datadir zip="true">https://uck.st/rdprepo/zips/</datadir>
         </dir>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
