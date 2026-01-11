@@ -380,6 +380,26 @@ Program Addons:
     </extension>
 </addon>
 
+<addon id="repository.7mdan" name="Mr-Hamdan Repo" version="1.3.0" provider-name="Mr-7mdan">
+    <extension point="xbmc.addon.repository" name="Mr-7mdan Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Mr-7mdan/mr-7mdan.github.io/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Mr-7mdan/mr-7mdan.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Mr-7mdan/mr-7mdan.github.io/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Mr-Hamdan Repo</summary>
+        <description>Testing for personal use</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.7Plus" name="[B]REPO_7Plus[/B]" version="2.0" provider-name="[B]7Plus-NeoTV[/B]">
     <extension point="xbmc.addon.repository" name="[B]REPO_7Plus[/B]">
         <dir>
