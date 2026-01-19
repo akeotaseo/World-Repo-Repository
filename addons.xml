@@ -603,7 +603,7 @@ Program Addons:
     </extension>
 </addon>
 
-    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.7.3" provider-name="Aliunde">
+    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.7.4" provider-name="Aliunde">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
@@ -2928,6 +2928,25 @@ https://t.me/kodimansgroup</description>
 </extension>
 </addon>
 
+<addon id="repository.jamal2362" name="Jamal2362 Repository" version="3.0" provider-name="jamal2362">
+    <extension point="xbmc.addon.repository" name="Jamal2362 Repository">
+        <dir minversion="21.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/CE-Repo/repository.jamal2362/main/addons/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/CE-Repo/repository.jamal2362/main/addons/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/CE-Repo/repository.jamal2362/main/addons/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Jamal2362 Repository</summary>
+        <description>Official repository of jamal2362's edited skins.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.jellyfin.kodi" name="Kodi Jellyfin Addons" version="1.0.0" provider-name="null_pointer,angelblue05,sualfred,im85288,xnappo">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
@@ -4209,7 +4228,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.4.1" provider-name="Twiglet">
+    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.4.2" provider-name="Twiglet">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Octopus Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_octopus/addons.xml</info>
@@ -4960,7 +4979,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.rdplayer" name="RD Player Repo" version="1.1.0" provider-name="Diamond Build">
+<addon id="repository.rdplayer" name="RD Player Repo" version="1.1.1" provider-name="Diamond Build">
     <extension point="xbmc.addon.repository" name="RD Player Repo">
         <dir>
             <info compressed="false">https://uck.st/rdprepo/addons.xml</info>
@@ -4971,11 +4990,6 @@ https://t.me/kodimansgroup</description>
             <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-        <dir minversion="21.0" maxversion="21.9.0"><!--TheLab Omega Repo-->
-            <info compressed="false">https://uck.st/kodirepo/addons.xml</info>
-            <checksum>https://uck.st/kodirepo/addons.xml.md5</checksum>
-            <datadir zip="true">https://uck.st/kodirepo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
