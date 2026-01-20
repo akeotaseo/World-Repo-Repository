@@ -4933,44 +4933,13 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.rays.files" name="Rays Repository" version="2023.07.09" provider-name="RayW">
+<addon id="repository.rays.files" name="Rays Repository" version="2026.01.11" provider-name="RayW">
 	<extension point="xbmc.addon.repository" name="The Wizard">
 		<dir>
-			<info compressed="false">http://ynsfashion.co.uk/thewiz/repo/addons.xml</info>
-			<checksum>http://ynsfashion.co.uk/thewiz/repo/addons.xml.md5</checksum>
-			<datadir zip="true">http://ynsfashion.co.uk/thewiz/repo/zips</datadir>
+			<info compressed="false">http://ynsfashion.co.uk/k_dev/repo/addons.xml</info>
+			<checksum>http://ynsfashion.co.uk/k_dev/repo/addons.xml.md5</checksum>
+			<datadir zip="true">http://ynsfashion.co.uk/k_dev/repo/zips</datadir>
 		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-		</dir>
-		<!--<dir>
-			<info compressed="false">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml</info>
-			<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
-			<checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
-			<datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
-		</dir>
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/</datadir>
-        </dir>
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
-        </dir>-->
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>The Wizard Repo</summary>
