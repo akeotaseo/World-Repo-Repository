@@ -1425,7 +1425,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 	</extension>
 </addon>
 
-    <addon id="repository.cMaNWizard" name="cMaN's Wizard Repository" version="3.3" provider-name="cMaN">
+    <addon id="repository.cMaNWizard" name="cMaN's Wizard Repository" version="3.5" provider-name="cMaN">
         <extension point="xbmc.addon.repository" name="cMaN's Wizard Repository">
 		<dir>
             <info compressed="false">https://cmanbuildsxyz.com/cman/repo/addons.xml</info>
