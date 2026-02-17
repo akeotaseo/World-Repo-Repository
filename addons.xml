@@ -5228,6 +5228,70 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
+<addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.15" provider-name="DonkeykongArcade">
+    <extension point="xbmc.addon.repository" name="Sanctuary Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/</datadir>
+        </dir>
+		    <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
+			<checksum>https://slyguy.uk/.repo/repository.slyguy/addons.xml.md5</checksum>
+			<datadir zip="true">https://slyguy.uk/.repo/repository.slyguy/</datadir>
+        <dir>
+			<info compressed="false">https://raw.githubusercontent.com/matke-84/repository.bingie/main/omega/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/matke-84/repository.bingie/main/omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/matke-84/repository.bingie/main/omega/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/</datadir>
+		</dir>
+		<dir minversion="20.90.0">
+            <info compressed="false">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/omega/zips/</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/michaz1988/michaz1988.github.io/main/repo/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/michaz1988/michaz1988.github.io/main/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/michaz1988/michaz1988.github.io/main/repo/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/</datadir>
+		</dir>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/mfirepo/repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mfirepo/repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/mfirepo/repo/master/plugins/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://loopaddon.uk/zips19/addons.xml</info>
+			<checksum>https://loopaddon.uk/zips19/addons.xml.md5</checksum>
+			<datadir zip="true">https://loopaddon.uk/zips19/</datadir>
+		</dir>
+		<dir minversion="21.0" maxversion="21.9.0">
+            <info compressed="false">https://www.midian.appboxes.co/wolfyB/Th3L48/omega/zips/addons.xml</info>
+            <checksum>https://www.midian.appboxes.co/wolfyB/Th3L48/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://www.midian.appboxes.co/wolfyB/Th3L48/omega/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Sanctuary Repository</summary>
+        <description>Kodi repository that contains all necessary repos to setup IPTV and FEN Light + a FENtastic skin upgrade</description>
+		<website>https://DonkeykongArcade.github.io</website>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.sandmann79-py3.plugins" name="Sandmann79s Repository" version="1.0.4" provider-name="Sandmann79">
     <extension point="xbmc.addon.repository" name="Sandmann79s Repository">
         <dir>
