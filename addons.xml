@@ -636,7 +636,7 @@ Program Addons:
         </extension>
     </addon>
 
-<addon id="repository.andtvban" name="[B][COLOR azure]Repo [COLOR cyan]and[COLOR white]tv[COLOR deepskyblue]ban[/COLOR][/B]" version="2.6.24" provider-name="andtvban, JoseaTeb">
+<addon id="repository.andtvban" name="[B][COLOR azure]Repo [COLOR cyan]and[COLOR white]tv[COLOR deepskyblue]ban[/COLOR][/B]" version="3.6.24" provider-name="andtvban, JoseaTeb">
     <extension point="xbmc.addon.repository" name="[B][COLOR azure]Repo [COLOR cyan]and[COLOR white]tv[COLOR deepskyblue]ban[/COLOR][/B]">
 	<platform>all</platform>
         <license>See https://github.com/ElementumOrg/repository.elementumorg/blob/master/LICENSE</license>
