@@ -2772,6 +2772,27 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
+<addon id="repository.gwen84" name="Gwen84 Repository" version="1.0.0" provider-name="Guenole84">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Gwen84 Repository">
+        <dir>
+            <info compressed="false">https://guenole84.github.io/addons.xml</info>
+            <checksum>https://guenole84.github.io/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Guenole84/guenole84.github.io/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Gwen84 Repository</summary>
+        <description lang="en">Gwen84 Kodi addon repository</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.hasamba" name="Hasamba Private Repo" version="2.0.0" provider-name="nacho">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
@@ -5288,7 +5309,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.17" provider-name="DonkeykongArcade">
+<addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.19" provider-name="DonkeykongArcade">
     <extension point="xbmc.addon.repository" name="Sanctuary Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml</info>
@@ -5323,21 +5344,6 @@ https://t.me/kodimansgroup</description>
 			<checksum>https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/</datadir>
 		</dir>
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/mfirepo/repo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/mfirepo/repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/mfirepo/repo/master/plugins/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://loopaddon.uk/zips19/addons.xml</info>
-			<checksum>https://loopaddon.uk/zips19/addons.xml.md5</checksum>
-			<datadir zip="true">https://loopaddon.uk/zips19/</datadir>
-		</dir>
-		<dir minversion="21.0" maxversion="21.9.0">
-            <info compressed="false">https://www.midian.appboxes.co/wolfyB/Th3L48/omega/zips/addons.xml</info>
-            <checksum>https://www.midian.appboxes.co/wolfyB/Th3L48/omega/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://www.midian.appboxes.co/wolfyB/Th3L48/omega/zips/</datadir>
-        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Sanctuary Repository</summary>
