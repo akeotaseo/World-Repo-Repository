@@ -2296,13 +2296,13 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.26" provider-name="gpt">
+<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.30" provider-name="gpt">
     <extension point="xbmc.addon.repository" name="Fan Vod PL Repo">
 
         <dir>
             <info>https://ffmodgpt5.github.io/Fan-Vod-Pl/FanVodRepo/addons.xml</info>
             <checksum>https://ffmodgpt5.github.io/Fan-Vod-Pl/FanVodRepo/addons.xml.md5</checksum>
-            <datadir>https://ffmodgpt5.github.io/Fan-Vod-Pl/FanVodRepo/zips/</datadir>
+            <datadir>https://ffmodgpt5.github.io/Fan-Vod-Pl/FanVodRepo/Zips/</datadir>
         </dir>
 
         <dir>
@@ -3967,7 +3967,7 @@ https://t.me/kodimansgroup</description>
 
 </addon>
 
-<addon id="repository.mediafusion" version="5.1.2" name="MediaFusion Repository" provider-name="Mohamed Zumair">
+<addon id="repository.mediafusion" version="5.2.0" name="MediaFusion Repository" provider-name="Mohamed Zumair">
     <extension point="xbmc.addon.repository" name="MediaFusion Repository">
         <dir>
             <info compressed="false">https://mhdzumair.github.io/MediaFusion/addons.xml</info>
@@ -6371,6 +6371,35 @@ https://t.me/kodimansgroup</description>
 			<screenshot>resources/art/ss/3.png</screenshot>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="repository.thecrew.alpha" name="The Crew Alpha Repository" version="1.0.8" provider-name="The Crew">
+    <extension point="xbmc.addon.repository" name="The Crew Alpha Repository">
+        <dir>
+            <info compressed="false">https://classymouse.github.io/addons.xml</info>
+            <checksum>https://classymouse.github.io/addons.xml.md5</checksum>
+            <datadir zip="true">https://classymouse.github.io/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew Alpha Testing Repository</summary>
+        <description lang="en">Alpha testing repository for The Crew addons. Contains pre-release versions with latest features and fixes. For testing purposes only.[CR][CR]Version 2.2.8-alpha / 2.3.7-alpha includes:[CR]• New Kids Section with family-friendly content filtering (G/PG movies, TV-Y/TV-G shows)[CR]• TMDB Discover API integration for curated children's content[CR]• Fixed critical service startup bug - version announcements now working[CR]• Service.py main() now executes properly on Kodi startup[CR]• Startup maintenance and provider updates restored[CR]• Improved Trakt sync scheduling with user-configurable intervals</description>
+        <disclaimer lang="en">This repository contains ALPHA software. Use at your own risk. Backup your Kodi databases before installing.</disclaimer>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 3</license>
+        <website>https://classymouse.github.io/</website>
+        <source>https://github.com/classymouse/script.module.thecrew</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>v1.0.8 (Mar 2026) - Kids section added, critical service.py startup fix, updated descriptions[CR]v1.0.7 (Mar 2026) - Repository package optimization, development files excluded[CR]v1.0.5 (Feb 2026) - Removed unhingedthemes repository[CR]v1.0.4 (Feb 2026) - Removed production repository from alpha site</news>
+    </extension>
 </addon>
 
     <addon id="repository.thegroove" name="[COLOR khaki][B] Thegroove Repository[/COLOR][/B]" version="1.4" provider-name="Thegroove360">
