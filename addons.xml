@@ -785,6 +785,27 @@ Program Addons:
     </extension>
 </addon>
 
+<addon id="repository.arkane14" name="Arkane14 Repository" version="1.0.0" provider-name="Arkane14">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Arkane14 Repository">
+        <dir>
+            <info compressed="false">https://arkane14.github.io/addons.xml</info>
+            <checksum>https://arkane14.github.io/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Arkane14/arkane14.github.io/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Arkane14 Repository</summary>
+        <description lang="en">Arkane14 Kodi addon repository</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.armaniflix" name="ArmaniFlix Repository" version="0.0.1" provider-name="Sisyphus Sam">
     <extension point="xbmc.addon.repository" name="ArmaniFlix Repository">
         <dir>
@@ -2314,7 +2335,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.49" provider-name="gpt">
+<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.50" provider-name="gpt">
     <extension point="xbmc.addon.repository" name="Fan Vod PL Repo">
 
         <dir>
@@ -6314,8 +6335,8 @@ https://t.me/kodimansgroup</description>
 </addon>
 
 <addon id="repository.theblackghost"
-       name="Black Ghost Repo"
-       version="0.0.7"
+       name="BlackGhost Repo"
+       version="0.0.9"
        provider-name="BlackGhost">
 
     <requires>
@@ -6325,9 +6346,9 @@ https://t.me/kodimansgroup</description>
 
     <extension point="xbmc.addon.repository" name="theblackghost">
         <dir>
-            <info compressed="false">https://site27.xyz/repo/addons.xml</info>
-            <checksum>https://site27.xyz/repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://site27.xyz/repo/</datadir>
+            <info compressed="false">http://addonbg.co/repo/addons.xml</info>
+            <checksum>http://addonbg.co/repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://addonbg.co/repo/</datadir>
         </dir>
     </extension>
 
