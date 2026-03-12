@@ -1970,32 +1970,6 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 	</extension>
 </addon>
 
-    <addon id="repository.diamondrepo" name="Diamond Repository" version="1.0.5" provider-name="Diamond Build">
-        <extension point="xbmc.addon.repository" name="Diamond Repository">
-		<dir>
-            <info>https://uck.st/myrepo/addons.xml</info>
-            <checksum>https://uck.st/myrepo/addons.xml.md5</checksum>
-            <datadir zip="true">https://uck.st/myrepo</datadir>
-        </dir>
-
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Please do NOT post this Repository on Youtube, Facebook, Blogs or anywhere on the internet, thank you.</summary>
-            <description>This repository nor the addons within does not form part of the Kodi Media Centre. Please do not seek assistance with this repository or the addons from any of the Official Kodi Support Channels.The authors do not host any of the content in these addons and takes no responsibility for content found</description>
-            <platform>all</platform>
-			<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
-    </extension>
-</addon>
-
 <addon id="repository.diggz" name="Diggz Repository" version="24" provider-name="Diggz">
     <extension point="xbmc.addon.repository" name="Diggz Repository">
         <dir minversion="20.90.0" maxversion="22.9.9">
@@ -2335,7 +2309,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.50" provider-name="gpt">
+<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.51" provider-name="gpt">
     <extension point="xbmc.addon.repository" name="Fan Vod PL Repo">
 
         <dir>
@@ -2353,7 +2327,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
     <extension point="xbmc.addon.metadata">
         <summary lang="pl">Repozytorium Fan Vod PL</summary>
-        <description lang="pl">Repozytorium z wtyczką Fan Vod PL i modułem PTW.</description>
+        <description lang="pl">Repozytorium z wtyczkÄ… Fan Vod PL i moduĹ‚em PTW.</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -2716,26 +2690,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.greenball" name="GreenBall Repository" version="1.0.0" provider-name="ajsm90">
-    <extension point="xbmc.addon.repository" name="GreenBall Repository">
-        <dir>
-            <info compressed="true">https://ajsm90.github.io/greenball.repo/repo/zips/addons.xml</info>
-            <checksum>https://ajsm90.github.io/greenball.repo/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://ajsm90.github.io/greenball.repo/repo/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio GreenBall</summary>
-        <description>Repositorio con addons de GreenBall</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="repository.grindhousekodi" name="Grindhouse Repository" version="1.8" provider-name="Grindhouse">
 	<extension point="xbmc.addon.repository" name="Grindhouse">
 		<dir>
@@ -2825,27 +2779,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
       		<icon>icon.png</icon>
     	</assets>
 	</extension>
-</addon>
-
-<addon id="repository.gwen84" name="Gwen84 Repository" version="1.0.0" provider-name="Guenole84">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="Gwen84 Repository">
-        <dir>
-            <info compressed="false">https://guenole84.github.io/addons.xml</info>
-            <checksum>https://guenole84.github.io/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Guenole84/guenole84.github.io/main/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Gwen84 Repository</summary>
-        <description lang="en">Gwen84 Kodi addon repository</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="repository.hasamba" name="Hasamba Private Repo" version="2.0.0" provider-name="nacho">
@@ -3737,42 +3670,6 @@ https://t.me/kodimansgroup</description>
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon>
-
-<addon id="repository.madforit" name="[COLORlime][I]Mad For It Repo[/I][/COLOR]" version="1.6" provider-name="">
-<extension point="xbmc.addon.repository" name="[COLORyellow]Mad For It Repo[/COLOR]">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/mfirepo/repo1/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/mfirepo/repo1/master/addons.xml.md5</checksum>
-			<datadir zip="false">https://raw.githubusercontent.com/mfirepo/repo1/master/plugins/</datadir>
-		</dir>
-
-		<dir>
-		    <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-		</dir>
-
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Mad For It Repo</summary>
-		<description></description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-        </assets>
-	</extension>
 </addon>
 
   <addon
@@ -5362,55 +5259,6 @@ https://t.me/kodimansgroup</description>
 		</assets>
 		<news></news>
 	</extension>
-</addon>
-
-<addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.19" provider-name="DonkeykongArcade">
-    <extension point="xbmc.addon.repository" name="Sanctuary Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/</datadir>
-        </dir>
-		    <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
-			<checksum>https://slyguy.uk/.repo/repository.slyguy/addons.xml.md5</checksum>
-			<datadir zip="true">https://slyguy.uk/.repo/repository.slyguy/</datadir>
-        <dir>
-			<info compressed="false">https://raw.githubusercontent.com/matke-84/repository.bingie/main/omega/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/matke-84/repository.bingie/main/omega/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/matke-84/repository.bingie/main/omega/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/</datadir>
-		</dir>
-		<dir minversion="20.90.0">
-            <info compressed="false">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/omega/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/omega/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/omega/zips/</datadir>
-        </dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/michaz1988/michaz1988.github.io/main/repo/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/michaz1988/michaz1988.github.io/main/repo/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/michaz1988/michaz1988.github.io/main/repo/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/</datadir>
-		</dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Sanctuary Repository</summary>
-        <description>Kodi repository that contains all necessary repos to setup IPTV and FEN Light + a FENtastic skin upgrade</description>
-		<website>https://DonkeykongArcade.github.io</website>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="repository.sandmann79-py3.plugins" name="Sandmann79s Repository" version="1.0.4" provider-name="Sandmann79">
