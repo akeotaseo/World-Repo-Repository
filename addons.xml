@@ -2309,7 +2309,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.51" provider-name="gpt">
+<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.52" provider-name="gpt">
     <extension point="xbmc.addon.repository" name="Fan Vod PL Repo">
 
         <dir>
@@ -2327,7 +2327,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
     <extension point="xbmc.addon.metadata">
         <summary lang="pl">Repozytorium Fan Vod PL</summary>
-        <description lang="pl">Repozytorium z wtyczkÄ… Fan Vod PL i moduĹ‚em PTW.</description>
+        <description lang="pl">Repozytorium z wtyczkĂ„â€¦ Fan Vod PL i moduÄąâ€šem PTW.</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -3903,7 +3903,7 @@ https://t.me/kodimansgroup</description>
 
 </addon>
 
-<addon id="repository.mediafusion" version="5.3.1" name="MediaFusion Repository" provider-name="Mohamed Zumair">
+<addon id="repository.mediafusion" version="5.4.0" name="MediaFusion Repository" provider-name="Mohamed Zumair">
     <extension point="xbmc.addon.repository" name="MediaFusion Repository">
         <dir>
             <info compressed="false">https://mhdzumair.github.io/MediaFusion/addons.xml</info>
@@ -4054,38 +4054,6 @@ https://t.me/kodimansgroup</description>
             <icon></icon>
             <fanart></fanart>
         </assets>
-    </extension>
-</addon>
-
-    <addon id="repository.NarcacistWizard" name="Narcacist&apos;s Wizard Repository --&gt; Lost Soul Repository" version="1.2.0a" provider-name="(Narcacist) Team Asgard">
-        <extension point="xbmc.addon.repository" name="Narcacist's Wizard Repository">
-		<dir>
-            <info compressed="false">https://mylostsoulspace.co.uk/_repo/addons.xml</info>
-            <checksum>https://mylostsoulspace.co.uk/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://mylostsoulspace.co.uk/_repo/</datadir>
-		</dir>
-
-		<dir>
-        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Install all the latest Builds</summary>
-            <description>Welcome to the New and Improved Team Asgard Repo</description>
-            <platform>all</platform>
-			<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
     </extension>
 </addon>
 
