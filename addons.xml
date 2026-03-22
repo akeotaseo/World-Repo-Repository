@@ -2331,7 +2331,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.70" provider-name="gpt">
+<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.71" provider-name="gpt">
     <extension point="xbmc.addon.repository" name="Fan Vod PL Repo">
 
         <dir>
@@ -2349,7 +2349,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
     <extension point="xbmc.addon.metadata">
         <summary lang="pl">Repozytorium Fan Vod PL</summary>
-        <description lang="pl">Repozytorium z wtyczka i moduĹ‚ PTW.</description>
+        <description lang="pl">Repozytorium z wtyczka i moduÄąâ€š PTW.</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -3925,7 +3925,7 @@ https://t.me/kodimansgroup</description>
 
 </addon>
 
-<addon id="repository.mediafusion" version="5.4.4" name="MediaFusion Repository" provider-name="Mohamed Zumair">
+<addon id="repository.mediafusion" version="5.4.5" name="MediaFusion Repository" provider-name="Mohamed Zumair">
     <extension point="xbmc.addon.repository" name="MediaFusion Repository">
         <dir>
             <info compressed="false">https://mhdzumair.github.io/MediaFusion/addons.xml</info>
