@@ -4986,7 +4986,7 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.redwizard" name="[COLOR red]The Red Repo[/COLOR]" version="1.2.0" provider-name="[COLOR red]The Red Wizard[/COLOR]">
+<addon id="repository.redwizard" name="[COLOR red]The Red Repo[/COLOR]" version="1.2.2" provider-name="[COLOR red]The Red Wizard[/COLOR]">
 	<extension point="xbmc.addon.repository" name="The Red Repo">
 		<dir><!--The Red Repo Main-->
 			<info compressed="false">https://repo.redwizard.xyz/redwizardrepo/main/addons.xml</info>
@@ -5003,29 +5003,20 @@ https://t.me/kodimansgroup</description>
 			<checksum>https://repo.redwizard.xyz/redwizardrepo/22piers/addons.xml.md5</checksum>
 			<datadir zip="true">https://repo.redwizard.xyz/redwizardrepo/22piers/</datadir>
 		</dir>
-		<dir><!--Chains Repository-->
-			<info compressed="false">https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/</datadir>
-		</dir>
 		<dir><!--ResolveURL Repository-->
 			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 		</dir>
-		<dir><!--The 7o9 Repo-->
-            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/zaxxon/main/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zaxxon709/zaxxon/main/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/zaxxon/main/zips/</datadir>
-        </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">[COLOR red]The Red Wizard Builds and Add-ons[/COLOR]</summary>
-		<description lang="en_GB">[COLOR red]The Red Wizard repo for The Red Wizard builds and add-ons[/COLOR]</description>
+		<description lang="en_GB">[COLOR red]The Red Repo for The Red Wizard builds and add-ons[/COLOR]</description>
 		<disclaimer lang="en_GB">[COLOR red]The author of this add-on does not host any content and has no affiliation with the content providers[/COLOR]</disclaimer>
-		<news>[COLOR red]2026-03-20
-- Chains Repository and The 7o9 Repo added
-- CocoScrapers Repository removed, recommend Gears Scrapers
+		<news>[COLOR red]2026-03-23
+- Change to the add-on description
+- Typos corrected in the news section and changelog
+- Chains Repository and The 7o9 Repo now available to install from The Red Repo
 - The Red Wizard has a new home! Go to https://redwizard.xyz[/COLOR]</news>
 		<platform>all</platform>
 		<language>en</language>
