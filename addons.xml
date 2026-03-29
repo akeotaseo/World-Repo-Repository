@@ -6251,7 +6251,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.thecrew.alpha" name="The Crew Alpha Repository" version="1.0.8" provider-name="The Crew">
+<addon id="repository.thecrew.alpha" name="The Crew Alpha Repository" version="1.0.10" provider-name="The Crew">
     <extension point="xbmc.addon.repository" name="The Crew Alpha Repository">
         <dir>
             <info compressed="false">https://classymouse.github.io/addons.xml</info>
