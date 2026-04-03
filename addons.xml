@@ -658,6 +658,30 @@ Program Addons:
         </extension>
     </addon>
 
+<addon id="repository.all" name="Terrys repo" version="2.0" provider-name="Terry Tibbs">
+    <extension point="xbmc.addon.repository" name="Terrys Repository">
+        <dir>
+            <info compressed="false">https://githubraw.com/terrytibbs2023/build/main/all/zips/addons.xml</info>
+
+
+<checksum>https://githubraw.com/terrytibbs2023/build/main/all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://githubraw.com/terrytibbs2023/build/main/all/zips/</datadir>
+        </dir>
+
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Terry Tibbs Repo</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.andtvban" name="[B][COLOR azure]Repo [COLOR cyan]and[COLOR white]tv[COLOR deepskyblue]ban[/COLOR][/B]" version="3.6.24" provider-name="andtvban, JoseaTeb">
     <extension point="xbmc.addon.repository" name="[B][COLOR azure]Repo [COLOR cyan]and[COLOR white]tv[COLOR deepskyblue]ban[/COLOR][/B]">
 	<platform>all</platform>
@@ -4399,6 +4423,28 @@ https://t.me/kodimansgroup</description>
         <fanart>fanart.jpg</fanart>
     </assets>
 </extension>
+</addon>
+
+<addon id="repository.ontv" name="OnTV Repository" version="1.0.2" provider-name="OnTV">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="OnTV Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/nnllv0id/ontv-repo/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/nnllv0id/ontv-repo/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/nnllv0id/ontv-repo/main</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">OnTV Repository</summary>
+    <description lang="en">Official OnTV Repository</description>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.png</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="repository.onzarking1300" name="[COLOR grey]Onzarking1300 repository[/COLOR]" version="1.1" provider-name="onzarking1300">
