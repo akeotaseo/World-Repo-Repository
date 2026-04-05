@@ -2377,7 +2377,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.76" provider-name="gpt">
+<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.78" provider-name="gpt">
     <extension point="xbmc.addon.repository" name="Fan Vod PL Repo">
 
         <dir>
@@ -7338,7 +7338,7 @@ http://zadarbuild.com.hr
     </extension>
 </addon>
 
-<addon id="repository.zeus768" name="Zeus768 Repository" version="1.0.8" provider-name="zeus768, [COLOR red]The Red Wizard[/COLOR]">
+<addon id="repository.zeus768" name="Zeus768 Repository" version="1.1.0" provider-name="zeus768, [COLOR red]The Red Wizard[/COLOR]">
     <extension point="xbmc.addon.repository" name="Zeus768 Repository">
         <dir><!--Zeus768 Repository-->
             <info compressed="false">https://raw.githubusercontent.com/Zeus768/zeus768/main/addons.xml</info>
@@ -7356,14 +7356,18 @@ http://zadarbuild.com.hr
         <description>Zeus768's Kodi Addon Repository.
 
 Available Addons:
+- Genesis - Stream Movies and TV Shows with torrent support
 - SALTS (Stream All The Sources) - 35+ scrapers, Free Streams, Autoplay, Up Next, Skip Intro, Trakt, Debrid Support
+- Trakt Player - Click and Play, Torrent-only, Debrid-powered (RD, PM, AD, TorBox)
 - Orion - Torrent and Usenet Indexer
 - Strike Zone - Sports Streaming Add-on
 - The Accountant - Kodi Maintenance and Debrid Management Tool
+- Genesis Themepak - Themes for Genesis
 - ResolveURL - URL Resolver Module</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
