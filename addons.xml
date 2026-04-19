@@ -2377,7 +2377,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.92" provider-name="gpt">
+<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.98" provider-name="gpt">
     <extension point="xbmc.addon.repository" name="Fan Vod PL Repo">
 
         <dir>
@@ -7352,7 +7352,10 @@ http://zadarbuild.com.hr
     </extension>
 </addon>
 
-<addon id="repository.zeus768" name="Zeus768 Repository" version="1.1.1" provider-name="zeus768, [COLOR red]The Red Wizard[/COLOR]">
+<addon id="repository.zeus768" name="Zeus768 Repository" version="1.2.0" provider-name="zeus768">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
     <extension point="xbmc.addon.repository" name="Zeus768 Repository">
         <dir><!--Zeus768 Repository-->
             <info compressed="false">https://raw.githubusercontent.com/Zeus768/zeus768/main/addons.xml</info>
@@ -7365,20 +7368,23 @@ http://zadarbuild.com.hr
             <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
         </dir>
     </extension>
+    <extension point="xbmc.service" library="service.py" start="login"/>
     <extension point="xbmc.addon.metadata">
         <summary>Zeus768 Repository - Kodi Addons</summary>
-        <description>Zeus768's Kodi Addon Repository.
+        <description>Zeus768 Kodi Addon Repository with auto-update detection.
 
 Available Addons:
-- Genesis - Stream Movies and TV Shows
-- SALTS (Stream All The Sources) - 35+ scrapers, Debrid, Trakt
+- Genesis - Stream Movies and TV Shows with Debrid and Trakt
+- Genesis Skins - Theme packs for Genesis
+- SALTS (Stream All The Sources) - 120+ scrapers, Debrid, Trakt
 - Trakt Player - Click and Play, Debrid-powered
-- Orion - Media Explorer with Torrent Scrapers
+- Orion - Media Explorer with Netflix-style UI
 - Poseidon Player - Premium IPTV Player with EPG
 - Poseidon Guide - EPG Grid for Poseidon Player
-- The Accountant - Kodi Maintenance Suite
-- Genesis Themepak - Themes for Genesis
-- ResolveURL - URL Resolver Module</description>
+- The Accountant - Auth Manager, Account Cards, Maintenance Suite
+- ResolveURL - URL Resolver Module
+
+Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to refresh addon updates instantly.</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
