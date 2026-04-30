@@ -4043,24 +4043,6 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.Mirepor" name="[COLOR orange]Repo Narajito[/COLOR]" version="1.0.3" provider-name="Naranjito">
-    <extension point="xbmc.addon.repository" name="Naranjitos">
-        <dir minversion="21.0.0">
-            <info>https://raw.githubusercontent.com/brujotv/repo-naranjitos/master/Repositorio/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/brujotv/repo-naranjitos/master/Repositorio/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/brujotv/repo-naranjitos/master/Repositorio/</datadir>
-            <hashes>false</hashes>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <icon>icon.png</icon>
-        <summary>Repositorio para todos</summary>
-        <description></description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="repository.movieshark" version="2.7.2" name="MovieShark repository" provider-name="MSrepo">
 	<extension point="xbmc.addon.repository" name="MovieShark repository">
 		<dir>
