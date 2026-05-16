@@ -6522,37 +6522,6 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
-<addon id="repository.tr.kw" name="[COLORgold]T.R.K.W[/COLOR] AIO Repository" version="4.1" provider-name="[COLORgold]T.R.K.W[/COLOR]">
-	<extension point="xbmc.addon.repository" name="T.R.K.W Repository">
-        <dir minversion="19.0.0" maxversion="22.0.0">
-            <info compressed="false">https://kodiwelt.de/repo/addons.xml.gz</info>
-            <checksum verify="sha256">https://kodiwelt.de/repo/addons.xml.gz.sha256</checksum>
-            <datadir zip="true">https://kodiwelt.de/repo</datadir>
-            <hashes>sha256</hashes>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">[COLORgold]T.R.K.W[/COLOR] AIO Repository</summary>
-		<summary lang="de_DE">[COLORgold]T.R.K.W[/COLOR] AIO Repository</summary>
-        <description lang="en_GB">Download and install addons from the T.R.K.W repository.[CR][CR]Contact + support:[CR][COLORgold]https://www.facebook.com/groups/kodiwelt[/COLOR][CR]Donation:[CR][COLORgold]kodiwelt@outlook.de[/COLOR]</description>
-        <description lang="de_DE">Downloade und installiere Addons aus dem T.R.K.W Repository.Die Facebook Gruppe KodiWeLT ist privat.Eintritt nach persoenlicher Einladung und / oder Freischaltung moeglich.[CR][CR]Kontakt + Support:[CR][COLORgold]https://www.facebook.com/groups/kodiwelt[/COLOR][CR]Spenden-Adresse Paypal:[CR][COLORgold]kodiwelt@outlook.de[/COLOR]</description>
-        <disclaimer lang="en_GB">[B][COLORred]This is a third party repository and is unrelated to the official Kodi team.[/COLOR][/B]</disclaimer>
-		<disclaimer lang="de_DE">[B][COLORred]Dies ist ein Drittanbieter-Repository und steht nicht in Zusammenhang mit dem offiziellen Team Kodi.[/COLOR][/B]</disclaimer>
-		<language>de</language>
-		<platform>all</platform>
-		<license></license>
-		<forum></forum>
-		<website></website>
-		<email></email>
-		<source></source>
-		<news></news>
-        <assets>
-            <icon>resources/icon.png</icon>
-			<fanart>resources/fanart.png</fanart>
-        </assets>
-    </extension>
-</addon>
-
     <addon id="repository.turkvod" name="TURKvod repository" version="3.0.1" provider-name="BerkEnkey">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -7330,35 +7299,6 @@ http://zadarbuild.com.hr
         <assets>
             <icon>icon.jpg</icon>
         </assets>
-    </extension>
-</addon>
-
-    <addon id="repository.zero" name="Z3R0 Repository" version="1.0.0" provider-name="Z3R0">
-        <extension point="xbmc.addon.repository" name="Z3R0 Repository">
-		<dir>
-            <info compressed="false">https://mylostsoulspace.co.uk/repofiles/addons.xml</info>
-            <checksum>https://mylostsoulspace.co.uk/repofiles/addons.xml.md5</checksum>
-            <datadir zip="true">https://mylostsoulspace.co.uk/repofiles/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-        <dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Repository to install the latest versions of addons from Z3R0.</summary>
-            <description>Repository to install the latest versions of addons from Z3R0.</description>
-            <platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-		</assets>
     </extension>
 </addon>
 
