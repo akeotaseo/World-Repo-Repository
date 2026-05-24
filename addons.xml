@@ -1976,22 +1976,19 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 	</extension>
 </addon>
 
-<addon id="repository.diggz" name="Diggz Repository" version="25" provider-name="Diggz">
+<addon id="repository.diggz" name="Diggz Repository" version="28" provider-name="Diggz">
     <extension point="xbmc.addon.repository" name="Diggz Repository">
-        <dir minversion="20.90.0" maxversion="22.9.9">
+        <dir minversion="21.90.0">
+            <info compressed="false">https://raw.githubusercontent.com/nebulous42069/22/master/22/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/nebulous42069/22/master/22/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/nebulous42069/22/master/22/zips/</datadir>
+			<hashes>false</hashes>
+        </dir>
+        <dir minversion="21.0.0" maxversion="21.89.0">
             <info compressed="false">https://raw.githubusercontent.com/nebulous42069/Omega/main/omega/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/nebulous42069/Omega/main/omega/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/nebulous42069/Omega/main/omega/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/zaxxon/main/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zaxxon709/zaxxon/main/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/zaxxon/main/zips/</datadir>
-        </dir>
-        <dir minversion="20.9.1">
-            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/</datadir>
+			<hashes>false</hashes>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -2367,7 +2364,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.137" provider-name="gpt">
+<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.139" provider-name="gpt">
     <extension point="xbmc.addon.repository" name="Fan Vod PL Repo">
 
         <dir>
@@ -4310,7 +4307,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.5.3" provider-name="Twiglet">
+    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.5.4" provider-name="Twiglet">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Octopus Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_octopus/addons.xml</info>
@@ -6808,6 +6805,21 @@ https://t.me/kodimansgroup</description>
 		</assets>
         <news></news>
 	</extension>
+</addon>
+
+<addon id="repository.wetdreams69" name="wetdreams69 Repository" version="1.0.4" provider-name="wetdreams69">
+    <extension point="xbmc.addon.repository" name="wetdreams69 Repository">
+        <dir>
+            <info compressed="false">https://wetdreams69.github.io/repository.wetdreams69/addons.xml</info>
+            <checksum>https://wetdreams69.github.io/repository.wetdreams69/addons.xml.md5</checksum>
+            <datadir zip="true">https://wetdreams69.github.io/repository.wetdreams69/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>wetdreams69 Repository</summary>
+        <description>Repositorio de addons de wetdreams69</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.Wherethemonsterslive" name="Where The Monsters Live Repository" version="1.10" provider-name="Wolfey B">
