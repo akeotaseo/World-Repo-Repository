@@ -6811,7 +6811,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="repository.wetdreams69" name="wetdreams69 Repository" version="1.0.4" provider-name="wetdreams69">
+<addon id="repository.wetdreams69" name="wetdreams69 Repository" version="1.0.5" provider-name="wetdreams69">
     <extension point="xbmc.addon.repository" name="wetdreams69 Repository">
         <dir>
             <info compressed="false">https://wetdreams69.github.io/repository.wetdreams69/addons.xml</info>
