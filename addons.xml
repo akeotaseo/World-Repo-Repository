@@ -569,6 +569,51 @@ Program Addons:
 	</extension>
 </addon>
 
+<addon id="repository.adi" name="Adi Repository" version="1.0" provider-name="Adi">
+    <extension point="xbmc.addon.repository" name="Adi Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/AdiXxl/repo/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/AdiXxl/repo/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/AdiXxl/repo/main/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Adi Repository</summary>
+        <description>Personal Kodi repository by Adi. Contine TotalPlay, POV, MRSP si altele.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.adulthideout" name="AdultHideout REPO" version="1.0.4" provider-name="Vashiel">
+  <extension point="xbmc.addon.repository" name="AdultHideout Addon Repository">
+    <dir maxversion="20.9.0">
+      <info compressed="false">https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml</info>
+      <checksum>https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://github.com/Vashiel/repository.adulthideout/raw/master/zips</datadir>
+      <hashes>false</hashes>
+    </dir>
+    <dir minversion="21.0.0">
+      <info compressed="false">https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml</info>
+      <checksum>https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://github.com/Vashiel/repository.adulthideout/raw/master/zips</datadir>
+      <hashes>false</hashes>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>AdultHideout Addon Repository</summary>
+    <description>Hosts AdultHideout v1.0.0 “Jubilee” – complete refactor, six new adapters, cleaned-up codebase and legacy removal.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="repository.aenemapy" name="Aenemapy Addons Repository" version="2021.04.23" provider-name="aenemapy">
     <extension point="xbmc.addon.repository" name="Aenemapy Addons Repository">
 	<dir minversion="16.0">
