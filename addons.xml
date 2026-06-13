@@ -3699,6 +3699,21 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
+<addon id="repository.livetvSerbia" name="Live TV Serbia Repository" version="2.0" provider-name="livetvSerbia">
+    <extension point="xbmc.addon.repository" name="Live TV Serbia Repository">
+        <dir minversion="21.0.0">
+            <info compressed="false">https://livetvkodiserbia.com/live/addon/21/addons.xml</info>
+            <checksum>https://livetvkodiserbia.com/live/addon/21/addons.xml.md5</checksum>
+            <datadir zip="true">https://livetvkodiserbia.com/kodi/21/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Watch IPTV channels from Balkan</summary>
+        <description>Watch IPTV channels from Balkan. For more info visit livetvkodiserbia.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.loop" name="[COLORlime]Loop[/COLOR] Repository" version="3.0.4" provider-name="The Loop">
 	<extension point="xbmc.addon.repository" name="Loop Repository">
 		<dir>
@@ -7406,7 +7421,7 @@ http://zadarbuild.com.hr
     </extension>
 </addon>
 
-<addon id="repository.zeus768" name="Zeus768 Repository" version="1.2.0" provider-name="zeus768">
+<addon id="repository.zeus768" name="Zeus768 Repository" version="1.2.1" provider-name="zeus768">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
