@@ -569,25 +569,6 @@ Program Addons:
 	</extension>
 </addon>
 
-<addon id="repository.adi" name="Adi Repository" version="1.0" provider-name="Adi">
-    <extension point="xbmc.addon.repository" name="Adi Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/AdiXxl/repo/main/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/AdiXxl/repo/main/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/AdiXxl/repo/main/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Adi Repository</summary>
-        <description>Personal Kodi repository by Adi. Contine TotalPlay, POV, MRSP si altele.</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="repository.adulthideout" name="AdultHideout REPO" version="1.0.4" provider-name="Vashiel">
   <extension point="xbmc.addon.repository" name="AdultHideout Addon Repository">
     <dir maxversion="20.9.0">
@@ -2536,6 +2517,25 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
+</addon>
+
+<addon id="repository.forge" name="Forge Repository" version="0.1.0" provider-name="Forge Project">
+    <extension point="xbmc.addon.repository" name="Forge Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/silencebob2/forge-releases/main/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/silencebob2/forge-releases/main/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/silencebob2/forge-releases/main/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install and bootstrap the Forge video addon.</summary>
+        <description lang="en">Source repository for Forge. Install Forge from here; updates are then handled by Forge's built-in updater.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
 </addon>
 
     <addon id="repository.fr33p0rt" name="fr33p0rt Repository" version="0.9.1a" provider-name="fr33p0rt">
@@ -4533,6 +4533,21 @@ https://t.me/kodimansgroup</description>
     </extension>
 </addon>
 
+<addon id="repository.opencode" name="OpenCode Repository" version="1.0.0" provider-name="opencode">
+    <extension point="xbmc.addon.repository" name="OpenCode Repository">
+        <dir minversion="20.9.0" maxversion="22.8.9">
+            <info compressed="false">https://mozzy616.github.io/opencode-repo/repo/zips/addons.xml</info>
+            <checksum>https://mozzy616.github.io/opencode-repo/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://mozzy616.github.io/opencode-repo/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">OpenCode Repository</summary>
+        <description lang="en">XPrime, StreamLord, LordPlayer, Kodi Toolbox, Marmalade Build</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.openwizard" name="[COLOR limegreen][B]Open[/B][/COLOR]Wizard Repository" version="2.0" provider-name="drinfernoo">
     <extension point="xbmc.addon.repository" name="[COLOR limegreen][B]Open[/B][/COLOR]Wizard Repository">
         <dir minversion="18.0" maxversion="18.9.0">
@@ -5072,6 +5087,26 @@ https://t.me/kodimansgroup</description>
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="repository.prippistream" name="PrippiStream Repository" version="1.0.0" provider-name="usandissm">
+  <extension point="xbmc.addon.repository" name="PrippiStream Repository">
+    <dir>
+      <info compressed="false">https://usandissm.github.io/PrippiStream/addons.xml</info>
+      <checksum>https://usandissm.github.io/PrippiStream/addons.xml.md5</checksum>
+      <datadir zip="true">https://usandissm.github.io/PrippiStream/</datadir>
+      <minversion>0.0.0</minversion>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">PrippiStream Repository</summary>
+    <summary lang="it">Repository di PrippiStream</summary>
+    <description lang="it">Repository ufficiale di PrippiStream</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="repository.pseudotv" name="PseudoTV Repository" version="1.0.9" provider-name="Lunatixz">
