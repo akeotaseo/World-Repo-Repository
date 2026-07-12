@@ -3107,9 +3107,9 @@ https://t.me/kodimansgroup</description>
 </extension>
 </addon>
 
-<addon id="repository.jamal2362" name="Jamal2362 Repository" version="3.0" provider-name="jamal2362">
+<addon id="repository.jamal2362" name="Jamal2362 Repository" version="4.0" provider-name="jamal2362">
     <extension point="xbmc.addon.repository" name="Jamal2362 Repository">
-        <dir minversion="21.0.0">
+        <dir minversion="21.90.0">
             <info compressed="false">https://raw.githubusercontent.com/CE-Repo/repository.jamal2362/main/addons/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/CE-Repo/repository.jamal2362/main/addons/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/CE-Repo/repository.jamal2362/main/addons/zips/</datadir>
@@ -3117,7 +3117,7 @@ https://t.me/kodimansgroup</description>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Jamal2362 Repository</summary>
-        <description>Official repository of jamal2362's edited skins.</description>
+        <description>Official repository from jamal2362</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
@@ -4372,7 +4372,7 @@ https://t.me/kodimansgroup</description>
 	</extension>
 </addon>
 
-    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.5.7" provider-name="Twiglet">
+    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.5.8" provider-name="Twiglet">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Octopus Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_octopus/addons.xml</info>
