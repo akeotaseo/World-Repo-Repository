@@ -4493,6 +4493,26 @@ https://t.me/kodimansgroup</description>
 </extension>
 </addon>
 
+<addon id="repository.omega" name="Omega Repo" version="1.2.1" provider-name="The Hood">
+    <extension point="xbmc.addon.repository" name="Omega Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/hyperionwiz/omega/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/hyperionwiz/omega/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/hyperionwiz/omega/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Omega Repo</summary>
+        <description>You can find all the latest addons, builds and tools from the Hood in one repo.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.ontv" name="OnTV Repository" version="1.0.2" provider-name="OnTV">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
