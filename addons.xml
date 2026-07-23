@@ -4308,7 +4308,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.6.0" provider-name="Twiglet">
+    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.6.2" provider-name="Twiglet">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Octopus Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_octopus/addons.xml</info>
@@ -4429,7 +4429,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-<addon id="repository.omega" name="Omega Repo" version="1.2.2" provider-name="The Hood">
+<addon id="repository.omega" name="Omega Repo" version="1.2.3" provider-name="The Hood">
     <extension point="xbmc.addon.repository" name="Omega Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/hyperionwiz/omega/main/repo/zips/addons.xml</info>
