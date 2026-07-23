@@ -273,6 +273,30 @@ Program Addons:
   </extension>
 </addon>
 
+<addon id="playforfun.repository" name="PlayForFun Repository" version="1.0.0" provider-name="PlayForFun TV">
+    <extension point="xbmc.addon.repository" name="PlayForFun Repository">
+        <dir minversion="19.0.0" maxversion="22.9.9">
+            <info compressed="false">https://rolling-playforfun.dynv6.net/repo/addons.xml</info>
+            <checksum>https://rolling-playforfun.dynv6.net/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://rolling-playforfun.dynv6.net/repo/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">PlayForFun Repository</summary>
+        <summary lang="en_GB">PlayForFun Repository</summary>
+        <description lang="de_DE">Offizielle PlayForFun Add-on Sammlung</description>
+        <description lang="en_GB">Official PlayForFun Add-on Collection</description>
+        <disclaimer lang="de_DE">[B][COLORred]Dies ist ein Drittanbieter-Repository und steht nicht in Zusammenhang mit dem offiziellen Team Kodi.[/COLORred][/B]</disclaimer>
+        <language>de</language>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repo.bg.plugins"
 		name="Bg Add-ons"
 		version="1.0.2"
@@ -678,6 +702,33 @@ Program Addons:
             </assets>
         </extension>
     </addon>
+
+<addon id="repository.alkoflix" name="Dépôt alkoFlix" version="1.0.1" provider-name="Les alKODIques">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Dépôt alkoFlix">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/alKODIque/repository.alkoflix/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/alKODIque/repository.alkoflix/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/alKODIque/repository.alkoflix/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr">Dépôt officiel alkoFlix pour Kodi.</summary>
+        <summary lang="en">Official alkoFlix repository for Kodi.</summary>
+        <description lang="fr">Installe et met à jour automatiquement alkoFlix et les extensions Kodi associées.</description>
+        <description lang="en">Install and automatically update alkoFlix and related Kodi add-ons.</description>
+        <license>GPL-3.0</license>
+        <news lang="fr">Correctif du schéma du dépôt Kodi : restauration du bloc &lt;dir&gt; requis par Kodi 21 et incrémentation du dépôt en 1.0.1 pour forcer la réinstallation.</news>
+        <news lang="en">Kodi repository schema fix: restored the &lt;dir&gt; block required by Kodi 21 and bumped the repository to 1.0.1 to force reinstall/update.</news>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 
 <addon id="repository.all" name="Terrys repo" version="2.0" provider-name="Terry Tibbs">
     <extension point="xbmc.addon.repository" name="Terrys Repository">
@@ -5871,6 +5922,57 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
+<addon id="repository.starfleet"
+       name="Starfleet Repository"
+       version="1.0.13"
+       provider-name="HazMat77">
+
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+
+  <extension point="xbmc.addon.repository" name="Starfleet Repository">
+    <dir>
+      <info compressed="false">https://hazmat77.github.io/repository.starfleet/addons.xml</info>
+      <checksum>https://hazmat77.github.io/repository.starfleet/addons.xml.md5</checksum>
+      <datadir zip="true">https://hazmat77.github.io/repository.starfleet</datadir>
+    </dir>
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+    </dir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <summary lang="en">Starfleet Repository</summary>
+    <description lang="en">
+      Official repository for the Starfleet Kodi addon.
+      Provides plugin.video.starfleet - TV Shows, Movies, Live TV,
+      Sports, Free Streaming, Adult (PIN-protected), Radio.
+    </description>
+    <platform>all</platform>
+    <license>GPL-2.0</license>
+    <website>https://github.com/HazMat77/repository.starfleet</website>
+    <source>https://github.com/HazMat77/repository.starfleet</source>
+    <news>
+      v1.0.13 - Bump so Kodi actually picks up the smrzips repo dir (root addons.xml
+        never carried the v1.0.12 change, so it was never live); required
+        script.module.resolveurl import bumped to the real published 5.1.206
+        and made non-optional so it auto-installs.
+      v1.0.12 - Add smrzips repo dir for ResolveURL auto-install
+      v1.0.11 - Remove Elementum localhost dir (caused repo check failure)
+      v1.0.10 - Restore hazmat77.github.io CDN URLs
+      v1.0.8 - Add Starfleet icon to repository
+      v1.0.7 - Add Elementum/smrzips secondary repo dirs
+    </news>
+  </extension>
+
+</addon>
+
 <addon id="repository.StreamArmy" name="[COLOR crimson]S[COLOR silver]tream Army Addons[/COLOR]" version="17.0.000" provider-name="@Nemzzy668 / @_Manc_ // LordJD">
 	<extension point="xbmc.addon.repository" name="Stream Army">
 		<dir>
@@ -6844,6 +6946,42 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
+<addon id="repository.vortex" name="Vortex Repo" version="1.0" provider-name="">
+<extension point="xbmc.addon.repository" name="Vortex Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/vortex-repo/101/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/vortex-repo/101/master/addons.xml.md5</checksum>
+			<datadir zip="false">https://raw.githubusercontent.com/vortex-repo/101/master/plugins/</datadir>
+		</dir>
+
+		<dir>
+		    <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/not-coco-joe/repository.cocoscrapers/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Vortex Repo</summary>
+		<description></description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
+</addon>
+
 <addon id="repository.vstream"
        name="vStream Repository"
         version="0.0.6"
@@ -7268,6 +7406,26 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
             <fanart>fanart.jpg</fanart>
         </assets>
         <source>http://xtasy-d.co.uk/zips/repository.xtasyd/</source>
+    </extension>
+</addon>
+
+<addon id="repository.xvault" name="xVAULT Repository" provider-name="xVAULT" version="1.0.2">
+    <extension point="xbmc.addon.repository" name="xVAULT Repository">
+        <dir>
+            <info compressed="false">http://xvault.ddnss.de/addons.xml</info>
+            <checksum>http://xvault.ddnss.de/addons.xml.md5</checksum>
+            <datadir zip="true">http://xvault.ddnss.de/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">Offizielles xVAULT Kodi-Repository</summary>
+        <summary lang="en_GB">Official xVAULT Kodi repository</summary>
+        <description lang="de_DE">Stellt xVAULT-Updates ueber Kodi bereit.</description>
+        <description lang="en_GB">Provides xVAULT updates through Kodi.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 </addon>
 
