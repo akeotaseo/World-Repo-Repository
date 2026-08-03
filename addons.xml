@@ -2141,7 +2141,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.doomzday" name="Doomzday Repo" version="1.2.2" provider-name="DD Team">
+<addon id="repository.doomzday" name="Doomzday Repo" version="1.2.3" provider-name="DD Team">
     <extension point="xbmc.addon.repository" name="Doomzday Repo">
 		<dir>
 			<info compressed="false">https://doomzdayteam.github.io/doomzday/_zipfiles/addons.xml</info>
