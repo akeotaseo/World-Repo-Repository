@@ -273,7 +273,7 @@ Program Addons:
   </extension>
 </addon>
 
-<addon id="playforfun.repository" name="PlayForFun Repository" version="1.0.0" provider-name="PlayForFun TV">
+<addon id="playforfun.repository" name="PlayForFun Repository" version="1.0.1" provider-name="PlayForFun TV">
     <extension point="xbmc.addon.repository" name="PlayForFun Repository">
         <dir minversion="19.0.0" maxversion="22.9.9">
             <info compressed="false">https://rolling-playforfun.dynv6.net/repo/addons.xml</info>
@@ -593,7 +593,7 @@ Program Addons:
 	</extension>
 </addon>
 
-<addon id="repository.adulthideout" name="AdultHideout REPO" version="1.0.4" provider-name="Vashiel">
+<addon id="repository.adulthideout" name="AdultHideout Repository" version="1.0.5" provider-name="Vashiel">
   <extension point="xbmc.addon.repository" name="AdultHideout Addon Repository">
     <dir maxversion="20.9.0">
       <info compressed="false">https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml</info>
@@ -610,7 +610,8 @@ Program Addons:
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>AdultHideout Addon Repository</summary>
-    <description>Hosts AdultHideout v1.0.0 “Jubilee” – complete refactor, six new adapters, cleaned-up codebase and legacy removal.</description>
+    <description>Official repository for AdultHideout and the optional AdultHideout Diagnostics companion.</description>
+    <website>https://github.com/Vashiel/repository.adulthideout/wiki</website>
     <platform>all</platform>
     <assets>
       <icon>resources/icon.png</icon>
@@ -670,7 +671,7 @@ Program Addons:
     </extension>
 </addon>
 
-    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.8.3" provider-name="Aliunde">
+    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.8.7" provider-name="Aliunde">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
@@ -2442,7 +2443,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.153" provider-name="gpt">
+<addon id="repository.fanvodpl" name="Fan Vod PL Repo" version="2.0.154" provider-name="gpt">
     <extension point="xbmc.addon.repository" name="Fan Vod PL Repo">
 
         <dir>
@@ -3094,9 +3095,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-<addon id="repository.jamal2362" name="Jamal2362 Repository" version="4.0" provider-name="jamal2362">
+<addon id="repository.jamal2362" name="Jamal2362 Repository" version="3.0" provider-name="jamal2362">
     <extension point="xbmc.addon.repository" name="Jamal2362 Repository">
-        <dir minversion="21.90.0">
+        <dir minversion="21.0.0">
             <info compressed="false">https://raw.githubusercontent.com/CE-Repo/repository.jamal2362/main/addons/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/CE-Repo/repository.jamal2362/main/addons/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/CE-Repo/repository.jamal2362/main/addons/zips/</datadir>
@@ -3104,7 +3105,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Jamal2362 Repository</summary>
-        <description>Official repository from jamal2362</description>
+        <description>Official repository of jamal2362's edited skins.</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
@@ -4026,7 +4027,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 </addon>
 
-<addon id="repository.mediafusion" version="6.0.0-beta.14" name="MediaFusion Repository" provider-name="Mohamed Zumair">
+<addon id="repository.mediafusion" version="6.1.5" name="MediaFusion Repository" provider-name="Mohamed Zumair">
     <extension point="xbmc.addon.repository" name="MediaFusion Repository">
         <dir>
             <info compressed="false">https://mhdzumair.github.io/MediaFusion/addons.xml</info>
@@ -4060,37 +4061,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="5.0">
+<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="5.1">
 	<extension point="xbmc.addon.repository" name="Michaz Repository">
 		<dir>
 			<info compressed="false">https://michaz1988.github.io/repo/addons.xml</info>
 			<checksum>https://michaz1988.github.io/repo/addons.xml.md5</checksum>
 			<datadir zip="true">https://michaz1988.github.io/repo/</datadir>
-		</dir>
-			<dir minversion="19.0.0" maxversion="19.9.0">
-			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml</info>
-			<checksum>https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE19/master/</datadir>
-		</dir>
-		<dir minversion="20.0.0" maxversion="20.9.0">
-			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml</info>
-			<checksum>https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/</datadir>
-		</dir>
-		<dir minversion="21.0.0" maxversion="21.9.0">
-			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/addons.xml</info>
-			<checksum>https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/</datadir>
-		</dir>
-		<dir minversion="22.0.0" maxversion="22.9.0">
-			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/addons.xml</info>
-			<checksum>https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -4359,7 +4335,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.6.3" provider-name="Twiglet">
+    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.6.4" provider-name="Twiglet">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Octopus Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_octopus/addons.xml</info>
