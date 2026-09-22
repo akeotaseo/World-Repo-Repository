@@ -671,7 +671,7 @@ Program Addons:
     </extension>
 </addon>
 
-    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.9.1" provider-name="Aliunde">
+    <addon id="repository.aliunde" name="[COLOR aqua]Aliunde Repository[/COLOR]" version="1.9.4" provider-name="Aliunde">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Aliunde Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_aliunde/addons.xml</info>
@@ -2352,6 +2352,56 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
+<addon id="repository.eragon" name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR] [COLORcyan]Repository[/COLOR]" version="2.6" provider-name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR]">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0" />
+  </requires>
+  <extension point="xbmc.addon.repository" name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR] [COLORcyan]Repository[/COLOR]">
+    <dir>
+    <info compressed="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/addons.xml</info>
+    <checksum>https://raw.github.com/eragon-09/eragon-09.github.io/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.github.com/eragon-09/eragon-09.github.io/master</datadir>
+    <hashes>sha256</hashes>
+</dir>
+<dir minversion="29.9.9">
+      <info compressed="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/piers/addons.xml</info>
+      <checksum>https://raw.github.com/eragon-09/eragon-09.github.io/master/piers/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/piers</datadir>
+      <hashes>sha256</hashes>
+  </dir>
+<dir minversion="20.0.0">
+      <info compressed="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/omega/addons.xml</info>
+      <checksum>https://raw.github.com/eragon-09/eragon-09.github.io/master/omega/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/omega</datadir>
+      <hashes>sha256</hashes>
+  </dir>
+  <dir minversion="19.9.9">
+      <info compressed="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/nexus/addons.xml</info>
+      <checksum>https://raw.github.com/eragon-09/eragon-09.github.io/master/nexus/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/nexus</datadir>
+      <hashes>sha256</hashes>
+  </dir>
+  <dir minversion="19.0.0">
+      <info compressed="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/matrix/addons.xml</info>
+      <checksum>https://raw.github.com/eragon-09/eragon-09.github.io/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/matrix</datadir>
+      <hashes>sha256</hashes>
+  </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">Eragon Repository</summary>
+  <description lang="de">[COLORsnow][B]** Weisheit der Drachen, sortiert und bereit, willkommen im [COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR][COLORsnow] Repository **[/B][/COLOR]
+[COLORred][B]Wichtig:[/B][/COLOR] Bitte beachten Sie, dass dieses Repository vertraulich ist und nicht im Internet veröffentlicht werden sollte. Ihre Rücksichtnahme und Ihr Verständnis sind entscheidend, um die Integrität unserer Arbeit zu wahren. Vielen Dank für Ihre Kooperation!
+
+  </description>
+  <disclaimer lang="de">Bitte, die Repository nicht veröffentlichen.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+ </extension>
+</addon>
+
 <addon id="repository.estupalant" name="Repositorio Palantir" version="1.0.1" provider-name="The Lords Of Flix">
     <extension point="xbmc.addon.repository" name="Palantir 3 y Skin">
     	<dir minversion="19.0.0">
@@ -2735,7 +2785,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-    <addon id="repository.gearheads2" name="gearheadsrepo" version="9.9" provider-name="Racesondemand">
+    <addon id="repository.gearheads2" name="gearheadsrepo" version="10.0" provider-name="Racesondemand">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -3360,6 +3410,29 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
+<addon id="repository.kodimate"
+       name="Kodimate Repository"
+       version="1.0.0"
+       provider-name="snrgarb">
+    <extension point="xbmc.addon.repository" name="Kodimate Repository">
+        <dir>
+            <info compressed="false">https://snrgarb.github.io/kodimate/addons.xml</info>
+            <checksum>https://snrgarb.github.io/kodimate/addons.xml.md5</checksum>
+            <datadir zip="true">https://snrgarb.github.io/kodimate/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Kodimate's addon repository</summary>
+        <description lang="en_GB">Provides the Kodimate IPTV addon and its updates.</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="repository.kodinerds" name="Kodinerds Addon Repo" version="7.0.1.7" provider-name="Kodinerds">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -3662,6 +3735,29 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         </assets>
     </extension>
 
+</addon>
+
+<addon id="repository.libredepor"
+       name="LibreDepor Repository"
+       version="1.0.0"
+       provider-name="vicfob">
+  <extension point="xbmc.addon.repository" name="LibreDepor Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/vicfob/LibreDepor/main/repo/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/vicfob/LibreDepor/main/repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/vicfob/LibreDepor/main/repo</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es_ES">Repositorio de LibreDepor</summary>
+    <description lang="es_ES">Repositorio oficial de LibreDepor: instala y recibe actualizaciones automáticas del addon desde Kodi.</description>
+    <platform>all</platform>
+    <license>GPL-2.0-only</license>
+    <source>https://github.com/vicfob/LibreDepor</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="repository.lime" name="Lime Add-ons" version="1.0.4" provider-name="groggyegg">
@@ -4027,7 +4123,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 </addon>
 
-<addon id="repository.mediafusion" version="6.1.5" name="MediaFusion Repository" provider-name="Mohamed Zumair">
+<addon id="repository.mediafusion" version="6.1.6" name="MediaFusion Repository" provider-name="Mohamed Zumair">
     <extension point="xbmc.addon.repository" name="MediaFusion Repository">
         <dir>
             <info compressed="false">https://mhdzumair.github.io/MediaFusion/addons.xml</info>
@@ -4335,7 +4431,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.6.4" provider-name="Twiglet">
+    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.6.9" provider-name="Twiglet">
         <extension point="xbmc.addon.repository" name="[COLOR aqua]Octopus Repository[/COLOR]">
 		    <dir>
                 <info compressed="false">https://fuse99.com/_octopus/addons.xml</info>
@@ -4456,7 +4552,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </extension>
 </addon>
 
-<addon id="repository.omega" name="Omega Repo" version="1.2.4" provider-name="The Hood">
+<addon id="repository.omega" name="Omega Repo" version="1.2.5" provider-name="The Hood">
     <extension point="xbmc.addon.repository" name="Omega Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/hyperionwiz/omega/main/repo/zips/addons.xml</info>
@@ -5896,6 +5992,26 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<icon>icon.png</icon>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="repository.sportsurge" name="Sportsurge Repository" version="1.0.0" provider-name="Jay181020">
+    <extension point="xbmc.addon.repository" name="Sportsurge Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Jay181020/repository.sportsurge/main/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Jay181020/repository.sportsurge/main/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Jay181020/repository.sportsurge/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Sportsurge Kodi Repository</summary>
+        <description>Official repository for Sportsurge live sports video add-on, featuring multi-tier stream resolvers and 200+ live matches daily.</description>
+        <disclaimer>Sportsurge streams live events from public third-party sources.</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="repository.starfleet"
