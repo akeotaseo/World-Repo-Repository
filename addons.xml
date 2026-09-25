@@ -7787,16 +7787,17 @@ Auto-Update: Checks GitHub every 30 minutes for new commits and forces Kodi to r
         version="0.0.9"
         provider-name="zombi">
     <extension point="xbmc.addon.repository" name="Zombi Repository">
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/zombiB/zombi-addons/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/zombiB/zombi-addons/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/zombiB/zombi-addons/raw/master/repo</datadir>
+   <dir>
+        <info compressed="false">https://raw.githubusercontent.com/nidaltiti/zipx/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nidaltiti/zipx/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/nidaltiti/zipx/raw/master/zips</datadir>
     </dir>
     <dir>
-         <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-         <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-         <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-    </dir>
+    <info compressed="false">https://raw.githubusercontent.com/nidaltiti/kodiPackages/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/nidaltiti/kodiPackages/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/nidaltiti/kodiPackages/master/addons/zips</datadir>
+</dir>
+
    </extension>
 
     <extension point="xbmc.addon.metadata">
