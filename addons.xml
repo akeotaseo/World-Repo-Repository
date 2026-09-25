@@ -5994,18 +5994,18 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.sportsurge" name="Sportsurge Repository" version="1.0.0" provider-name="Jay181020">
-    <extension point="xbmc.addon.repository" name="Sportsurge Repository">
+<addon id="repository.sportsurge" name="[B][COLOR #3A86FF]Devious[/COLOR] [COLOR white]Repository[/COLOR][/B]" version="1.0.1" provider-name="Jay181020">
+    <extension point="xbmc.addon.repository" name="Devious Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Jay181020/repository.sportsurge/main/repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Jay181020/repository.sportsurge/main/repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Jay181020/repository.sportsurge/main/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/Jay181020/devious/main/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Jay181020/devious/main/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Jay181020/devious/main/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Sportsurge Kodi Repository</summary>
-        <description>Official repository for Sportsurge live sports video add-on, featuring multi-tier stream resolvers and 200+ live matches daily.</description>
-        <disclaimer>Sportsurge streams live events from public third-party sources.</disclaimer>
+        <summary>Devious Kodi Repository</summary>
+        <description>Official repository for UWatch live sports add-on, DeviousWiz maintenance wizard, and custom Kodi builds.</description>
+        <disclaimer>Devious streams live events and media from public third-party sources.</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
