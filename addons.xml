@@ -1012,35 +1012,40 @@ Program Addons:
     </extension>
 </addon>
 
-<addon id="repository.axbmcuser" name="axbmcuser REPO" version="1.2.2" provider-name="axbmcuser">
+<addon id="repository.axbmcuser" name="axbmcuser REPO" version="1.2.3" provider-name="axbmcuser">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="axbmcuser REPO">
+		<!-- 17 -->
 		<dir minversion="16.9.0">
 			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/krypton/addons.xml</info>
 			<checksum>https://github.com/axbmcuser/_repo/raw/master/krypton/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/krypton</datadir>
 			<hashes>false</hashes>
 		</dir>
+		<!-- 18 -->
 		<dir minversion="17.9.0">
 			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/leia/addons.xml</info>
 			<checksum>https://github.com/axbmcuser/_repo/raw/master/leia/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/leia</datadir>
 			<hashes>false</hashes>
 		</dir>
+		<!-- 19-20 -->
 		<dir minversion="18.9.0">
 			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/matrix/addons.xml</info>
 			<checksum>https://github.com/axbmcuser/_repo/raw/master/matrix/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/matrix</datadir>
 			<hashes>false</hashes>
 		</dir>
+		<!-- 21 -->
 		<dir minversion="20.9.0">
 			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/omega/addons.xml</info>
 			<checksum>https://github.com/axbmcuser/_repo/raw/master/omega/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/omega</datadir>
 			<hashes>false</hashes>
 		</dir>
+		<!-- 22 -->
 		<dir minversion="21.9.0">
 			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/piers/addons.xml</info>
 			<checksum>https://github.com/axbmcuser/_repo/raw/master/piers/addons.xml.md5</checksum>
@@ -1055,7 +1060,11 @@ Program Addons:
 		<forum>https://forum.kodi.tv/showthread.php?tid=242892</forum>
 		<website>https://axbmcuser.github.io</website>
 		<source>https://github.com/axbmcuser/_repo</source>
-		<news>[B]1.2.2[/B] (2024-07-05)
+		<news>[B]1.2.3[/B] (2024-07-10)
+
+Updated icon
+
+[B]1.2.2[/B] (2024-07-05)
 
 Added new repo tree for Kodi 22 (Piers)
 Minor improvements to addon.xml and changelog
@@ -1700,7 +1709,7 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 	</extension>
 </addon>
 
-<addon id="repository.CrashX" name="CrashX Repository" provider-name="Team [COLOR green]C[COLOR white]rash[/COLOR][COLOR green]X[/COLOR]" version="0.0.8">
+<addon id="repository.CrashX" name="CrashX Repository" provider-name="Team [COLOR green]C[COLOR white]rash[/COLOR][COLOR green]X[/COLOR]" version="0.0.9">
 	<extension point="xbmc.addon.repository" name="CrashX Repository">
 		<dir minversion="18.9.000" maxversion="21.9.900">
             <info compressed="false">https://teamcrashx.github.io/repo/addons.xml</info>
@@ -2107,7 +2116,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.dontpanic" name="Don't Panic" version="0.2.9" provider-name="pannal">
+<addon id="repository.dontpanic" name="Don't Panic" version="0.2.10" provider-name="pannal">
     <extension point="xbmc.addon.repository" name="Don't Panic Kodi Repo">
         <dir minversion="18.0.0" maxversion="18.9.9">
             <info compressed="false">https://raw.githubusercontent.com/pannal/dontpanickodi/master/leia/zips/addons.xml</info>
