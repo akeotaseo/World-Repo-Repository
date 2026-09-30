@@ -6166,6 +6166,31 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
+<addon id="repository.subterra"
+       name="Subterra Repository"
+       version="1.0.5"
+       provider-name="Sugar Labs">
+
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+
+  <extension point="xbmc.addon.repository" name="Subterra">
+    <dir>
+      <info compressed="false">https://getsubterra.tv/r/addons.xml</info>
+      <checksum>https://getsubterra.tv/r/addons.xml.md5</checksum>
+      <datadir zip="true">https://getsubterra.tv/r</datadir>
+    </dir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Subterra addon repository</summary>
+    <description lang="en">Official repository for the Subterra Kodi addon. Provides automatic updates.</description>
+    <platform>all</platform>
+  </extension>
+
+</addon>
+
 <addon id="repository.superservidorbrazuca" name="[B][COLOR green]**** Super Servido[/COLOR][COLOR yellow]r Brasileiro ****[/COLOR][/B]" version="7.4" provider-name="Kodish Team">
 	<extension point="xbmc.addon.repository" name="Super Servidor Brasileiro">
 	<dir>
