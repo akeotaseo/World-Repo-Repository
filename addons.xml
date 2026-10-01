@@ -5764,6 +5764,28 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
+<addon id="repository.seriesly" name="Seriesly Repository" version="1.0.0" provider-name="DP82">
+    <extension point="xbmc.addon.repository" name="Seriesly Repository">
+        <dir>
+            <info compressed="false">https://hermesgr.github.io/SerieslyGR/repo/addons.xml</info>
+            <checksum>https://hermesgr.github.io/SerieslyGR/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://hermesgr.github.io/SerieslyGR/repo/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="el_GR">Το αποθετήριο του Seriesly — αυτόματες ενημερώσεις</summary>
+        <summary lang="en_GB">Seriesly repository — automatic updates</summary>
+        <description lang="el_GR">Εγκατάστησέ το μία φορά: το Seriesly και οι ενημερώσεις του έρχονται από εδώ αυτόματα.</description>
+        <description lang="en_GB">Install once: Seriesly and its updates are delivered from here automatically.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
     <addon id="repository.seyirTURK" name="seyirTURK Repo" version="2.0.0" provider-name="tengildet@seyirturk">
         <extension point="xbmc.addon.repository" name="seyirTURK Repo">
 			<dir>
