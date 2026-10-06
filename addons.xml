@@ -2063,6 +2063,28 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
 	</extension>
 </addon>
 
+<addon id="repository.dexworld"
+       name="DexWorld Repository"
+       version="1.0.0"
+       provider-name="DexWorld">
+  <extension point="xbmc.addon.repository" name="DexWorld Repository">
+    <dir>
+      <info compressed="false">https://dexworld.cc/kodi/addons.xml</info>
+      <checksum>https://dexworld.cc/kodi/addons.xml.md5</checksum>
+      <datadir zip="true">https://dexworld.cc/kodi/</datadir>
+      <hashes>false</hashes>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">DexWorld Repository</summary>
+    <description lang="en">DexWorld private Kodi repository</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="repository.diggz" name="Diggz Repository" version="28" provider-name="Diggz">
     <extension point="xbmc.addon.repository" name="Diggz Repository">
         <dir minversion="21.90.0">
@@ -6521,6 +6543,26 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
             <summary>T4K Repository</summary>
             <description>Repo-ul lui silevasile !!</description>
             <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.taiseer" name="ABUKARIM repository" version="1.0.4" provider-name="taiseer999">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/taiseer999/taiseer999.github.io/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/taiseer999/taiseer999.github.io/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/taiseer999/taiseer999.github.io/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>ABUKARIM repository</summary>
+        <description>Arabic Kodi</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 
