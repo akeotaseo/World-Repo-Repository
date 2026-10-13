@@ -834,6 +834,28 @@ Program Addons:
 </extension>
 </addon>
 
+<!-- Points Kodi at the AniVerse update feed (DEC-038/039). REPO_URL in tools/build.py must match. -->
+<addon id="repository.aniverse" name="AniVerse Repository" version="1.0.1" provider-name="AniVerse">
+  <extension point="xbmc.addon.repository" name="AniVerse Repository">
+    <dir minversion="19.0.0">
+      <info compressed="false">https://chiefabs6-ops.github.io/aniverse-repo/addons.xml</info>
+      <checksum verify="sha256">https://chiefabs6-ops.github.io/aniverse-repo/addons.xml.sha256</checksum>
+      <datadir zip="true">https://chiefabs6-ops.github.io/aniverse-repo/</datadir>
+      <hashes>sha256</hashes>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Updates for AniVerse</summary>
+    <description lang="en_GB">Install this once; Kodi then offers AniVerse updates from it.</description>
+    <platform>all</platform>
+    <license>Personal use</license>
+    <assets>
+      <icon>aniverse-icon.png</icon>
+      <fanart>fanart.png</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="repository.anxdpanic" name="anxdpanic Add-on Repository" version="2.0.4+matrix.1" provider-name="anxdpanic">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -2316,6 +2338,25 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <summary>EinTamil Kodi Repository</summary>
         <description>https://eintamil.github.io/</description>
         <website>https://eintamil.github.io/</website>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.ekhorus" name="EKHorus Repository" version="1.0.0" provider-name="RubénSDFA1laberot">
+    <extension point="xbmc.addon.repository" name="EKHorus Repository">
+        <dir>
+            <info compressed="false">https://espakodi.github.io/EKHorus/addons.xml</info>
+            <checksum>https://espakodi.github.io/EKHorus/addons.xml.md5</checksum>
+            <datadir zip="true">https://espakodi.github.io/EKHorus/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Repositorio de EKHorus</summary>
+        <description lang="es">Repositorio oficial para instalar y mantener actualizado EKHorus, el reproductor AceStream para Kodi.</description>
+        <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
@@ -4379,6 +4420,25 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <summary>kodirepo</summary>
         <description>Newfs Kodi Stuff</description>
         <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.nigel1992" name="Nigel1992 Repository" version="1.0.3" provider-name="Nigel1992">
+    <extension point="xbmc.addon.repository" name="Nigel1992 Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Nigel1992/kodi-repository/master/repository.nigel1992/addons/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Nigel1992/kodi-repository/master/repository.nigel1992/addons/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Nigel1992/kodi-repository/master/repository.nigel1992/addons</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repository for Nigel1992's Kodi addons</summary>
+        <description>This repository contains Nigel1992's collection of Kodi addons</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
