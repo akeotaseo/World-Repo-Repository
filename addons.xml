@@ -2135,15 +2135,9 @@ Changes for Kodi 17 (Krypton): Repo is multi-dir based again (for now)</news>
   </extension>
 </addon>
 
-<addon id="repository.diggz" name="Diggz Repository" version="28" provider-name="Diggz">
+<addon id="repository.diggz" name="Diggz Repository" version="29" provider-name="Diggz">
     <extension point="xbmc.addon.repository" name="Diggz Repository">
-        <dir minversion="21.90.0">
-            <info compressed="false">https://raw.githubusercontent.com/nebulous42069/22/master/22/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/nebulous42069/22/master/22/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/nebulous42069/22/master/22/zips/</datadir>
-			<hashes>false</hashes>
-        </dir>
-        <dir minversion="21.0.0" maxversion="21.89.0">
+        <dir minversion="21.0.0" maxversion="22.89.0">
             <info compressed="false">https://raw.githubusercontent.com/nebulous42069/Omega/main/omega/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/nebulous42069/Omega/main/omega/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/nebulous42069/Omega/main/omega/zips/</datadir>
@@ -6963,7 +6957,7 @@ v1.0
 
 <addon
     id="repository.thetallone"
-    version="1.1.1"
+    version="1.1.3"
     name="thetallone"
     provider-name="Josh"
 >
@@ -6972,6 +6966,11 @@ v1.0
     </requires>
     <extension point="xbmc.addon.repository" name="thetallone">
         <dir>
+            <info compressed="false">https://raw.githubusercontent.com/joshaussieguy-spec/Kodi/main/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/joshaussieguy-spec/Kodi/main/repo/addons.xml.md5.txt</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/joshaussieguy-spec/Kodi/main/repo/zips/</datadir>
+        </dir>
+        <dir>
             <info compressed="false">https://cdn.jsdelivr.net/gh/joshaussieguy-spec/Kodi@main/repo/addons.xml</info>
             <checksum>https://cdn.jsdelivr.net/gh/joshaussieguy-spec/Kodi@main/repo/addons.xml.md5.txt</checksum>
             <datadir zip="true">https://cdn.jsdelivr.net/gh/joshaussieguy-spec/Kodi@main/repo/zips/</datadir>
@@ -6979,7 +6978,7 @@ v1.0
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>thetallone — personal Kodi addons</summary>
-        <description>Kodi repository: AFL, Arabic channels, F1 streams.</description>
+        <description>Kodi repository: AFL, Arabic channels, F1 streams. Primary feed raw.githubusercontent; jsDelivr mirror fallback.</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
